@@ -1,0 +1,16 @@
+From: Niamh Clarke <niamh.clarke@corribbuild.example>
+To: Ciara O'Neill <ciara.oneill@lumenme.example>
+Cc: Rob Hennessy <rob.hennessy@corribbuild.example>
+Subject: Halcyon DC2 - Electrical specification rev 04
+Date: Mon, 19 Oct 2026 09:12:00 +0100
+Message-ID: <hal-spec04@corribbuild.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Ciara,
+
+Electrical specification rev 04 is now on the portal. Main changes: UPS changed from 500kVA modular to 2 x 800kVA units per hall, and additional busbar tap-off units on every row in DH2 and DH3. Please work to rev 04 from today.
+
+Niamh Clarke
+Design Manager, Corrib Build

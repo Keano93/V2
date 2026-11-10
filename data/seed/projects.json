@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "key": "kilbrack",
+      "name": "Kilbrack National School – 8 Classroom Extension",
+      "reference": "KNS-2026-014",
+      "client": "Kildara Education and Training Board (fictional)",
+      "ourRole": "Main contractor (Brennan & Doyle Construction)",
+      "contractType": "pwc",
+      "shutdownStart": "12-23",
+      "shutdownEnd": "01-02",
+      "files": [
+        { "path": "kilbrack/site-team-whatsapp.txt", "kind": "whatsapp" },
+        { "path": "kilbrack/emails-rfi-014-thread.txt", "kind": "email" },
+        { "path": "kilbrack/emails-misc.txt", "kind": "email" },
+        { "path": "kilbrack/conor-daly-ground-conditions.eml", "kind": "email" },
+        { "path": "kilbrack/rachel-moran-rev-f.eml", "kind": "email" },
+        { "path": "kilbrack/rachel-moran-door-schedule.eml", "kind": "email" },
+        { "path": "kilbrack/site-diary.txt", "kind": "diary" },
+        { "path": "kilbrack/progress-meeting-07-minutes.txt", "kind": "minutes" }
+      ]
+    },
+    {
+      "key": "halcyon",
+      "name": "Project Halcyon – DC2 Data Centre M&E Package",
+      "reference": "HAL-DC2-ME",
+      "client": "Corrib Build Ltd (main contractor, fictional)",
+      "ourRole": "M&E subcontractor (Lumen M&E Services)",
+      "contractType": "bespoke-sub",
+      "shutdownStart": "12-24",
+      "shutdownEnd": "01-01",
+      "files": [
+        { "path": "halcyon/mande-coordination-whatsapp.txt", "kind": "whatsapp" },
+        { "path": "halcyon/emails-dh2-drawings-thread.txt", "kind": "email" },
+        { "path": "halcyon/emails-misc.txt", "kind": "email" },
+        { "path": "halcyon/niamh-clarke-spec-rev04.eml", "kind": "email" },
+        { "path": "halcyon/rob-hennessy-generator-route.eml", "kind": "email" },
+        { "path": "halcyon/darren-lynch-crane.eml", "kind": "email" },
+        { "path": "halcyon/site-diary.txt", "kind": "diary" },
+        { "path": "halcyon/coordination-meeting-minutes.txt", "kind": "minutes" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+From: Declan Murphy <declan.murphy@brennandoyle.example>
+Sent: Wednesday, 7 October 2026 16:02
+To: Aoife Kinsella <aoife.kinsella@kinsellahart.example>
+Cc: Siobhán Walsh <siobhan.walsh@brennandoyle.example>; Tomás Byrne <tomas.byrne@brennandoyle.example>
+Subject: RE: RFI-014 Roof steel connection details
+
+Aoife,
+
+The steel erector attended site on Monday 5th as programmed and had to be stood down at lunchtime because we still don't have the connection details. They are now rebooked for when the information arrives, but their next slot is not until 2 November.
+
+Can you give us a firm date for rev C please. Roof steel is on the critical path.
+
+Regards,
+Declan
+
+-----Original Message-----
+From: Aoife Kinsella <aoife.kinsella@kinsellahart.example>
+Sent: Monday, 5 October 2026 11:30
+To: Declan Murphy <declan.murphy@brennandoyle.example>
+Subject: RE: RFI-014 Roof steel connection details
+
+Declan,
+
+Conor is still reviewing the connection design following the change to the purlin spacing. I'd expect rev C by the end of this week but can't commit to it.
+
+Aoife
+
+-----Original Message-----
+From: Gerry Nolan <gerry.nolan@brennandoyle.example>
+Sent: Tuesday, 22 September 2026 09:01
+To: Aoife Kinsella <aoife.kinsella@kinsellahart.example>
+Subject: RFI-014 Roof steel connection details
+
+Hi Aoife,
+
+RFI-014 attached. Connection details at the ridge beam / portal haunch are missing from drawing KNS-DS-S-210 rev B. Response required by Tuesday 29 September please to allow fabrication ahead of the steel erection on Monday 5 October.
+
+Thanks,
+Gerry Nolan
+Foreman, Brennan & Doyle Construction

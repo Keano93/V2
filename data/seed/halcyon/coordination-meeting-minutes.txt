@@ -1,0 +1,12 @@
+MINUTES OF M&E COORDINATION MEETING NO. 12
+Halcyon DC2 Data Centre
+Meeting date: Tuesday 20 October 2026 at 14:00
+Attendees: Rob Hennessy, Niamh Clarke (Corrib); Ciara O'Neill, Darren Lynch (Lumen); client representative
+Minutes by: Niamh Clarke (Corrib)
+
+1. Previous minutes agreed.
+2. Client confirmed a requirement for two additional CRAH units in DH2 (N+2 instead of N+1 redundancy). Corrib to issue revised mechanical drawings and an instruction to Lumen. Action: NC.
+3. Electrical specification rev 04 issued 19/10. Lumen to review cost and programme impact. Action: Lumen.
+4. Lumen to provide revised labour histogram by 23/10. Action: Lumen.
+5. Roof chiller platform: Corrib to confirm completion date. Action: RH.
+6. Commissioning workshop to be scheduled for mid-November. Action: NC.

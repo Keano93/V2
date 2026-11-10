@@ -1,0 +1,84 @@
+// SQLite has no native enums, so "enum-like" fields are plain strings.
+// Allowed values are documented next to each field and validated in app code.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model ContractType {
+  id          String       @id @default(cuid())
+  key         String       @unique // e.g. "pwc-employer-designed"
+  name        String
+  description String?
+  rules       NoticeRule[]
+  projects    Project[]
+  createdAt   DateTime     @default(now())
+}
+
+model NoticeRule {
+  id             String       @id @default(cuid())
+  contractTypeId String
+  contractType   ContractType @relation(fields: [contractTypeId], references: [id], onDelete: Cascade)
+  eventType      String // change | delay | instruction | access | late_information
+  periodDays     Int
+  dayBasis       String // calendar | working
+  recipient      String // who the notice goes to, e.g. "Employer's Representative"
+  clauseRef      String // placeholder clause reference
+  verified       Boolean      @default(false) // false = placeholder, shown as "VERIFY"
+  notes          String?
+  updatedAt      DateTime     @updatedAt
+
+  @@unique([contractTypeId, eventType])
+}
+
+model Project {
+  id                String       @id @default(cuid())
+  name              String
+  reference         String?
+  client            String?
+  ourRole           String? // e.g. "Main contractor", "M&E subcontractor"
+  contractTypeId    String
+  contractType      ContractType @relation(fields: [contractTypeId], references: [id])
+  // Optional site shutdown treated as non-working days, stored as "MM-DD".
+  shutdownStart     String?
+  shutdownEnd       String?
+  sources           Source[]
+  messages          Message[]
+  createdAt         DateTime     @default(now())
+}
+
+model Source {
+  id         String    @id @default(cuid())
+  projectId  String
+  project    Project   @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  kind       String // whatsapp | email | diary | minutes
+  filename   String?
+  rawText    String
+  warnings   String? // JSON array of parser warnings
+  messages   Message[]
+  uploadedAt DateTime  @default(now())
+}
+
+model Message {
+  id            String   @id @default(cuid())
+  projectId     String
+  project       Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  sourceId      String
+  source        Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  sourceKind    String // whatsapp | email | diary | minutes
+  ordinal       Int // position within the source
+  sender        String
+  sentAt        DateTime
+  timePrecision String // datetime | date (diaries/minutes often only give a date)
+  subject       String?
+  body          String
+  contentHash   String // sha256 of sender|sentAt|body, used for dedupe and AI caching
+
+  @@unique([sourceId, ordinal])
+  @@index([projectId, sentAt])
+}

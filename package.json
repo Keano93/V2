@@ -1,0 +1,42 @@
+{
+  "name": "notice-guard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/ensure-env.mjs && prisma migrate deploy && prisma generate && tsx prisma/seed.ts --if-empty",
+    "predev": "npm run setup --silent",
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "seed": "tsx prisma/seed.ts",
+    "db:reset": "prisma migrate reset --force --skip-seed && tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "luxon": "^3.7.2",
+    "mailparser": "^3.14.3",
+    "next": "15.5.29",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "unpdf": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/luxon": "^3.7.6",
+    "@types/mailparser": "^3.9.0",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.29",
+    "prisma": "^6.19.3",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^5.1.0"
+  }
+}
