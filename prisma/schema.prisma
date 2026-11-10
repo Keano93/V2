@@ -1,0 +1,217 @@
+// Headstart V2 data model.
+// The map: Account <-> Need <-> Match <-> Capability <-> Product, with Opportunity + Evidence as the output.
+// SQLite for the demo; switch `provider` to "postgresql" for production.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------- Reference data ----------
+
+model Persona {
+  id          String    @id // e.g. "support_ops"
+  name        String
+  description String
+  contacts    Contact[]
+  needs       Need[]
+}
+
+model Product {
+  id           String       @id // e.g. "automate"
+  name         String
+  sku          String       @unique
+  tagline      String
+  pricePerSeat Float // annual list price per agent seat, EUR
+  seatRatio    Float        @default(1) // share of an account's agents that would need a seat
+  personas     Json // persona ids this product is built for
+  ownerships   Ownership[]
+  capabilities Capability[]
+  opportunities Opportunity[]
+}
+
+// ---------- Account footprint ----------
+
+model Account {
+  id            String        @id
+  name          String
+  domain        String
+  industry      String
+  segment       String // SMB | Mid-Market | Enterprise
+  region        String
+  team          String // sales team / pod, used by CRO filters
+  owner         String // account executive
+  employees     Int
+  agents        Int // support agents (the seat basis for every product)
+  contractStart DateTime
+  renewalDate   DateTime
+  createdAt     DateTime      @default(now())
+  contacts      Contact[]
+  ownerships    Ownership[]
+  sources       SourceDoc[]
+  needs         Need[]
+  opportunities Opportunity[]
+}
+
+model Contact {
+  id        String    @id
+  accountId String
+  account   Account   @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  name      String
+  title     String
+  email     String
+  personaId String?
+  persona   Persona?  @relation(fields: [personaId], references: [id])
+  sources   SourceDoc[]
+  needs     Need[]
+}
+
+// What the account owns today.
+model Ownership {
+  id        String   @id @default(cuid())
+  accountId String
+  account   Account  @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product  @relation(fields: [productId], references: [id])
+  seats     Int
+  activeSeats Int
+  arr       Float // EUR
+  addOns    Json // add-on names already bought, e.g. ["Insights Pro"]
+  since     DateTime
+
+  @@unique([accountId, productId])
+}
+
+// ---------- Inputs ----------
+
+// Any raw text we extract from: call notes, CS notes, tickets, account plans, release notes, product docs.
+model SourceDoc {
+  id          String   @id
+  kind        String // call_note | cs_note | support_ticket | account_plan | release_note | product_doc
+  title       String
+  body        String
+  date        DateTime
+  author      String?
+  accountId   String?
+  account     Account? @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  contactId   String?
+  contact     Contact? @relation(fields: [contactId], references: [id])
+  productId   String? // for release notes / docs
+  version     String?
+  contentHash String
+  extractedAt DateTime?
+  needs        Need[]
+  capabilities Capability[]
+}
+
+// A customer need, extracted from a SourceDoc. One row per mention; the engine groups by (account, theme).
+model Need {
+  id          String    @id
+  accountId   String
+  account     Account   @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  sourceId    String
+  source      SourceDoc @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  contactId   String?
+  contact     Contact?  @relation(fields: [contactId], references: [id])
+  personaId   String?
+  persona     Persona?  @relation(fields: [personaId], references: [id])
+  theme       String // taxonomy id, or "other"
+  summary     String
+  quote       String // verbatim from the source, kept as evidence
+  severity    Int // 1 low .. 3 high
+  raisedAt    DateTime
+  status      String    @default("open") // open | solved | dismissed
+  extractor   String // rules | claude
+  matches     Match[]
+}
+
+// Something the product can do. Baseline capabilities come from product docs; new ones from release notes.
+model Capability {
+  id          String     @id
+  productId   String
+  product     Product    @relation(fields: [productId], references: [id])
+  sourceId    String
+  source      SourceDoc  @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  title       String
+  description String
+  themes      Json // taxonomy ids this capability addresses
+  personas    Json // persona ids it is for
+  packaging   String // core | included | add_on
+  addOnName   String?
+  upliftPct   Float? // add-on price as share of the product's ARR
+  releasedAt  DateTime
+  isNew       Boolean // shipped in a release note (vs. baseline docs)
+  sourceLine  String // the release-note / doc line, kept as evidence
+  extractor   String
+  matches     Match[]
+}
+
+// ---------- The map ----------
+
+model Match {
+  id           String     @id @default(cuid())
+  needId       String
+  need         Need       @relation(fields: [needId], references: [id], onDelete: Cascade)
+  capabilityId String
+  capability   Capability @relation(fields: [capabilityId], references: [id], onDelete: Cascade)
+  confidence   Float // 0..1
+  themeScore   Float
+  textScore    Float
+  personaScore Float
+  relation     String // new_release_after_need | existing_capability
+  rationale    String
+
+  @@unique([needId, capabilityId])
+}
+
+model Opportunity {
+  id            String     @id
+  accountId     String
+  account       Account    @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  productId     String
+  product       Product    @relation(fields: [productId], references: [id])
+  type          String // cross_sell | add_on | seat_expansion | adoption
+  title         String
+  value         Float // estimated EUR ARR (0 for adoption)
+  arrProtected  Float // ARR made stickier (adoption)
+  fitScore      Float
+  personaScore  Float
+  timingScore   Float
+  score         Float // 0..1 blended
+  weightedValue Float // value * score; ranking key
+  rank          Int
+  whyNow        String
+  headline      String // one-line need -> capability summary
+  capabilityIds Json
+  status        String     @default("open") // open | in_progress | won | lost | dismissed
+  computedAt    DateTime
+  evidence      Evidence[]
+}
+
+model Evidence {
+  id            String      @id @default(cuid())
+  opportunityId String
+  opportunity   Opportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  kind          String // need_quote | release_line | footprint | timing
+  text          String
+  sourceId      String?
+  needId        String?
+  capabilityId  String?
+  confidence    Float?
+  date          DateTime?
+  label         String // short human label, e.g. "Call note · J. Murphy (Support Ops) · 14 Jan 2026"
+}
+
+// ---------- LLM cache ----------
+
+model ExtractionCache {
+  key       String   @id // sha256(kind|promptVersion|model|input)
+  kind      String // needs | capabilities
+  model     String
+  output    Json
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "note_001",
+    "accountId": "acc_001",
+    "kind": "call_note",
+    "title": "Account review call: Harbourline Logistics",
+    "date": "2025-12-12",
+    "author": "Aoife Brennan",
+    "contactId": "acc_001_c1",
+    "body": "Attendees: Ben Berg (VP Customer Experience), Finn Moreau (Head of IT); Aoife Brennan (Lumio)\n\nMostly positive feedback on the new inbox layout.\nBen (VP Customer Experience) said: \"We're hiring twelve people this spring and onboarding new hires is mostly shadowing.\"\nFinn (Head of IT) said: \"The regulator expects us to keep conversations with policyholders and we have no way to do it properly.\"\nThe team asked for a copy of our latest security whitepaper.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_002",
+    "accountId": "acc_001",
+    "kind": "support_ticket",
+    "title": "Ticket #48210: Phone setup question",
+    "date": "2026-05-19",
+    "author": "Ben Berg",
+    "contactId": "acc_001_c1",
+    "body": "From: Ben Berg <ben.berg@harbourlinelogistics.example>\nPriority: Normal\n\nHi team,\nWe run phone queues on an old telephony box nobody wants to touch.\nIs there anything in Lumio that could help with this?\n\nThanks,\nBen"
+  },
+  {
+    "id": "note_003",
+    "accountId": "acc_001",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Harbourline Logistics",
+    "date": "2026-09-02",
+    "author": "Aoife Brennan",
+    "contactId": "acc_001_c1",
+    "body": "Owner: Aoife Brennan\nGoals: protect the renewal on 2027-11-01 and grow the footprint.\n\nRisks & pain points:\n- It takes new agents three months to ramp because everything is tribal knowledge. (Ben Berg, VP Customer Experience)\n\nRelationship: Their CEO is speaking at our customer conference in spring."
+  },
+  {
+    "id": "note_004",
+    "accountId": "acc_002",
+    "kind": "call_note",
+    "title": "Discovery call: Veltra Insurance",
+    "date": "2026-01-07",
+    "author": "Lena Vogel",
+    "contactId": "acc_002_c1",
+    "body": "Attendees: Kate Costa (Head of Customer Support); Lena Vogel (Lumio)\n\nMostly positive feedback on the new inbox layout.\nKate (Head of Customer Support) said: \"Wrap-up time is killing our phone capacity.\"\nKate (Head of Customer Support) said: \"Half our tickets land in the wrong queue and get bounced around before anyone picks them up.\"\nMain contact will be on leave for two weeks in December.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_005",
+    "accountId": "acc_002",
+    "kind": "cs_note",
+    "title": "CS check-in: Veltra Insurance (June 2026)",
+    "date": "2026-06-26",
+    "author": "CSM for DACH",
+    "contactId": "acc_002_c1",
+    "body": "Health: Green. The team asked for a copy of our latest security whitepaper.\nRaised by Kate Costa: Customers in APAC get no answers overnight because we only staff office hours.\nRenewal paperwork is with their procurement team; no concerns on pricing so far."
+  },
+  {
+    "id": "note_006",
+    "accountId": "acc_002",
+    "kind": "support_ticket",
+    "title": "Ticket #48211: Coverage outside business hours",
+    "date": "2026-08-27",
+    "author": "Kate Costa",
+    "contactId": "acc_002_c1",
+    "body": "From: Kate Costa <kate.costa@veltrainsurance.example>\nPriority: Normal\n\nHi team,\nCustomers in APAC get no answers overnight because we only staff office hours.\nIs there anything in Lumio that could help with this?\n\nThanks,\nKate"
+  },
+  {
+    "id": "note_007",
+    "accountId": "acc_003",
+    "kind": "call_note",
+    "title": "Discovery call: Copperleaf Energy",
+    "date": "2025-12-03",
+    "author": "Sanne de Wit",
+    "contactId": "acc_003_c4",
+    "body": "Attendees: Will Berg (Director of Support), Zoe Fischer (Support Operations Manager); Sanne de Wit (Lumio)\n\nTheir budget cycle starts in October.\nZoe (Support Operations Manager) said: \"After hanging up, agents spend ages documenting what was discussed.\"\nMain contact will be on leave for two weeks in December.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_008",
+    "accountId": "acc_003",
+    "kind": "call_note",
+    "title": "Expansion call: Copperleaf Energy",
+    "date": "2026-06-08",
+    "author": "Sanne de Wit",
+    "contactId": "acc_003_c2",
+    "body": "Attendees: Will Berg (Director of Support), Rosa Costa (Head of IT); Sanne de Wit (Lumio)\n\nThey agreed to be a reference for a case study; their legal team is reviewing.\nRosa (Head of IT) said: \"We need an audit trail we can hand over for ISO 27001 next spring.\"\nDiscussed the product roadmap at a high level.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_009",
+    "accountId": "acc_003",
+    "kind": "support_ticket",
+    "title": "Ticket #48212: Request for change history",
+    "date": "2026-10-19",
+    "author": "Rosa Costa",
+    "contactId": "acc_003_c2",
+    "body": "From: Rosa Costa <rosa.costa@copperleafenergy.example>\nPriority: Normal\n\nHi team,\nAuditors want evidence of admin changes and today it's screenshots.\nIs there anything in Lumio that could help with this?\n\nThanks,\nRosa"
+  },
+  {
+    "id": "note_010",
+    "accountId": "acc_004",
+    "kind": "cs_note",
+    "title": "CS check-in: Northgate Retail Group (December 2025)",
+    "date": "2025-12-21",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_004_c2",
+    "body": "Health: Green. Renewal paperwork is with their procurement team; no concerns on pricing so far.\nRaised by Zoe Garcia: Building the weekly rota is guesswork because we can't forecast ticket volume.\nDiscussed the product roadmap at a high level."
+  },
+  {
+    "id": "note_011",
+    "accountId": "acc_004",
+    "kind": "call_note",
+    "title": "Account review call: Northgate Retail Group",
+    "date": "2026-06-17",
+    "author": "Lucía Romero",
+    "contactId": "acc_004_c2",
+    "body": "Attendees: Dev Byrne (VP Customer Experience), Zoe Garcia (Support Team Lead); Lucía Romero (Lumio)\n\nTheir budget cycle starts in October.\nZoe (Support Team Lead) said: \"We're hiring twelve people this spring and onboarding new hires is mostly shadowing.\"\nThey mentioned the team is moving offices in Q1.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_012",
+    "accountId": "acc_004",
+    "kind": "cs_note",
+    "title": "CS check-in: Northgate Retail Group (August 2026)",
+    "date": "2026-08-28",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_004_c2",
+    "body": "Health: Green. They mentioned the team is moving offices in Q1.\nRaised by Zoe Garcia: It's a quarter before a new starter can work without asking a colleague every five minutes.\nMostly positive feedback on the new inbox layout."
+  },
+  {
+    "id": "note_013",
+    "accountId": "acc_005",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Brightwell Health",
+    "date": "2025-12-17",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_005_c1",
+    "body": "Owner: Tom Hargreaves\nGoals: protect the renewal on 2027-03-18 and grow the footprint.\n\nRisks & pain points:\n- Every month I spend two days pulling numbers into a spreadsheet for the board pack. (Bram Kelly, Head of Customer Support)\n- Wrap-up time is killing our phone capacity. (Finn Costa, CX Operations Lead)\n\nRelationship: Discussed the product roadmap at a high level."
+  },
+  {
+    "id": "note_014",
+    "accountId": "acc_005",
+    "kind": "call_note",
+    "title": "Discovery call: Brightwell Health",
+    "date": "2026-07-13",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_005_c2",
+    "body": "Attendees: Bram Kelly (Head of Customer Support), Finn Costa (CX Operations Lead), Hugo Keller (Knowledge Manager); Tom Hargreaves (Lumio)\n\nMostly positive feedback on the new inbox layout.\nFinn (CX Operations Lead) said: \"Agents can't give money back without a manager's OK, and managers are never at their desks.\"\nHugo (Knowledge Manager) said: \"I suspect there are big content gaps but I can't prove which articles we need.\"\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_015",
+    "accountId": "acc_005",
+    "kind": "call_note",
+    "title": "Expansion call: Brightwell Health",
+    "date": "2026-09-10",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_005_c1",
+    "body": "Attendees: Bram Kelly (Head of Customer Support); Tom Hargreaves (Lumio)\n\nThey are restructuring the team into regional pods.\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_016",
+    "accountId": "acc_006",
+    "kind": "support_ticket",
+    "title": "Ticket #48213: Where is our data hosted?",
+    "date": "2026-02-01",
+    "author": "Sam Romano",
+    "contactId": "acc_006_c2",
+    "body": "From: Sam Romano <sam.romano@orrintelecom.example>\nPriority: Normal\n\nHi team,\nData residency is a blocker for our public-sector customers.\nIs there anything in Lumio that could help with this?\n\nThanks,\nSam"
+  },
+  {
+    "id": "note_017",
+    "accountId": "acc_006",
+    "kind": "cs_note",
+    "title": "CS check-in: Orrin Telecom (June 2026)",
+    "date": "2026-06-30",
+    "author": "CSM for DACH",
+    "contactId": "acc_006_c1",
+    "body": "Health: Green. Usage looks steady across both sites.\nRaised by Ben Dubois: We run phone queues on an old telephony box nobody wants to touch.\nDiscussed the product roadmap at a high level."
+  },
+  {
+    "id": "note_018",
+    "accountId": "acc_006",
+    "kind": "call_note",
+    "title": "Expansion call: Orrin Telecom",
+    "date": "2026-08-19",
+    "author": "Markus Feld",
+    "contactId": "acc_006_c2",
+    "body": "Attendees: Ben Dubois (Director of Support), Sam Romano (Head of IT); Markus Feld (Lumio)\n\nNo open issues with us at the moment.\nSam (Head of IT) said: \"Our DPO keeps raising GDPR concerns about where ticket data is hosted.\"\nThey are restructuring the team into regional pods.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_019",
+    "accountId": "acc_007",
+    "kind": "support_ticket",
+    "title": "Ticket #48214: Tickets ending up in the wrong team",
+    "date": "2025-12-07",
+    "author": "Olga Lopez",
+    "contactId": "acc_007_c1",
+    "body": "From: Olga Lopez <olga.lopez@kestrelpayments.example>\nPriority: Normal\n\nHi team,\nWe basically have a full-time dispatcher whose only job is moving tickets to the right team.\nIs there anything in Lumio that could help with this?\n\nThanks,\nOlga"
+  },
+  {
+    "id": "note_020",
+    "accountId": "acc_007",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Kestrel Payments",
+    "date": "2026-08-03",
+    "author": "Erik Lund",
+    "contactId": "acc_007_c1",
+    "body": "Owner: Erik Lund\nGoals: protect the renewal on 2027-02-02 and grow the footprint.\n\nRisks & pain points:\n- Nobody can summarise calls consistently; half the notes just say 'customer called'. (Olga Lopez, Director of Support)\n\nRelationship: Overall relationship is healthy and the champion is engaged."
+  },
+  {
+    "id": "note_021",
+    "accountId": "acc_007",
+    "kind": "call_note",
+    "title": "Check-in call: Kestrel Payments",
+    "date": "2026-10-12",
+    "author": "Erik Lund",
+    "contactId": "acc_007_c1",
+    "body": "Attendees: Olga Lopez (Director of Support); Erik Lund (Lumio)\n\nThey have a new finance director starting next month.\nOlga (Director of Support) said: \"Half our tickets land in the wrong queue and get bounced around before anyone picks them up.\"\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_022",
+    "accountId": "acc_008",
+    "kind": "cs_note",
+    "title": "CS check-in: Albavista Travel (March 2026)",
+    "date": "2026-03-06",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_008_c1",
+    "body": "Health: Green. They agreed to be a reference for a case study; their legal team is reviewing.\nRaised by Quinn Rossi: Our DPO keeps raising GDPR concerns about where ticket data is hosted.\nTheir budget cycle starts in October."
+  },
+  {
+    "id": "note_023",
+    "accountId": "acc_008",
+    "kind": "support_ticket",
+    "title": "Ticket #48215: Coverage outside business hours",
+    "date": "2026-05-21",
+    "author": "Quinn Rossi",
+    "contactId": "acc_008_c1",
+    "body": "From: Quinn Rossi <quinn.rossi@albavistatravel.example>\nPriority: Normal\n\nHi team,\nAnyone who writes to us after 6pm on a Friday waits until Monday.\nIs there anything in Lumio that could help with this?\n\nThanks,\nQuinn"
+  },
+  {
+    "id": "note_024",
+    "accountId": "acc_008",
+    "kind": "cs_note",
+    "title": "CS check-in: Albavista Travel (October 2026)",
+    "date": "2026-10-12",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_008_c1",
+    "body": "Health: Green. They are restructuring the team into regional pods.\nAsked for the updated invoice to be sent to accounts payable."
+  },
+  {
+    "id": "note_025",
+    "accountId": "acc_009",
+    "kind": "call_note",
+    "title": "Expansion call: Fennick Software",
+    "date": "2026-03-09",
+    "author": "Aoife Brennan",
+    "contactId": "acc_009_c3",
+    "body": "Attendees: Kate Novak (VP Customer Experience), Niall Schmidt (CX Operations Lead); Aoife Brennan (Lumio)\n\nTheir CEO is speaking at our customer conference in spring.\nNiall (CX Operations Lead) said: \"If writing replies took half the time we wouldn't need to hire this year.\"\nNiall (CX Operations Lead) said: \"Agents spend four minutes after every call writing up call notes.\"\nMain contact will be on leave for two weeks in December.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_026",
+    "accountId": "acc_009",
+    "kind": "support_ticket",
+    "title": "Ticket #48216: Monthly numbers for leadership",
+    "date": "2026-05-09",
+    "author": "Kate Novak",
+    "contactId": "acc_009_c1",
+    "body": "From: Kate Novak <kate.novak@fennicksoftware.example>\nPriority: Normal\n\nHi team,\nLeadership keeps asking for a support dashboard and I'm building it by hand in Excel.\nIs there anything in Lumio that could help with this?\n\nThanks,\nKate"
+  },
+  {
+    "id": "note_027",
+    "accountId": "acc_009",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Fennick Software",
+    "date": "2026-09-15",
+    "author": "Aoife Brennan",
+    "contactId": "acc_009_c1",
+    "body": "Owner: Aoife Brennan\nGoals: protect the renewal on 2027-09-22 and grow the footprint.\n\nRisks & pain points:\n- Leadership keeps asking for a support dashboard and I'm building it by hand in Excel. (Kate Novak, VP Customer Experience)\n\nRelationship: Overall relationship is healthy and the champion is engaged."
+  },
+  {
+    "id": "note_028",
+    "accountId": "acc_010",
+    "kind": "call_note",
+    "title": "Expansion call: Morrow & Vale Bank",
+    "date": "2026-03-05",
+    "author": "Lena Vogel",
+    "contactId": "acc_010_c1",
+    "body": "Attendees: Rosa Nolan (VP Customer Experience); Lena Vogel (Lumio)\n\nGood energy on the call; they want to see more of the product.\nRosa (VP Customer Experience) said: \"Customers keep asking for help in their own languages and we can't keep up.\"\nThey have a new finance director starting next month.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_029",
+    "accountId": "acc_010",
+    "kind": "cs_note",
+    "title": "CS check-in: Morrow & Vale Bank (April 2026)",
+    "date": "2026-04-05",
+    "author": "CSM for DACH",
+    "contactId": "acc_010_c2",
+    "body": "Health: Green. Usage looks steady across both sites.\nRaised by Niall Visser: If writing replies took half the time we wouldn't need to hire this year.\nRenewal paperwork is with their procurement team; no concerns on pricing so far."
+  },
+  {
+    "id": "note_030",
+    "accountId": "acc_010",
+    "kind": "support_ticket",
+    "title": "Ticket #48217: Support in more countries",
+    "date": "2026-09-18",
+    "author": "Rosa Nolan",
+    "contactId": "acc_010_c1",
+    "body": "From: Rosa Nolan <rosa.nolan@morrowandvalebank.example>\nPriority: Normal\n\nHi team,\nCustomers keep asking for help in their own languages and we can't keep up.\nIs there anything in Lumio that could help with this?\n\nThanks,\nRosa"
+  },
+  {
+    "id": "note_031",
+    "accountId": "acc_011",
+    "kind": "call_note",
+    "title": "Discovery call: Solstice Home",
+    "date": "2026-02-05",
+    "author": "Sanne de Wit",
+    "contactId": "acc_011_c1",
+    "body": "Attendees: Zoe Novak (Head of Customer Support); Sanne de Wit (Lumio)\n\nOverall relationship is healthy and the champion is engaged.\nZoe (Head of Customer Support) said: \"Agents answer things that have no article at all.\"\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_032",
+    "accountId": "acc_011",
+    "kind": "call_note",
+    "title": "Check-in call: Solstice Home",
+    "date": "2026-06-26",
+    "author": "Sanne de Wit",
+    "contactId": "acc_011_c1",
+    "body": "Attendees: Zoe Novak (Head of Customer Support); Sanne de Wit (Lumio)\n\nAsked for the updated invoice to be sent to accounts payable.\nNo open issues with us at the moment.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_033",
+    "accountId": "acc_011",
+    "kind": "support_ticket",
+    "title": "Ticket #48218: Can we reduce simple questions?",
+    "date": "2026-09-18",
+    "author": "Zoe Novak",
+    "contactId": "acc_011_c1",
+    "body": "From: Zoe Novak <zoe.novak@solsticehome.example>\nPriority: Normal\n\nHi team,\nProbably 40% of our volume is the same questions over and over: how to download an invoice, how to add a user.\nIs there anything in Lumio that could help with this?\n\nThanks,\nZoe"
+  },
+  {
+    "id": "note_034",
+    "accountId": "acc_012",
+    "kind": "cs_note",
+    "title": "CS check-in: Tidewater Utilities (February 2026)",
+    "date": "2026-02-25",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_012_c1",
+    "body": "Health: Amber. Renewal paperwork is with their procurement team; no concerns on pricing so far.\nRaised by Niall Quinn: Password reset tickets alone eat a full agent's week.\nRaised by Ciaran Larsen: We basically have a full-time dispatcher whose only job is moving tickets to the right team.\nThey agreed to be a reference for a case study; their legal team is reviewing."
+  },
+  {
+    "id": "note_035",
+    "accountId": "acc_012",
+    "kind": "call_note",
+    "title": "Account review call: Tidewater Utilities",
+    "date": "2026-05-02",
+    "author": "Lucía Romero",
+    "contactId": "acc_012_c1",
+    "body": "Attendees: Niall Quinn (Head of Customer Support); Lucía Romero (Lumio)\n\nThey are restructuring the team into regional pods.\nNiall (Head of Customer Support) said: \"Two of our biggest customers asked about 24/7 coverage but we can't afford a night shift.\"\nThey agreed to be a reference for a case study; their legal team is reviewing.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_036",
+    "accountId": "acc_012",
+    "kind": "cs_note",
+    "title": "CS check-in: Tidewater Utilities (October 2026)",
+    "date": "2026-10-15",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_012_c1",
+    "body": "Health: Green. Usage looks steady across both sites.\nRaised by Niall Quinn: Our agents are bored answering repetitive how-to tickets all day.\nThey have a new finance director starting next month."
+  },
+  {
+    "id": "note_037",
+    "accountId": "acc_013",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Greyfield Education",
+    "date": "2025-12-25",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_013_c1",
+    "body": "Owner: Tom Hargreaves\nGoals: protect the renewal on 2027-06-02 and grow the footprint.\n\nRisks & pain points:\n- Training new starters eats my senior agents' time. (Zoe Schmidt, VP Customer Experience)\n- We have hundreds of stale articles and no way of knowing which ones are wrong. (Zoe Schmidt, VP Customer Experience)\n\nRelationship: Their budget cycle starts in October."
+  },
+  {
+    "id": "note_038",
+    "accountId": "acc_013",
+    "kind": "call_note",
+    "title": "Check-in call: Greyfield Education",
+    "date": "2026-05-12",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_013_c1",
+    "body": "Attendees: Zoe Schmidt (VP Customer Experience); Tom Hargreaves (Lumio)\n\nUsage looks steady across both sites.\nZoe (VP Customer Experience) said: \"Our people spend most of each ticket composing the answer, not solving the problem.\"\nMostly positive feedback on the new inbox layout.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_039",
+    "accountId": "acc_013",
+    "kind": "call_note",
+    "title": "Account review call: Greyfield Education",
+    "date": "2026-10-09",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_013_c1",
+    "body": "Attendees: Zoe Schmidt (VP Customer Experience); Tom Hargreaves (Lumio)\n\nMain contact will be on leave for two weeks in December.\nTheir CEO is speaking at our customer conference in spring.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_040",
+    "accountId": "acc_014",
+    "kind": "support_ticket",
+    "title": "Ticket #48219: Survey scores question",
+    "date": "2026-01-05",
+    "author": "Oscar Lindgren",
+    "contactId": "acc_014_c1",
+    "body": "From: Oscar Lindgren <oscar.lindgren@pinecresthotels.example>\nPriority: Normal\n\nHi team,\nCSAT dropped six points this quarter and we honestly don't know why.\nIs there anything in Lumio that could help with this?\n\nThanks,\nOscar"
+  },
+  {
+    "id": "note_041",
+    "accountId": "acc_014",
+    "kind": "cs_note",
+    "title": "CS check-in: Pinecrest Hotels (June 2026)",
+    "date": "2026-06-13",
+    "author": "CSM for DACH",
+    "contactId": "acc_014_c1",
+    "body": "Health: Amber. Overall relationship is healthy and the champion is engaged.\nRaised by Oscar Lindgren: Agents answer things that have no article at all.\nRaised by Oscar Lindgren: We have hundreds of stale articles and no way of knowing which ones are wrong.\nTheir budget cycle starts in October."
+  },
+  {
+    "id": "note_042",
+    "accountId": "acc_014",
+    "kind": "call_note",
+    "title": "Account review call: Pinecrest Hotels",
+    "date": "2026-08-31",
+    "author": "Markus Feld",
+    "contactId": "acc_014_c1",
+    "body": "Attendees: Oscar Lindgren (Head of Customer Support); Markus Feld (Lumio)\n\nNo open issues with us at the moment.\nThey are restructuring the team into regional pods.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_043",
+    "accountId": "acc_015",
+    "kind": "support_ticket",
+    "title": "Ticket #48220: Agent productivity",
+    "date": "2026-01-19",
+    "author": "Freya Jansen",
+    "contactId": "acc_015_c1",
+    "body": "From: Freya Jansen <freya.jansen@quaysidemedia.example>\nPriority: Normal\n\nHi team,\nIf writing replies took half the time we wouldn't need to hire this year.\nIs there anything in Lumio that could help with this?\n\nThanks,\nFreya"
+  },
+  {
+    "id": "note_044",
+    "accountId": "acc_015",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Quayside Media",
+    "date": "2026-06-20",
+    "author": "Erik Lund",
+    "contactId": "acc_015_c2",
+    "body": "Owner: Erik Lund\nGoals: protect the renewal on 2027-09-12 and grow the footprint.\n\nRisks & pain points:\n- It takes new agents three months to ramp because everything is tribal knowledge. (Ciaran Visser, Knowledge Manager)\n\nRelationship: The team asked for a copy of our latest security whitepaper."
+  },
+  {
+    "id": "note_045",
+    "accountId": "acc_015",
+    "kind": "call_note",
+    "title": "Discovery call: Quayside Media",
+    "date": "2026-09-28",
+    "author": "Erik Lund",
+    "contactId": "acc_015_c1",
+    "body": "Attendees: Freya Jansen (Director of Support); Erik Lund (Lumio)\n\nNo open issues with us at the moment.\nOverall relationship is healthy and the champion is engaged.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_046",
+    "accountId": "acc_016",
+    "kind": "cs_note",
+    "title": "CS check-in: Lindqvist Mobility (March 2026)",
+    "date": "2026-03-05",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_016_c1",
+    "body": "Health: Amber. Discussed the product roadmap at a high level.\nRaised by Grace Jansen: Our handle time is creeping up because agents spend ages writing replies to complex tickets.\nRaised by Grace Jansen: We basically have a full-time dispatcher whose only job is moving tickets to the right team.\nTheir CEO is speaking at our customer conference in spring."
+  },
+  {
+    "id": "note_047",
+    "accountId": "acc_016",
+    "kind": "support_ticket",
+    "title": "Ticket #48221: Where is our data hosted?",
+    "date": "2026-07-26",
+    "author": "Yara Moreau",
+    "contactId": "acc_016_c2",
+    "body": "From: Yara Moreau <yara.moreau@lindqvistmobility.example>\nPriority: Normal\n\nHi team,\nData residency is a blocker for our public-sector customers.\nIs there anything in Lumio that could help with this?\n\nThanks,\nYara"
+  },
+  {
+    "id": "note_048",
+    "accountId": "acc_016",
+    "kind": "cs_note",
+    "title": "CS check-in: Lindqvist Mobility (October 2026)",
+    "date": "2026-10-24",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_016_c1",
+    "body": "Health: Green. They agreed to be a reference for a case study; their legal team is reviewing.\nRenewal paperwork is with their procurement team; no concerns on pricing so far."
+  },
+  {
+    "id": "note_049",
+    "accountId": "acc_017",
+    "kind": "call_note",
+    "title": "Expansion call: Arden Pharma",
+    "date": "2026-03-20",
+    "author": "Aoife Brennan",
+    "contactId": "acc_017_c1",
+    "body": "Attendees: Dev Hoffmann (VP Customer Experience); Aoife Brennan (Lumio)\n\nThey have a new finance director starting next month.\nDev (VP Customer Experience) said: \"CSAT dropped six points this quarter and we honestly don't know why.\"\nMostly positive feedback on the new inbox layout.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_050",
+    "accountId": "acc_017",
+    "kind": "support_ticket",
+    "title": "Ticket #48222: Request for change history",
+    "date": "2026-06-15",
+    "author": "Elena Walsh",
+    "contactId": "acc_017_c3",
+    "body": "From: Elena Walsh <elena.walsh@ardenpharma.example>\nPriority: Normal\n\nHi team,\nOur SOC 2 auditors asked who changed a ticket's priority and we had no audit log to show them.\nIs there anything in Lumio that could help with this?\n\nThanks,\nElena"
+  },
+  {
+    "id": "note_051",
+    "accountId": "acc_017",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Arden Pharma",
+    "date": "2026-10-26",
+    "author": "Aoife Brennan",
+    "contactId": "acc_017_c3",
+    "body": "Owner: Aoife Brennan\nGoals: protect the renewal on 2027-01-20 and grow the footprint.\n\nRisks & pain points:\n- Our SOC 2 auditors asked who changed a ticket's priority and we had no audit log to show them. (Elena Walsh, Head of IT)\n\nRelationship: Their budget cycle starts in October."
+  },
+  {
+    "id": "note_052",
+    "accountId": "acc_018",
+    "kind": "call_note",
+    "title": "Discovery call: Corvid Security",
+    "date": "2025-11-13",
+    "author": "Lena Vogel",
+    "contactId": "acc_018_c3",
+    "body": "Attendees: Vera Novak (Head of Customer Support), Maya Nilsson (Support Operations Manager); Lena Vogel (Lumio)\n\nThey have a new finance director starting next month.\nMaya (Support Operations Manager) said: \"Wrap-up time is killing our phone capacity.\"\nMaya (Support Operations Manager) said: \"Our handle time is creeping up because agents spend ages writing replies to complex tickets.\"\nUsage looks steady across both sites.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_053",
+    "accountId": "acc_018",
+    "kind": "cs_note",
+    "title": "CS check-in: Corvid Security (August 2026)",
+    "date": "2026-08-08",
+    "author": "CSM for DACH",
+    "contactId": "acc_018_c1",
+    "body": "Health: Amber. They have a new finance director starting next month.\nRaised by Vera Novak: Two of our biggest customers asked about 24/7 coverage but we can't afford a night shift.\nRaised by Vera Novak: We genuinely don't know what to write next; there's no link between tickets and missing articles.\nThey are restructuring the team into regional pods."
+  },
+  {
+    "id": "note_054",
+    "accountId": "acc_018",
+    "kind": "support_ticket",
+    "title": "Ticket #48223: Invoice copy",
+    "date": "2026-10-12",
+    "author": "Vera Novak",
+    "contactId": "acc_018_c1",
+    "body": "From: Vera Novak <vera.novak@corvidsecurity.example>\nPriority: Normal\n\nHi team,\nCould you resend last quarter's invoice to our accounts payable team?\n\nThanks,\nVera"
+  },
+  {
+    "id": "note_055",
+    "accountId": "acc_019",
+    "kind": "call_note",
+    "title": "Discovery call: Halden Property",
+    "date": "2026-02-11",
+    "author": "Sanne de Wit",
+    "contactId": "acc_019_c4",
+    "body": "Attendees: Tara Fischer (Head of Customer Support), Ulrich Murphy (Head of IT), Hugo Kelly (Support Operations Manager); Sanne de Wit (Lumio)\n\nOverall relationship is healthy and the champion is engaged.\nUlrich (Head of IT) said: \"The regulator expects us to keep conversations with policyholders and we have no way to do it properly.\"\nHugo (Support Operations Manager) said: \"Every morning two of my leads spend the first hour doing triage, assigning tickets to the right queue by hand.\"\nRenewal paperwork is with their procurement team; no concerns on pricing so far.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_056",
+    "accountId": "acc_019",
+    "kind": "call_note",
+    "title": "Account review call: Halden Property",
+    "date": "2026-05-17",
+    "author": "Sanne de Wit",
+    "contactId": "acc_019_c2",
+    "body": "Attendees: Tara Fischer (Head of Customer Support), Hugo Kelly (Support Operations Manager); Sanne de Wit (Lumio)\n\nThey have a new finance director starting next month.\nHugo (Support Operations Manager) said: \"Our people spend most of each ticket composing the answer, not solving the problem.\"\nRenewal paperwork is with their procurement team; no concerns on pricing so far.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_057",
+    "accountId": "acc_019",
+    "kind": "support_ticket",
+    "title": "Ticket #48224: Invoice copy",
+    "date": "2026-09-23",
+    "author": "Tara Fischer",
+    "contactId": "acc_019_c1",
+    "body": "From: Tara Fischer <tara.fischer@haldenproperty.example>\nPriority: Normal\n\nHi team,\nCould you resend last quarter's invoice to our accounts payable team?\n\nThanks,\nTara"
+  },
+  {
+    "id": "note_058",
+    "accountId": "acc_020",
+    "kind": "cs_note",
+    "title": "CS check-in: Mistral Airways (December 2025)",
+    "date": "2025-12-17",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_020_c2",
+    "body": "Health: Amber. The team asked for a copy of our latest security whitepaper.\nRaised by Chloe Walsh: Training new starters eats my senior agents' time.\nRaised by Freya Walsh: Customers keep asking for help in their own languages and we can't keep up.\nThey are restructuring the team into regional pods."
+  },
+  {
+    "id": "note_059",
+    "accountId": "acc_020",
+    "kind": "call_note",
+    "title": "Discovery call: Mistral Airways",
+    "date": "2026-07-21",
+    "author": "Lucía Romero",
+    "contactId": "acc_020_c1",
+    "body": "Attendees: Freya Walsh (Director of Support); Lucía Romero (Lumio)\n\nThey mentioned the team is moving offices in Q1.\nFreya (Director of Support) said: \"We write help content based on gut feel rather than what customers actually ask.\"\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_060",
+    "accountId": "acc_020",
+    "kind": "cs_note",
+    "title": "CS check-in: Mistral Airways (September 2026)",
+    "date": "2026-09-25",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_020_c1",
+    "body": "Health: Green. Asked for the updated invoice to be sent to accounts payable.\nRaised by Freya Walsh: Our new customers in Lyon and Munich keep getting replies they struggle to read.\nThey mentioned the team is moving offices in Q1."
+  },
+  {
+    "id": "note_061",
+    "accountId": "acc_021",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Oakmere Foods",
+    "date": "2025-12-19",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_021_c1",
+    "body": "Owner: Tom Hargreaves\nGoals: protect the renewal on 2027-05-12 and grow the footprint.\n\nRisks & pain points:\n- Our compliance team wants every call recording kept for five years and we can't do that today. (Stefan Moreau, Head of Customer Support)\n- When someone rings us, the conversation isn't attached to anything in the helpdesk. (Stefan Moreau, Head of Customer Support)\n\nRelationship: Good energy on the call; they want to see more of the product."
+  },
+  {
+    "id": "note_062",
+    "accountId": "acc_021",
+    "kind": "call_note",
+    "title": "Expansion call: Oakmere Foods",
+    "date": "2026-04-18",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_021_c2",
+    "body": "Attendees: Stefan Moreau (Head of Customer Support), Nadia Quinn (Support Operations Manager); Tom Hargreaves (Lumio)\n\nThey have a new finance director starting next month.\nNadia (Support Operations Manager) said: \"Escalations go out by email and get lost.\"\nStefan (Head of Customer Support) said: \"I want to spot sentiment turning on an account before it becomes a detractor.\"\nMostly positive feedback on the new inbox layout.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_063",
+    "accountId": "acc_021",
+    "kind": "call_note",
+    "title": "Check-in call: Oakmere Foods",
+    "date": "2026-09-21",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_021_c1",
+    "body": "Attendees: Stefan Moreau (Head of Customer Support); Tom Hargreaves (Lumio)\n\nRenewal paperwork is with their procurement team; no concerns on pricing so far.\nTheir budget cycle starts in October.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_064",
+    "accountId": "acc_022",
+    "kind": "support_ticket",
+    "title": "Ticket #48225: Compliance question about calls",
+    "date": "2026-01-01",
+    "author": "Dara Byrne",
+    "contactId": "acc_022_c1",
+    "body": "From: Dara Byrne <dara.byrne@rivertoncouncilservices.example>\nPriority: Normal\n\nHi team,\nOur compliance team wants every call recording kept for five years and we can't do that today.\nIs there anything in Lumio that could help with this?\n\nThanks,\nDara"
+  },
+  {
+    "id": "note_065",
+    "accountId": "acc_022",
+    "kind": "cs_note",
+    "title": "CS check-in: Riverton Council Services (May 2026)",
+    "date": "2026-05-22",
+    "author": "CSM for DACH",
+    "contactId": "acc_022_c1",
+    "body": "Health: Green. They are restructuring the team into regional pods.\nRaised by Dara Byrne: Agents are typing the same paragraphs again and again; macros only go so far.\nUsage looks steady across both sites."
+  },
+  {
+    "id": "note_066",
+    "accountId": "acc_022",
+    "kind": "call_note",
+    "title": "Account review call: Riverton Council Services",
+    "date": "2026-10-02",
+    "author": "Markus Feld",
+    "contactId": "acc_022_c1",
+    "body": "Attendees: Dara Byrne (Director of Support); Markus Feld (Lumio)\n\nAsked for the updated invoice to be sent to accounts payable.\nTheir budget cycle starts in October.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_067",
+    "accountId": "acc_023",
+    "kind": "support_ticket",
+    "title": "Ticket #48226: Request for change history",
+    "date": "2026-02-01",
+    "author": "Dara Lindgren",
+    "contactId": "acc_023_c2",
+    "body": "From: Dara Lindgren <dara.lindgren@silverstrandgaming.example>\nPriority: Normal\n\nHi team,\nOur external assessors want proof of every configuration change and we can't give it to them.\nIs there anything in Lumio that could help with this?\n\nThanks,\nDara"
+  },
+  {
+    "id": "note_068",
+    "accountId": "acc_023",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Silverstrand Gaming",
+    "date": "2026-04-21",
+    "author": "Erik Lund",
+    "contactId": "acc_023_c1",
+    "body": "Owner: Erik Lund\nGoals: protect the renewal on 2027-07-16 and grow the footprint.\n\nRisks & pain points:\n- We were badly understaffed during the January peak and overstaffed in August. (Ruth Fischer, Head of Customer Support)\n- Agents swivel between the PBX and the helpdesk all day. (Ruth Fischer, Head of Customer Support)\n\nRelationship: Their budget cycle starts in October."
+  },
+  {
+    "id": "note_069",
+    "accountId": "acc_023",
+    "kind": "call_note",
+    "title": "Discovery call: Silverstrand Gaming",
+    "date": "2026-09-23",
+    "author": "Erik Lund",
+    "contactId": "acc_023_c1",
+    "body": "Attendees: Ruth Fischer (Head of Customer Support); Erik Lund (Lumio)\n\nUsage looks steady across both sites.\nRuth (Head of Customer Support) said: \"Customers keep asking for help in their own languages and we can't keep up.\"\nTheir CEO is speaking at our customer conference in spring.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_070",
+    "accountId": "acc_024",
+    "kind": "cs_note",
+    "title": "CS check-in: Talbot & Reid Legal (February 2026)",
+    "date": "2026-02-19",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_024_c1",
+    "body": "Health: Amber. Usage looks steady across both sites.\nRaised by Emil Walsh: Our phone system is completely separate, so calls aren't logged against the customer's tickets.\nRaised by Emil Walsh: Our external assessors want proof of every configuration change and we can't give it to them.\nDiscussed the product roadmap at a high level."
+  },
+  {
+    "id": "note_071",
+    "accountId": "acc_024",
+    "kind": "support_ticket",
+    "title": "Ticket #48227: Process question on refunds",
+    "date": "2026-06-06",
+    "author": "Emil Dubois",
+    "contactId": "acc_024_c2",
+    "body": "From: Emil Dubois <emil.dubois@talbotandreidlegal.example>\nPriority: Normal\n\nHi team,\nGoodwill credits need two sign-offs and it's all done over email.\nIs there anything in Lumio that could help with this?\n\nThanks,\nEmil"
+  },
+  {
+    "id": "note_072",
+    "accountId": "acc_024",
+    "kind": "cs_note",
+    "title": "CS check-in: Talbot & Reid Legal (October 2026)",
+    "date": "2026-10-19",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_024_c1",
+    "body": "Health: Green. Their CEO is speaking at our customer conference in spring.\nTheir budget cycle starts in October."
+  },
+  {
+    "id": "note_073",
+    "accountId": "acc_025",
+    "kind": "call_note",
+    "title": "Expansion call: Umber Fashion",
+    "date": "2026-02-08",
+    "author": "Aoife Brennan",
+    "contactId": "acc_025_c1",
+    "body": "Attendees: Zoe Jansen (Director of Support), Oscar Dubois (Security & Compliance Lead); Aoife Brennan (Lumio)\n\nTheir budget cycle starts in October.\nZoe (Director of Support) said: \"Two of our biggest customers asked about 24/7 coverage but we can't afford a night shift.\"\nOscar (Security & Compliance Lead) said: \"Our DPO keeps raising GDPR concerns about where ticket data is hosted.\"\nGood energy on the call; they want to see more of the product.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_074",
+    "accountId": "acc_025",
+    "kind": "support_ticket",
+    "title": "Ticket #48228: Survey scores question",
+    "date": "2026-05-04",
+    "author": "Zoe Jansen",
+    "contactId": "acc_025_c1",
+    "body": "From: Zoe Jansen <zoe.jansen@umberfashion.example>\nPriority: Normal\n\nHi team,\nCSAT dropped six points this quarter and we honestly don't know why.\nIs there anything in Lumio that could help with this?\n\nThanks,\nZoe"
+  },
+  {
+    "id": "note_075",
+    "accountId": "acc_025",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Umber Fashion",
+    "date": "2026-09-16",
+    "author": "Aoife Brennan",
+    "contactId": "acc_025_c1",
+    "body": "Owner: Aoife Brennan\nGoals: protect the renewal on 2026-12-08 and grow the footprint.\n\nRisks & pain points:\n- CSAT dropped six points this quarter and we honestly don't know why. (Zoe Jansen, Director of Support)\n\nRelationship: Overall relationship is healthy and the champion is engaged."
+  },
+  {
+    "id": "note_076",
+    "accountId": "acc_026",
+    "kind": "call_note",
+    "title": "Discovery call: Valemont Insurance",
+    "date": "2025-11-18",
+    "author": "Lena Vogel",
+    "contactId": "acc_026_c1",
+    "body": "Attendees: Tara Brady (VP Customer Experience), Zoe Walsh (CX Operations Lead); Lena Vogel (Lumio)\n\nThe team asked for a copy of our latest security whitepaper.\nTara (VP Customer Experience) said: \"Agents swivel between the PBX and the helpdesk all day.\"\nZoe (CX Operations Lead) said: \"Agents can't give money back without a manager's OK, and managers are never at their desks.\"\nUsage looks steady across both sites.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_077",
+    "accountId": "acc_026",
+    "kind": "cs_note",
+    "title": "CS check-in: Valemont Insurance (June 2026)",
+    "date": "2026-06-16",
+    "author": "CSM for DACH",
+    "contactId": "acc_026_c1",
+    "body": "Health: Green. The team asked for a copy of our latest security whitepaper.\nRaised by Tara Brady: We only find out we've breached an SLA after the fact, when the customer complains.\nRenewal paperwork is with their procurement team; no concerns on pricing so far."
+  },
+  {
+    "id": "note_078",
+    "accountId": "acc_026",
+    "kind": "support_ticket",
+    "title": "Ticket #48229: Invoice copy",
+    "date": "2026-10-06",
+    "author": "Tara Brady",
+    "contactId": "acc_026_c1",
+    "body": "From: Tara Brady <tara.brady@valemontinsurance.example>\nPriority: Normal\n\nHi team,\nCould you resend last quarter's invoice to our accounts payable team?\n\nThanks,\nTara"
+  },
+  {
+    "id": "note_079",
+    "accountId": "acc_027",
+    "kind": "call_note",
+    "title": "Expansion call: Wexley Rail",
+    "date": "2025-12-22",
+    "author": "Sanne de Wit",
+    "contactId": "acc_027_c1",
+    "body": "Attendees: Ruth Rossi (Head of Customer Support); Sanne de Wit (Lumio)\n\nOverall relationship is healthy and the champion is engaged.\nRuth (Head of Customer Support) said: \"Customers keep asking for help in their own languages and we can't keep up.\"\nMostly positive feedback on the new inbox layout.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_080",
+    "accountId": "acc_027",
+    "kind": "call_note",
+    "title": "Check-in call: Wexley Rail",
+    "date": "2026-04-02",
+    "author": "Sanne de Wit",
+    "contactId": "acc_027_c1",
+    "body": "Attendees: Ruth Rossi (Head of Customer Support); Sanne de Wit (Lumio)\n\nMostly positive feedback on the new inbox layout.\nRuth (Head of Customer Support) said: \"I suspect there are big content gaps but I can't prove which articles we need.\"\nThey mentioned the team is moving offices in Q1.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_081",
+    "accountId": "acc_027",
+    "kind": "support_ticket",
+    "title": "Ticket #48230: Content planning",
+    "date": "2026-10-30",
+    "author": "Ruth Rossi",
+    "contactId": "acc_027_c1",
+    "body": "From: Ruth Rossi <ruth.rossi@wexleyrail.example>\nPriority: Normal\n\nHi team,\nAgents answer things that have no article at all.\nIs there anything in Lumio that could help with this?\n\nThanks,\nRuth"
+  },
+  {
+    "id": "note_082",
+    "accountId": "acc_028",
+    "kind": "cs_note",
+    "title": "CS check-in: Ashgrove Clinics (January 2026)",
+    "date": "2026-01-19",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_028_c1",
+    "body": "Health: Green. Renewal paperwork is with their procurement team; no concerns on pricing so far.\nRaised by Zoe Lindgren: I need an early warning before an SLA breach, not a red number at month end.\nThey are restructuring the team into regional pods."
+  },
+  {
+    "id": "note_083",
+    "accountId": "acc_028",
+    "kind": "call_note",
+    "title": "Account review call: Ashgrove Clinics",
+    "date": "2026-06-04",
+    "author": "Lucía Romero",
+    "contactId": "acc_028_c1",
+    "body": "Attendees: Zoe Lindgren (Head of Customer Support); Lucía Romero (Lumio)\n\nRenewal paperwork is with their procurement team; no concerns on pricing so far.\nZoe (Head of Customer Support) said: \"We'd love customers to answer the basic questions themselves instead of emailing us.\"\nDiscussed the product roadmap at a high level.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_084",
+    "accountId": "acc_028",
+    "kind": "cs_note",
+    "title": "CS check-in: Ashgrove Clinics (October 2026)",
+    "date": "2026-10-06",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_028_c1",
+    "body": "Health: Green. They are restructuring the team into regional pods.\nRaised by Zoe Lindgren: Most of what comes in could be answered by a decent FAQ page.\nThe team asked for a copy of our latest security whitepaper."
+  },
+  {
+    "id": "note_085",
+    "accountId": "acc_029",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Beacon Broadband",
+    "date": "2025-12-24",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_029_c4",
+    "body": "Owner: Tom Hargreaves\nGoals: protect the renewal on 2027-08-13 and grow the footprint.\n\nRisks & pain points:\n- We have hundreds of stale articles and no way of knowing which ones are wrong. (Jonas Quinn, Support Enablement Lead)\n- Account managers can't see open support issues in Salesforce before their calls. (Clara Visser, Support Team Lead)\n\nRelationship: Their budget cycle starts in October."
+  },
+  {
+    "id": "note_086",
+    "accountId": "acc_029",
+    "kind": "call_note",
+    "title": "Discovery call: Beacon Broadband",
+    "date": "2026-05-01",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_029_c1",
+    "body": "Attendees: Nadia Weber (Director of Support); Tom Hargreaves (Lumio)\n\nThey agreed to be a reference for a case study; their legal team is reviewing.\nNadia (Director of Support) said: \"Anyone who writes to us after 6pm on a Friday waits until Monday.\"\nNadia (Director of Support) said: \"Agents swivel between the PBX and the helpdesk all day.\"\nThey have a new finance director starting next month.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_087",
+    "accountId": "acc_029",
+    "kind": "call_note",
+    "title": "Expansion call: Beacon Broadband",
+    "date": "2026-11-04",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_029_c1",
+    "body": "Attendees: Nadia Weber (Director of Support); Tom Hargreaves (Lumio)\n\nMain contact will be on leave for two weeks in December.\nNadia (Director of Support) said: \"Two of our biggest customers asked about 24/7 coverage but we can't afford a night shift.\"\nMostly positive feedback on the new inbox layout.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_088",
+    "accountId": "acc_030",
+    "kind": "support_ticket",
+    "title": "Ticket #48231: Compliance question about calls",
+    "date": "2026-02-20",
+    "author": "Ana Walsh",
+    "contactId": "acc_030_c3",
+    "body": "From: Ana Walsh <ana.walsh@calderfintech.example>\nPriority: Normal\n\nHi team,\nOur compliance team wants every call recording kept for five years and we can't do that today.\nIs there anything in Lumio that could help with this?\n\nThanks,\nAna"
+  },
+  {
+    "id": "note_089",
+    "accountId": "acc_030",
+    "kind": "cs_note",
+    "title": "CS check-in: Calder Fintech (April 2026)",
+    "date": "2026-04-07",
+    "author": "CSM for DACH",
+    "contactId": "acc_030_c1",
+    "body": "Health: Green. Good energy on the call; they want to see more of the product.\nRaised by Stefan Jansen: When someone rings us, the conversation isn't attached to anything in the helpdesk.\nOverall relationship is healthy and the champion is engaged."
+  },
+  {
+    "id": "note_090",
+    "accountId": "acc_030",
+    "kind": "call_note",
+    "title": "Discovery call: Calder Fintech",
+    "date": "2026-10-22",
+    "author": "Markus Feld",
+    "contactId": "acc_030_c1",
+    "body": "Attendees: Stefan Jansen (VP Customer Experience); Markus Feld (Lumio)\n\nTheir budget cycle starts in October.\nThe team asked for a copy of our latest security whitepaper.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_091",
+    "accountId": "acc_031",
+    "kind": "support_ticket",
+    "title": "Ticket #48232: Monthly numbers for leadership",
+    "date": "2025-11-24",
+    "author": "Nadia Costa",
+    "contactId": "acc_031_c1",
+    "body": "From: Nadia Costa <nadia.costa@dunmoredistillers.example>\nPriority: Normal\n\nHi team,\nOur monthly report is stitched together from five different exports.\nIs there anything in Lumio that could help with this?\n\nThanks,\nNadia"
+  },
+  {
+    "id": "note_092",
+    "accountId": "acc_031",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Dunmore Distillers",
+    "date": "2026-05-26",
+    "author": "Erik Lund",
+    "contactId": "acc_031_c4",
+    "body": "Owner: Erik Lund\nGoals: protect the renewal on 2027-06-19 and grow the footprint.\n\nRisks & pain points:\n- Agents keep sending customers outdated articles with old screenshots. (Hugo Byrne, Support Enablement Lead)\n\nRelationship: Main contact will be on leave for two weeks in December."
+  },
+  {
+    "id": "note_093",
+    "accountId": "acc_031",
+    "kind": "call_note",
+    "title": "Account review call: Dunmore Distillers",
+    "date": "2026-09-24",
+    "author": "Erik Lund",
+    "contactId": "acc_031_c1",
+    "body": "Attendees: Nadia Costa (Head of Customer Support); Erik Lund (Lumio)\n\nThey have a new finance director starting next month.\nNadia (Head of Customer Support) said: \"Our monthly report is stitched together from five different exports.\"\nThey are restructuring the team into regional pods.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_094",
+    "accountId": "acc_032",
+    "kind": "cs_note",
+    "title": "CS check-in: Elmstead Housing (January 2026)",
+    "date": "2026-01-12",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_032_c3",
+    "body": "Health: Amber. Good energy on the call; they want to see more of the product.\nRaised by Oscar Kelly: Agents copy and paste account details from Salesforce into every ticket.\nRaised by Zoe Larsen: Password reset tickets alone eat a full agent's week.\nDiscussed the product roadmap at a high level."
+  },
+  {
+    "id": "note_095",
+    "accountId": "acc_032",
+    "kind": "support_ticket",
+    "title": "Ticket #48233: Planning for next season",
+    "date": "2026-07-21",
+    "author": "Oscar Kelly",
+    "contactId": "acc_032_c3",
+    "body": "From: Oscar Kelly <oscar.kelly@elmsteadhousing.example>\nPriority: Normal\n\nHi team,\nWe were badly understaffed during the January peak and overstaffed in August.\nIs there anything in Lumio that could help with this?\n\nThanks,\nOscar"
+  },
+  {
+    "id": "note_096",
+    "accountId": "acc_032",
+    "kind": "cs_note",
+    "title": "CS check-in: Elmstead Housing (September 2026)",
+    "date": "2026-09-10",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_032_c1",
+    "body": "Health: Green. Main contact will be on leave for two weeks in December.\nThey are restructuring the team into regional pods."
+  },
+  {
+    "id": "note_097",
+    "accountId": "acc_033",
+    "kind": "call_note",
+    "title": "Discovery call: Fjordline Ferries",
+    "date": "2025-11-28",
+    "author": "Aoife Brennan",
+    "contactId": "acc_033_c1",
+    "body": "Attendees: Ines Byrne (VP Customer Experience), Freya Novak (Security & Compliance Lead); Aoife Brennan (Lumio)\n\nGood energy on the call; they want to see more of the product.\nInes (VP Customer Experience) said: \"Our monthly report is stitched together from five different exports.\"\nFreya (Security & Compliance Lead) said: \"IT wants everything behind Okta with SCIM provisioning before we add more users.\"\nTheir budget cycle starts in October.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_098",
+    "accountId": "acc_033",
+    "kind": "support_ticket",
+    "title": "Ticket #48234: Planning for next season",
+    "date": "2026-05-10",
+    "author": "Aisling Walsh",
+    "contactId": "acc_033_c3",
+    "body": "From: Aisling Walsh <aisling.walsh@fjordlineferries.example>\nPriority: Normal\n\nHi team,\nWe were badly understaffed during the January peak and overstaffed in August.\nIs there anything in Lumio that could help with this?\n\nThanks,\nAisling"
+  },
+  {
+    "id": "note_099",
+    "accountId": "acc_033",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Fjordline Ferries",
+    "date": "2026-10-05",
+    "author": "Aoife Brennan",
+    "contactId": "acc_033_c1",
+    "body": "Owner: Aoife Brennan\nGoals: protect the renewal on 2027-05-20 and grow the footprint.\n\nRisks & pain points:\n- Last quarter we missed our response targets for our top accounts and nobody saw it coming. (Ines Byrne, VP Customer Experience)\n\nRelationship: Their budget cycle starts in October."
+  },
+  {
+    "id": "note_100",
+    "accountId": "acc_034",
+    "kind": "call_note",
+    "title": "Account review call: Glenroe Outdoor",
+    "date": "2026-03-12",
+    "author": "Lena Vogel",
+    "contactId": "acc_034_c1",
+    "body": "Attendees: Stefan Garcia (Director of Support); Lena Vogel (Lumio)\n\nDiscussed the product roadmap at a high level.\nStefan (Director of Support) said: \"Our SOC 2 auditors asked who changed a ticket's priority and we had no audit log to show them.\"\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_101",
+    "accountId": "acc_034",
+    "kind": "cs_note",
+    "title": "CS check-in: Glenroe Outdoor (June 2026)",
+    "date": "2026-06-01",
+    "author": "CSM for DACH",
+    "contactId": "acc_034_c1",
+    "body": "Health: Green. Discussed the product roadmap at a high level.\nRaised by Stefan Garcia: Agents sometimes hear card numbers over the phone and that's a PCI problem for us.\nOverall relationship is healthy and the champion is engaged."
+  },
+  {
+    "id": "note_102",
+    "accountId": "acc_034",
+    "kind": "support_ticket",
+    "title": "Ticket #48235: Invoice copy",
+    "date": "2026-10-23",
+    "author": "Stefan Garcia",
+    "contactId": "acc_034_c1",
+    "body": "From: Stefan Garcia <stefan.garcia@glenroeoutdoor.example>\nPriority: Normal\n\nHi team,\nCould you resend last quarter's invoice to our accounts payable team?\n\nThanks,\nStefan"
+  },
+  {
+    "id": "note_103",
+    "accountId": "acc_035",
+    "kind": "call_note",
+    "title": "Discovery call: Hollis Analytics",
+    "date": "2026-01-05",
+    "author": "Sanne de Wit",
+    "contactId": "acc_035_c1",
+    "body": "Attendees: Theo Lindgren (Head of Customer Support), Hugo Jansen (Content & Self-Service Lead); Sanne de Wit (Lumio)\n\nNo open issues with us at the moment.\nTheo (Head of Customer Support) said: \"Two of our biggest customers asked about 24/7 coverage but we can't afford a night shift.\"\nHugo (Content & Self-Service Lead) said: \"It takes new agents three months to ramp because everything is tribal knowledge.\"\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_104",
+    "accountId": "acc_035",
+    "kind": "call_note",
+    "title": "Expansion call: Hollis Analytics",
+    "date": "2026-07-31",
+    "author": "Sanne de Wit",
+    "contactId": "acc_035_c2",
+    "body": "Attendees: Theo Lindgren (Head of Customer Support), Hugo Jansen (Content & Self-Service Lead); Sanne de Wit (Lumio)\n\nDiscussed the product roadmap at a high level.\nHugo (Content & Self-Service Lead) said: \"Agents keep sending customers outdated articles with old screenshots.\"\nNo open issues with us at the moment.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_105",
+    "accountId": "acc_035",
+    "kind": "support_ticket",
+    "title": "Ticket #48236: Help centre content issues",
+    "date": "2026-10-04",
+    "author": "Hugo Jansen",
+    "contactId": "acc_035_c2",
+    "body": "From: Hugo Jansen <hugo.jansen@hollisanalytics.example>\nPriority: Normal\n\nHi team,\nWe have hundreds of stale articles and no way of knowing which ones are wrong.\nIs there anything in Lumio that could help with this?\n\nThanks,\nHugo"
+  },
+  {
+    "id": "note_106",
+    "accountId": "acc_036",
+    "kind": "cs_note",
+    "title": "CS check-in: Ibex Engineering (March 2026)",
+    "date": "2026-03-09",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_036_c1",
+    "body": "Health: Amber. Good energy on the call; they want to see more of the product.\nRaised by Bram Walsh: Our COO wants one page of support numbers every Monday and it takes my lead half a day to build.\nRaised by Ana Romano: We genuinely don't know what to write next; there's no link between tickets and missing articles.\nTheir budget cycle starts in October."
+  },
+  {
+    "id": "note_107",
+    "accountId": "acc_036",
+    "kind": "call_note",
+    "title": "Expansion call: Ibex Engineering",
+    "date": "2026-04-09",
+    "author": "Lucía Romero",
+    "contactId": "acc_036_c1",
+    "body": "Attendees: Bram Walsh (Director of Support); Lucía Romero (Lumio)\n\nUsage looks steady across both sites.\nBram (Director of Support) said: \"Probably 40% of our volume is the same questions over and over: how to download an invoice, how to add a user.\"\nThey mentioned the team is moving offices in Q1.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_108",
+    "accountId": "acc_036",
+    "kind": "cs_note",
+    "title": "CS check-in: Ibex Engineering (October 2026)",
+    "date": "2026-10-13",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_036_c1",
+    "body": "Health: Green. The team asked for a copy of our latest security whitepaper.\nTheir budget cycle starts in October."
+  },
+  {
+    "id": "note_109",
+    "accountId": "acc_037",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Juniper Lending",
+    "date": "2025-12-09",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_037_c2",
+    "body": "Owner: Tom Hargreaves\nGoals: protect the renewal on 2027-07-31 and grow the footprint.\n\nRisks & pain points:\n- We genuinely don't know what to write next; there's no link between tickets and missing articles. (Sam Hoffmann, Support Enablement Lead)\n- I need to justify headcount to finance and I have no forecast to back it up. (Liam Bakker, Head of Customer Support)\n\nRelationship: Usage looks steady across both sites."
+  },
+  {
+    "id": "note_110",
+    "accountId": "acc_037",
+    "kind": "call_note",
+    "title": "Expansion call: Juniper Lending",
+    "date": "2026-06-30",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_037_c1",
+    "body": "Attendees: Liam Bakker (Head of Customer Support); Tom Hargreaves (Lumio)\n\nOverall relationship is healthy and the champion is engaged.\nLiam (Head of Customer Support) said: \"Our monthly report is stitched together from five different exports.\"\nTheir CEO is speaking at our customer conference in spring.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_111",
+    "accountId": "acc_037",
+    "kind": "call_note",
+    "title": "Expansion call: Juniper Lending",
+    "date": "2026-08-26",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_037_c2",
+    "body": "Attendees: Liam Bakker (Head of Customer Support), Sam Hoffmann (Support Enablement Lead); Tom Hargreaves (Lumio)\n\nThey are restructuring the team into regional pods.\nSam (Support Enablement Lead) said: \"I suspect there are big content gaps but I can't prove which articles we need.\"\nOverall relationship is healthy and the champion is engaged.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_112",
+    "accountId": "acc_038",
+    "kind": "support_ticket",
+    "title": "Ticket #48237: Help centre content issues",
+    "date": "2025-12-15",
+    "author": "Grace Visser",
+    "contactId": "acc_038_c2",
+    "body": "From: Grace Visser <grace.visser@kilnworthceramics.example>\nPriority: Normal\n\nHi team,\nOur help pages still show the old menu from two versions ago.\nIs there anything in Lumio that could help with this?\n\nThanks,\nGrace"
+  },
+  {
+    "id": "note_113",
+    "accountId": "acc_038",
+    "kind": "cs_note",
+    "title": "CS check-in: Kilnworth Ceramics (May 2026)",
+    "date": "2026-05-18",
+    "author": "CSM for DACH",
+    "contactId": "acc_038_c1",
+    "body": "Health: Green. They are restructuring the team into regional pods.\nNo open issues with us at the moment."
+  },
+  {
+    "id": "note_114",
+    "accountId": "acc_038",
+    "kind": "call_note",
+    "title": "Account review call: Kilnworth Ceramics",
+    "date": "2026-09-19",
+    "author": "Markus Feld",
+    "contactId": "acc_038_c2",
+    "body": "Attendees: Dara Berg (VP Customer Experience), Grace Visser (Support Enablement Lead); Markus Feld (Lumio)\n\nUsage looks steady across both sites.\nGrace (Support Enablement Lead) said: \"Agents keep sending customers outdated articles with old screenshots.\"\nThe team asked for a copy of our latest security whitepaper.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_115",
+    "accountId": "acc_039",
+    "kind": "support_ticket",
+    "title": "Ticket #48238: Tickets ending up in the wrong team",
+    "date": "2026-03-30",
+    "author": "Tara Schmidt",
+    "contactId": "acc_039_c3",
+    "body": "From: Tara Schmidt <tara.schmidt@larchmontlearning.example>\nPriority: Normal\n\nHi team,\nRouting is all manual, so urgent issues sit behind password questions.\nIs there anything in Lumio that could help with this?\n\nThanks,\nTara"
+  },
+  {
+    "id": "note_116",
+    "accountId": "acc_039",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Larchmont Learning",
+    "date": "2026-07-13",
+    "author": "Erik Lund",
+    "contactId": "acc_039_c1",
+    "body": "Owner: Erik Lund\nGoals: protect the renewal on 2027-02-14 and grow the footprint.\n\nRisks & pain points:\n- Customers in APAC get no answers overnight because we only staff office hours. (Oscar Doyle, Director of Support)\n- Our monthly report is stitched together from five different exports. (Oscar Doyle, Director of Support)\n\nRelationship: Their CEO is speaking at our customer conference in spring."
+  },
+  {
+    "id": "note_117",
+    "accountId": "acc_039",
+    "kind": "call_note",
+    "title": "Check-in call: Larchmont Learning",
+    "date": "2026-08-28",
+    "author": "Erik Lund",
+    "contactId": "acc_039_c1",
+    "body": "Attendees: Oscar Doyle (Director of Support); Erik Lund (Lumio)\n\nThey mentioned the team is moving offices in Q1.\nThe team asked for a copy of our latest security whitepaper.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_118",
+    "accountId": "acc_040",
+    "kind": "cs_note",
+    "title": "CS check-in: Marlowe Subscriptions (March 2026)",
+    "date": "2026-03-18",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_040_c1",
+    "body": "Health: Green. Discussed the product roadmap at a high level.\nRaised by Hugo Berg: Data residency is a blocker for our public-sector customers.\nThey have a new finance director starting next month."
+  },
+  {
+    "id": "note_119",
+    "accountId": "acc_040",
+    "kind": "support_ticket",
+    "title": "Ticket #48239: Can we reduce simple questions?",
+    "date": "2026-08-04",
+    "author": "Hugo Berg",
+    "contactId": "acc_040_c1",
+    "body": "From: Hugo Berg <hugo.berg@marlowesubscriptions.example>\nPriority: Normal\n\nHi team,\nProbably 40% of our volume is the same questions over and over: how to download an invoice, how to add a user.\nIs there anything in Lumio that could help with this?\n\nThanks,\nHugo"
+  },
+  {
+    "id": "note_120",
+    "accountId": "acc_040",
+    "kind": "cs_note",
+    "title": "CS check-in: Marlowe Subscriptions (September 2026)",
+    "date": "2026-09-08",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_040_c1",
+    "body": "Health: Green. They mentioned the team is moving offices in Q1.\nGood energy on the call; they want to see more of the product."
+  },
+  {
+    "id": "note_121",
+    "accountId": "acc_041",
+    "kind": "call_note",
+    "title": "Expansion call: Nettlebridge Water",
+    "date": "2025-12-20",
+    "author": "Aoife Brennan",
+    "contactId": "acc_041_c1",
+    "body": "Attendees: Zoe Romano (Director of Support), Pieter Costa (Support Team Lead); Aoife Brennan (Lumio)\n\nThe team asked for a copy of our latest security whitepaper.\nZoe (Director of Support) said: \"Our COO wants one page of support numbers every Monday and it takes my lead half a day to build.\"\nPieter (Support Team Lead) said: \"Nobody can summarise calls consistently; half the notes just say 'customer called'.\"\nUsage looks steady across both sites.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_122",
+    "accountId": "acc_041",
+    "kind": "support_ticket",
+    "title": "Ticket #48240: Planning for next season",
+    "date": "2026-07-09",
+    "author": "Pieter Costa",
+    "contactId": "acc_041_c3",
+    "body": "From: Pieter Costa <pieter.costa@nettlebridgewater.example>\nPriority: Normal\n\nHi team,\nWe never know how many people to put on shift for Black Friday.\nIs there anything in Lumio that could help with this?\n\nThanks,\nPieter"
+  },
+  {
+    "id": "note_123",
+    "accountId": "acc_041",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Nettlebridge Water",
+    "date": "2026-08-26",
+    "author": "Aoife Brennan",
+    "contactId": "acc_041_c3",
+    "body": "Owner: Aoife Brennan\nGoals: protect the renewal on 2027-06-16 and grow the footprint.\n\nRisks & pain points:\n- We never know how many people to put on shift for Black Friday. (Pieter Costa, Support Team Lead)\n\nRelationship: Good energy on the call; they want to see more of the product."
+  },
+  {
+    "id": "note_124",
+    "accountId": "acc_042",
+    "kind": "call_note",
+    "title": "Expansion call: Ostara Wellness",
+    "date": "2026-01-26",
+    "author": "Lena Vogel",
+    "contactId": "acc_042_c2",
+    "body": "Attendees: Aisling Novak (Director of Support), Liam Lopez (Head of IT); Lena Vogel (Lumio)\n\nTheir CEO is speaking at our customer conference in spring.\nLiam (Head of IT) said: \"Our DPO keeps raising GDPR concerns about where ticket data is hosted.\"\nTheir budget cycle starts in October.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_125",
+    "accountId": "acc_042",
+    "kind": "cs_note",
+    "title": "CS check-in: Ostara Wellness (June 2026)",
+    "date": "2026-06-13",
+    "author": "CSM for DACH",
+    "contactId": "acc_042_c1",
+    "body": "Health: Green. Asked for the updated invoice to be sent to accounts payable.\nRaised by Aisling Novak: It's a quarter before a new starter can work without asking a colleague every five minutes.\nOverall relationship is healthy and the champion is engaged."
+  },
+  {
+    "id": "note_126",
+    "accountId": "acc_042",
+    "kind": "support_ticket",
+    "title": "Ticket #48241: Invoice copy",
+    "date": "2026-09-16",
+    "author": "Aisling Novak",
+    "contactId": "acc_042_c1",
+    "body": "From: Aisling Novak <aisling.novak@ostarawellness.example>\nPriority: Normal\n\nHi team,\nCould you resend last quarter's invoice to our accounts payable team?\n\nThanks,\nAisling"
+  },
+  {
+    "id": "note_127",
+    "accountId": "acc_043",
+    "kind": "call_note",
+    "title": "Discovery call: Parkhurst Motors",
+    "date": "2025-12-23",
+    "author": "Sanne de Wit",
+    "contactId": "acc_043_c4",
+    "body": "Attendees: Clara Walsh (VP Customer Experience), Rosa Romano (Security & Compliance Lead); Sanne de Wit (Lumio)\n\nThey are restructuring the team into regional pods.\nRosa (Security & Compliance Lead) said: \"Our external assessors want proof of every configuration change and we can't give it to them.\"\nClara (VP Customer Experience) said: \"We run phone queues on an old telephony box nobody wants to touch.\"\nMain contact will be on leave for two weeks in December.\n\nNext steps: Share the latest customer story from their industry."
+  },
+  {
+    "id": "note_128",
+    "accountId": "acc_043",
+    "kind": "call_note",
+    "title": "Account review call: Parkhurst Motors",
+    "date": "2026-04-10",
+    "author": "Sanne de Wit",
+    "contactId": "acc_043_c2",
+    "body": "Attendees: Clara Walsh (VP Customer Experience), Ana Lindgren (Support Team Lead); Sanne de Wit (Lumio)\n\nRenewal paperwork is with their procurement team; no concerns on pricing so far.\nAna (Support Team Lead) said: \"Our handle time is creeping up because agents spend ages writing replies to complex tickets.\"\nAna (Support Team Lead) said: \"We were badly understaffed during the January peak and overstaffed in August.\"\nOverall relationship is healthy and the champion is engaged.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_129",
+    "accountId": "acc_043",
+    "kind": "support_ticket",
+    "title": "Ticket #48242: Agent productivity",
+    "date": "2026-09-09",
+    "author": "Ana Lindgren",
+    "contactId": "acc_043_c2",
+    "body": "From: Ana Lindgren <ana.lindgren@parkhurstmotors.example>\nPriority: Normal\n\nHi team,\nOur handle time is creeping up because agents spend ages writing replies to complex tickets.\nIs there anything in Lumio that could help with this?\n\nThanks,\nAna"
+  },
+  {
+    "id": "note_130",
+    "accountId": "acc_044",
+    "kind": "cs_note",
+    "title": "CS check-in: Quillon Pay (February 2026)",
+    "date": "2026-02-08",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_044_c3",
+    "body": "Health: Amber. Their CEO is speaking at our customer conference in spring.\nRaised by Ruth Nolan: Every refund over €500 needs an approval and agents spend days chasing managers on Slack.\nRaised by Kate Walsh: Translating articles into Spanish and Italian is done by a freelancer and takes weeks.\nMostly positive feedback on the new inbox layout."
+  },
+  {
+    "id": "note_131",
+    "accountId": "acc_044",
+    "kind": "call_note",
+    "title": "Account review call: Quillon Pay",
+    "date": "2026-08-02",
+    "author": "Lucía Romero",
+    "contactId": "acc_044_c1",
+    "body": "Attendees: Kate Walsh (VP Customer Experience), Ruth Nolan (CX Operations Lead); Lucía Romero (Lumio)\n\nTheir budget cycle starts in October.\nKate (VP Customer Experience) said: \"Our monthly report is stitched together from five different exports.\"\nRuth (CX Operations Lead) said: \"We were badly understaffed during the January peak and overstaffed in August.\"\nThey mentioned the team is moving offices in Q1.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_132",
+    "accountId": "acc_044",
+    "kind": "cs_note",
+    "title": "CS check-in: Quillon Pay (October 2026)",
+    "date": "2026-10-03",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_044_c1",
+    "body": "Health: Green. Mostly positive feedback on the new inbox layout.\nRaised by Kate Walsh: We just opened in Germany and France and can only support customers in English.\nThe team asked for a copy of our latest security whitepaper."
+  },
+  {
+    "id": "note_133",
+    "accountId": "acc_045",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Rookwood Events",
+    "date": "2025-12-12",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_045_c2",
+    "body": "Owner: Tom Hargreaves\nGoals: protect the renewal on 2027-07-24 and grow the footprint.\n\nRisks & pain points:\n- It takes new agents three months to ramp because everything is tribal knowledge. (Fatima Larsen, Knowledge Manager)\n- CSAT dropped six points this quarter and we honestly don't know why. (Niall Berg, Director of Support)\n\nRelationship: Mostly positive feedback on the new inbox layout."
+  },
+  {
+    "id": "note_134",
+    "accountId": "acc_045",
+    "kind": "call_note",
+    "title": "Account review call: Rookwood Events",
+    "date": "2026-04-20",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_045_c1",
+    "body": "Attendees: Niall Berg (Director of Support); Tom Hargreaves (Lumio)\n\nTheir budget cycle starts in October.\nNiall (Director of Support) said: \"We just opened in Germany and France and can only support customers in English.\"\nNo open issues with us at the moment.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_135",
+    "accountId": "acc_045",
+    "kind": "call_note",
+    "title": "Account review call: Rookwood Events",
+    "date": "2026-09-27",
+    "author": "Tom Hargreaves",
+    "contactId": "acc_045_c1",
+    "body": "Attendees: Niall Berg (Director of Support); Tom Hargreaves (Lumio)\n\nUsage looks steady across both sites.\nNiall (Director of Support) said: \"We just opened in Germany and France and can only support customers in English.\"\nTheir budget cycle starts in October.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_136",
+    "accountId": "acc_046",
+    "kind": "support_ticket",
+    "title": "Ticket #48243: Support in more countries",
+    "date": "2026-02-17",
+    "author": "Ruth Brady",
+    "contactId": "acc_046_c1",
+    "body": "From: Ruth Brady <ruth.brady@saltmarshshipping.example>\nPriority: Normal\n\nHi team,\nTranslating articles into Spanish and Italian is done by a freelancer and takes weeks.\nIs there anything in Lumio that could help with this?\n\nThanks,\nRuth"
+  },
+  {
+    "id": "note_137",
+    "accountId": "acc_046",
+    "kind": "cs_note",
+    "title": "CS check-in: Saltmarsh Shipping (June 2026)",
+    "date": "2026-06-23",
+    "author": "CSM for DACH",
+    "contactId": "acc_046_c4",
+    "body": "Health: Green. Mostly positive feedback on the new inbox layout.\nRaised by Kate Nolan: Agents are typing the same paragraphs again and again; macros only go so far.\nThey agreed to be a reference for a case study; their legal team is reviewing."
+  },
+  {
+    "id": "note_138",
+    "accountId": "acc_046",
+    "kind": "call_note",
+    "title": "Check-in call: Saltmarsh Shipping",
+    "date": "2026-10-04",
+    "author": "Markus Feld",
+    "contactId": "acc_046_c1",
+    "body": "Attendees: Ruth Brady (Director of Support); Markus Feld (Lumio)\n\nThey are restructuring the team into regional pods.\nRuth (Director of Support) said: \"Translating articles into Spanish and Italian is done by a freelancer and takes weeks.\"\nUsage looks steady across both sites.\n\nNext steps: Send recap and book a follow-up in four weeks."
+  },
+  {
+    "id": "note_139",
+    "accountId": "acc_047",
+    "kind": "support_ticket",
+    "title": "Ticket #48244: Compliance question about calls",
+    "date": "2026-01-08",
+    "author": "Hugo Walsh",
+    "contactId": "acc_047_c1",
+    "body": "From: Hugo Walsh <hugo.walsh@thornburypensions.example>\nPriority: Normal\n\nHi team,\nWe have to redact card details from recordings manually.\nIs there anything in Lumio that could help with this?\n\nThanks,\nHugo"
+  },
+  {
+    "id": "note_140",
+    "accountId": "acc_047",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Thornbury Pensions",
+    "date": "2026-05-23",
+    "author": "Erik Lund",
+    "contactId": "acc_047_c1",
+    "body": "Owner: Erik Lund\nGoals: protect the renewal on 2027-09-02 and grow the footprint.\n\nRisks & pain points:\n- We need an audit trail we can hand over for ISO 27001 next spring. (Hugo Walsh, Director of Support)\n\nRelationship: Usage looks steady across both sites."
+  },
+  {
+    "id": "note_141",
+    "accountId": "acc_047",
+    "kind": "call_note",
+    "title": "Account review call: Thornbury Pensions",
+    "date": "2026-09-19",
+    "author": "Erik Lund",
+    "contactId": "acc_047_c1",
+    "body": "Attendees: Hugo Walsh (Director of Support); Erik Lund (Lumio)\n\nTheir budget cycle starts in October.\nAsked for the updated invoice to be sent to accounts payable.\n\nNext steps: Send pricing summary to procurement."
+  },
+  {
+    "id": "note_142",
+    "accountId": "acc_048",
+    "kind": "cs_note",
+    "title": "CS check-in: Upland Grocers (December 2025)",
+    "date": "2025-12-07",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_048_c1",
+    "body": "Health: Amber. They have a new finance director starting next month.\nRaised by Chloe Visser: Customers in APAC get no answers overnight because we only staff office hours.\nRaised by Ciaran Murphy: Agents sometimes hear card numbers over the phone and that's a PCI problem for us.\nThe team asked for a copy of our latest security whitepaper."
+  },
+  {
+    "id": "note_143",
+    "accountId": "acc_048",
+    "kind": "support_ticket",
+    "title": "Ticket #48245: Monthly numbers for leadership",
+    "date": "2026-08-11",
+    "author": "Chloe Visser",
+    "contactId": "acc_048_c1",
+    "body": "From: Chloe Visser <chloe.visser@uplandgrocers.example>\nPriority: Normal\n\nHi team,\nLeadership keeps asking for a support dashboard and I'm building it by hand in Excel.\nIs there anything in Lumio that could help with this?\n\nThanks,\nChloe"
+  },
+  {
+    "id": "note_144",
+    "accountId": "acc_048",
+    "kind": "cs_note",
+    "title": "CS check-in: Upland Grocers (October 2026)",
+    "date": "2026-10-25",
+    "author": "CSM for Southern Europe",
+    "contactId": "acc_048_c1",
+    "body": "Health: Green. Asked for the updated invoice to be sent to accounts payable.\nMain contact will be on leave for two weeks in December."
+  },
+  {
+    "id": "note_145",
+    "accountId": "acc_049",
+    "kind": "call_note",
+    "title": "Check-in call: Verity Cloud",
+    "date": "2026-01-19",
+    "author": "Aoife Brennan",
+    "contactId": "acc_049_c3",
+    "body": "Attendees: Yara Bakker (Director of Support), Ana Costa (Support Team Lead); Aoife Brennan (Lumio)\n\nTheir budget cycle starts in October.\nAna (Support Team Lead) said: \"We never know how many people to put on shift for Black Friday.\"\nYara (Director of Support) said: \"Password reset tickets alone eat a full agent's week.\"\nUsage looks steady across both sites.\n\nNext steps: Confirm attendees for the next QBR."
+  },
+  {
+    "id": "note_146",
+    "accountId": "acc_049",
+    "kind": "support_ticket",
+    "title": "Ticket #48246: Invoice copy",
+    "date": "2026-06-03",
+    "author": "Yara Bakker",
+    "contactId": "acc_049_c1",
+    "body": "From: Yara Bakker <yara.bakker@veritycloud.example>\nPriority: Normal\n\nHi team,\nCould you resend last quarter's invoice to our accounts payable team?\n\nThanks,\nYara"
+  },
+  {
+    "id": "note_147",
+    "accountId": "acc_049",
+    "kind": "account_plan",
+    "title": "Account plan FY27: Verity Cloud",
+    "date": "2026-09-20",
+    "author": "Aoife Brennan",
+    "contactId": "acc_049_c1",
+    "body": "Owner: Aoife Brennan\nGoals: protect the renewal on 2027-02-12 and grow the footprint.\n\nRisks & pain points:\n- Mostly positive feedback on the new inbox layout.\n\nRelationship: Overall relationship is healthy and the champion is engaged."
+  },
+  {
+    "id": "note_148",
+    "accountId": "acc_050",
+    "kind": "call_note",
+    "title": "Check-in call: Wrenfield Charities",
+    "date": "2026-03-22",
+    "author": "Lena Vogel",
+    "contactId": "acc_050_c1",
+    "body": "Attendees: Vera Weber (VP Customer Experience); Lena Vogel (Lumio)\n\nThey have a new finance director starting next month.\nVera (VP Customer Experience) said: \"We just opened in Germany and France and can only support customers in English.\"\nVera (VP Customer Experience) said: \"Customers in APAC get no answers overnight because we only staff office hours.\"\nTheir CEO is speaking at our customer conference in spring.\n\nNext steps: Loop in solutions engineering for a deeper session."
+  },
+  {
+    "id": "note_149",
+    "accountId": "acc_050",
+    "kind": "cs_note",
+    "title": "CS check-in: Wrenfield Charities (April 2026)",
+    "date": "2026-04-21",
+    "author": "CSM for DACH",
+    "contactId": "acc_050_c1",
+    "body": "Health: Amber. Good energy on the call; they want to see more of the product.\nRaised by Vera Weber: We only find out we've breached an SLA after the fact, when the customer complains.\nRaised by Emil Weber: It takes new agents three months to ramp because everything is tribal knowledge.\nMain contact will be on leave for two weeks in December."
+  },
+  {
+    "id": "note_150",
+    "accountId": "acc_050",
+    "kind": "support_ticket",
+    "title": "Ticket #48247: Invoice copy",
+    "date": "2026-08-25",
+    "author": "Vera Weber",
+    "contactId": "acc_050_c1",
+    "body": "From: Vera Weber <vera.weber@wrenfieldcharities.example>\nPriority: Normal\n\nHi team,\nCould you resend last quarter's invoice to our accounts payable team?\n\nThanks,\nVera"
+  }
+]

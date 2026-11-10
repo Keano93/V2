@@ -1,0 +1,42 @@
+[
+  {
+    "id": "head_of_support",
+    "name": "Head of Customer Support",
+    "description": "Owns the support budget, CSAT and headcount. Economic buyer for new products.",
+    "exampleTitles": [
+      "Head of Customer Support",
+      "VP Customer Experience",
+      "Director of Support"
+    ]
+  },
+  {
+    "id": "support_ops",
+    "name": "Support Operations Manager",
+    "description": "Runs queues, workflows, SLAs and staffing. Feels efficiency pain daily.",
+    "exampleTitles": [
+      "Support Operations Manager",
+      "Support Team Lead",
+      "CX Operations Lead"
+    ]
+  },
+  {
+    "id": "knowledge_lead",
+    "name": "Knowledge & Enablement Lead",
+    "description": "Owns the help centre, internal knowledge and agent onboarding.",
+    "exampleTitles": [
+      "Knowledge Manager",
+      "Support Enablement Lead",
+      "Content & Self-Service Lead"
+    ]
+  },
+  {
+    "id": "it_admin",
+    "name": "IT & Security Admin",
+    "description": "Owns access, compliance and data protection. Can block or accelerate a deal.",
+    "exampleTitles": [
+      "IT Systems Manager",
+      "Head of IT",
+      "Security & Compliance Lead"
+    ]
+  }
+]

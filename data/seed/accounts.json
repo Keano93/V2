@@ -1,0 +1,2925 @@
+[
+  {
+    "id": "acc_001",
+    "name": "Harbourline Logistics",
+    "domain": "harbourlinelogistics.example",
+    "industry": "Logistics",
+    "segment": "Mid-Market",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Aoife Brennan",
+    "employees": 977,
+    "agents": 58,
+    "contractStart": "2023-11-01",
+    "renewalDate": "2027-11-01",
+    "contacts": [
+      {
+        "id": "acc_001_c1",
+        "name": "Ben Berg",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "ben.berg@harbourlinelogistics.example"
+      },
+      {
+        "id": "acc_001_c2",
+        "name": "Finn Moreau",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "finn.moreau@harbourlinelogistics.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 58,
+        "activeSeats": 45,
+        "arr": 40716,
+        "addOns": [],
+        "since": "2023-11-01"
+      },
+      {
+        "product": "knowledge",
+        "seats": 58,
+        "activeSeats": 45,
+        "arr": 12528,
+        "addOns": [],
+        "since": "2023-11-23"
+      },
+      {
+        "product": "automate",
+        "seats": 28,
+        "activeSeats": 18,
+        "arr": 10584,
+        "addOns": [],
+        "since": "2025-05-22"
+      }
+    ]
+  },
+  {
+    "id": "acc_002",
+    "name": "Veltra Insurance",
+    "domain": "veltrainsurance.example",
+    "industry": "Insurance",
+    "segment": "Enterprise",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Lena Vogel",
+    "employees": 6171,
+    "agents": 359,
+    "contractStart": "2025-06-20",
+    "renewalDate": "2027-06-20",
+    "contacts": [
+      {
+        "id": "acc_002_c1",
+        "name": "Kate Costa",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "kate.costa@veltrainsurance.example"
+      },
+      {
+        "id": "acc_002_c2",
+        "name": "Clara Keller",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "clara.keller@veltrainsurance.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 359,
+        "activeSeats": 269,
+        "arr": 224016,
+        "addOns": [],
+        "since": "2025-06-20"
+      },
+      {
+        "product": "knowledge",
+        "seats": 280,
+        "activeSeats": 172,
+        "arr": 53760,
+        "addOns": [],
+        "since": "2025-09-13"
+      }
+    ]
+  },
+  {
+    "id": "acc_003",
+    "name": "Copperleaf Energy",
+    "domain": "copperleafenergy.example",
+    "industry": "Energy",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Sanne de Wit",
+    "employees": 1334,
+    "agents": 58,
+    "contractStart": "2023-04-18",
+    "renewalDate": "2027-04-18",
+    "contacts": [
+      {
+        "id": "acc_003_c1",
+        "name": "Will Berg",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "will.berg@copperleafenergy.example"
+      },
+      {
+        "id": "acc_003_c2",
+        "name": "Rosa Costa",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "rosa.costa@copperleafenergy.example"
+      },
+      {
+        "id": "acc_003_c3",
+        "name": "Freya Larsen",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "freya.larsen@copperleafenergy.example"
+      },
+      {
+        "id": "acc_003_c4",
+        "name": "Zoe Fischer",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "zoe.fischer@copperleafenergy.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 58,
+        "activeSeats": 57,
+        "arr": 40716,
+        "addOns": [],
+        "since": "2023-04-18"
+      }
+    ]
+  },
+  {
+    "id": "acc_004",
+    "name": "Northgate Retail Group",
+    "domain": "northgateretailgroup.example",
+    "industry": "Retail",
+    "segment": "SMB",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Lucía Romero",
+    "employees": 175,
+    "agents": 7,
+    "contractStart": "2025-06-04",
+    "renewalDate": "2027-06-04",
+    "contacts": [
+      {
+        "id": "acc_004_c1",
+        "name": "Dev Byrne",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "dev.byrne@northgateretailgroup.example"
+      },
+      {
+        "id": "acc_004_c2",
+        "name": "Zoe Garcia",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "zoe.garcia@northgateretailgroup.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 7,
+        "activeSeats": 4,
+        "arr": 6279,
+        "addOns": [
+          "Desk Shield"
+        ],
+        "since": "2025-06-04"
+      },
+      {
+        "product": "insights",
+        "seats": 7,
+        "activeSeats": 6,
+        "arr": 2100,
+        "addOns": [],
+        "since": "2025-06-14"
+      }
+    ]
+  },
+  {
+    "id": "acc_005",
+    "name": "Brightwell Health",
+    "domain": "brightwellhealth.example",
+    "industry": "Healthcare",
+    "segment": "Mid-Market",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Tom Hargreaves",
+    "employees": 1613,
+    "agents": 43,
+    "contractStart": "2024-03-18",
+    "renewalDate": "2027-03-18",
+    "contacts": [
+      {
+        "id": "acc_005_c1",
+        "name": "Bram Kelly",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "bram.kelly@brightwellhealth.example"
+      },
+      {
+        "id": "acc_005_c2",
+        "name": "Finn Costa",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "finn.costa@brightwellhealth.example"
+      },
+      {
+        "id": "acc_005_c3",
+        "name": "Zoe Costa",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "zoe.costa@brightwellhealth.example"
+      },
+      {
+        "id": "acc_005_c4",
+        "name": "Hugo Keller",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "hugo.keller@brightwellhealth.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 43,
+        "activeSeats": 27,
+        "arr": 30186,
+        "addOns": [],
+        "since": "2024-03-18"
+      },
+      {
+        "product": "knowledge",
+        "seats": 43,
+        "activeSeats": 38,
+        "arr": 9288,
+        "addOns": [],
+        "since": "2024-09-08"
+      },
+      {
+        "product": "insights",
+        "seats": 43,
+        "activeSeats": 40,
+        "arr": 11610,
+        "addOns": [],
+        "since": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "id": "acc_006",
+    "name": "Orrin Telecom",
+    "domain": "orrintelecom.example",
+    "industry": "Telecom",
+    "segment": "SMB",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Markus Feld",
+    "employees": 185,
+    "agents": 7,
+    "contractStart": "2024-03-17",
+    "renewalDate": "2027-03-17",
+    "contacts": [
+      {
+        "id": "acc_006_c1",
+        "name": "Ben Dubois",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "ben.dubois@orrintelecom.example"
+      },
+      {
+        "id": "acc_006_c2",
+        "name": "Sam Romano",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "sam.romano@orrintelecom.example"
+      },
+      {
+        "id": "acc_006_c3",
+        "name": "Aisling Hoffmann",
+        "title": "Content & Self-Service Lead",
+        "persona": "knowledge_lead",
+        "email": "aisling.hoffmann@orrintelecom.example"
+      },
+      {
+        "id": "acc_006_c4",
+        "name": "Clara Ferrari",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "clara.ferrari@orrintelecom.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 7,
+        "activeSeats": 6,
+        "arr": 5460,
+        "addOns": [],
+        "since": "2024-03-17"
+      },
+      {
+        "product": "knowledge",
+        "seats": 7,
+        "activeSeats": 6,
+        "arr": 1680,
+        "addOns": [],
+        "since": "2024-03-27"
+      }
+    ]
+  },
+  {
+    "id": "acc_007",
+    "name": "Kestrel Payments",
+    "domain": "kestrelpayments.example",
+    "industry": "Fintech",
+    "segment": "SMB",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Erik Lund",
+    "employees": 109,
+    "agents": 6,
+    "contractStart": "2023-02-02",
+    "renewalDate": "2027-02-02",
+    "contacts": [
+      {
+        "id": "acc_007_c1",
+        "name": "Olga Lopez",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "olga.lopez@kestrelpayments.example"
+      },
+      {
+        "id": "acc_007_c2",
+        "name": "Bram Fischer",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "bram.fischer@kestrelpayments.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 6,
+        "activeSeats": 5,
+        "arr": 4680,
+        "addOns": [],
+        "since": "2023-02-02"
+      }
+    ]
+  },
+  {
+    "id": "acc_008",
+    "name": "Albavista Travel",
+    "domain": "albavistatravel.example",
+    "industry": "Travel",
+    "segment": "SMB",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Marco Bassi",
+    "employees": 87,
+    "agents": 6,
+    "contractStart": "2023-07-21",
+    "renewalDate": "2027-07-21",
+    "contacts": [
+      {
+        "id": "acc_008_c1",
+        "name": "Quinn Rossi",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "quinn.rossi@albavistatravel.example"
+      },
+      {
+        "id": "acc_008_c2",
+        "name": "Theo Weber",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "theo.weber@albavistatravel.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 6,
+        "activeSeats": 5,
+        "arr": 4680,
+        "addOns": [],
+        "since": "2023-07-21"
+      },
+      {
+        "product": "knowledge",
+        "seats": 3,
+        "activeSeats": 2,
+        "arr": 720,
+        "addOns": [],
+        "since": "2024-12-03"
+      },
+      {
+        "product": "insights",
+        "seats": 6,
+        "activeSeats": 6,
+        "arr": 1800,
+        "addOns": [],
+        "since": "2023-09-23"
+      },
+      {
+        "product": "automate",
+        "seats": 5,
+        "activeSeats": 3,
+        "arr": 2100,
+        "addOns": [],
+        "since": "2024-03-19"
+      }
+    ]
+  },
+  {
+    "id": "acc_009",
+    "name": "Fennick Software",
+    "domain": "fennicksoftware.example",
+    "industry": "Software",
+    "segment": "Mid-Market",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Aoife Brennan",
+    "employees": 650,
+    "agents": 20,
+    "contractStart": "2024-09-22",
+    "renewalDate": "2027-09-22",
+    "contacts": [
+      {
+        "id": "acc_009_c1",
+        "name": "Kate Novak",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "kate.novak@fennicksoftware.example"
+      },
+      {
+        "id": "acc_009_c2",
+        "name": "Finn Romano",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "finn.romano@fennicksoftware.example"
+      },
+      {
+        "id": "acc_009_c3",
+        "name": "Niall Schmidt",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "niall.schmidt@fennicksoftware.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 20,
+        "activeSeats": 18,
+        "arr": 16146,
+        "addOns": [
+          "Desk Shield"
+        ],
+        "since": "2024-09-22"
+      },
+      {
+        "product": "knowledge",
+        "seats": 20,
+        "activeSeats": 13,
+        "arr": 4320,
+        "addOns": [],
+        "since": "2024-12-18"
+      },
+      {
+        "product": "automate",
+        "seats": 20,
+        "activeSeats": 18,
+        "arr": 7560,
+        "addOns": [],
+        "since": "2025-07-15"
+      },
+      {
+        "product": "voice",
+        "seats": 12,
+        "activeSeats": 11,
+        "arr": 5832,
+        "addOns": [],
+        "since": "2025-03-21"
+      }
+    ]
+  },
+  {
+    "id": "acc_010",
+    "name": "Morrow & Vale Bank",
+    "domain": "morrowandvalebank.example",
+    "industry": "Banking",
+    "segment": "Mid-Market",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Lena Vogel",
+    "employees": 1831,
+    "agents": 110,
+    "contractStart": "2024-12-27",
+    "renewalDate": "2026-12-27",
+    "contacts": [
+      {
+        "id": "acc_010_c1",
+        "name": "Rosa Nolan",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "rosa.nolan@morrowandvalebank.example"
+      },
+      {
+        "id": "acc_010_c2",
+        "name": "Niall Visser",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "niall.visser@morrowandvalebank.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 110,
+        "activeSeats": 95,
+        "arr": 77220,
+        "addOns": [],
+        "since": "2024-12-27"
+      },
+      {
+        "product": "automate",
+        "seats": 85,
+        "activeSeats": 80,
+        "arr": 32130,
+        "addOns": [],
+        "since": "2025-03-27"
+      }
+    ]
+  },
+  {
+    "id": "acc_011",
+    "name": "Solstice Home",
+    "domain": "solsticehome.example",
+    "industry": "E-commerce",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Sanne de Wit",
+    "employees": 713,
+    "agents": 35,
+    "contractStart": "2024-08-28",
+    "renewalDate": "2027-08-28",
+    "contacts": [
+      {
+        "id": "acc_011_c1",
+        "name": "Zoe Novak",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "zoe.novak@solsticehome.example"
+      },
+      {
+        "id": "acc_011_c2",
+        "name": "Rosa Ferrari",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "rosa.ferrari@solsticehome.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 35,
+        "activeSeats": 35,
+        "arr": 24570,
+        "addOns": [],
+        "since": "2024-08-28"
+      },
+      {
+        "product": "insights",
+        "seats": 35,
+        "activeSeats": 20,
+        "arr": 9450,
+        "addOns": [],
+        "since": "2025-09-20"
+      }
+    ]
+  },
+  {
+    "id": "acc_012",
+    "name": "Tidewater Utilities",
+    "domain": "tidewaterutilities.example",
+    "industry": "Utilities",
+    "segment": "SMB",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Lucía Romero",
+    "employees": 210,
+    "agents": 8,
+    "contractStart": "2023-05-24",
+    "renewalDate": "2027-05-24",
+    "contacts": [
+      {
+        "id": "acc_012_c1",
+        "name": "Niall Quinn",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "niall.quinn@tidewaterutilities.example"
+      },
+      {
+        "id": "acc_012_c2",
+        "name": "Ciaran Larsen",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "ciaran.larsen@tidewaterutilities.example"
+      },
+      {
+        "id": "acc_012_c3",
+        "name": "Stefan Byrne",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "stefan.byrne@tidewaterutilities.example"
+      },
+      {
+        "id": "acc_012_c4",
+        "name": "Vera Keller",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "vera.keller@tidewaterutilities.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 8,
+        "activeSeats": 5,
+        "arr": 6240,
+        "addOns": [],
+        "since": "2023-05-24"
+      },
+      {
+        "product": "insights",
+        "seats": 5,
+        "activeSeats": 3,
+        "arr": 1500,
+        "addOns": [],
+        "since": "2025-11-20"
+      }
+    ]
+  },
+  {
+    "id": "acc_013",
+    "name": "Greyfield Education",
+    "domain": "greyfieldeducation.example",
+    "industry": "Education",
+    "segment": "Enterprise",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Tom Hargreaves",
+    "employees": 5402,
+    "agents": 200,
+    "contractStart": "2024-06-02",
+    "renewalDate": "2027-06-02",
+    "contacts": [
+      {
+        "id": "acc_013_c1",
+        "name": "Zoe Schmidt",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "zoe.schmidt@greyfieldeducation.example"
+      },
+      {
+        "id": "acc_013_c2",
+        "name": "Maya Berg",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "maya.berg@greyfieldeducation.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 200,
+        "activeSeats": 185,
+        "arr": 124800,
+        "addOns": [],
+        "since": "2024-06-02"
+      },
+      {
+        "product": "insights",
+        "seats": 200,
+        "activeSeats": 152,
+        "arr": 48000,
+        "addOns": [],
+        "since": "2025-02-21"
+      },
+      {
+        "product": "voice",
+        "seats": 85,
+        "activeSeats": 82,
+        "arr": 36720,
+        "addOns": [],
+        "since": "2025-09-29"
+      }
+    ]
+  },
+  {
+    "id": "acc_014",
+    "name": "Pinecrest Hotels",
+    "domain": "pinecresthotels.example",
+    "industry": "Hospitality",
+    "segment": "SMB",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Markus Feld",
+    "employees": 184,
+    "agents": 11,
+    "contractStart": "2025-01-11",
+    "renewalDate": "2027-01-11",
+    "contacts": [
+      {
+        "id": "acc_014_c1",
+        "name": "Oscar Lindgren",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "oscar.lindgren@pinecresthotels.example"
+      },
+      {
+        "id": "acc_014_c2",
+        "name": "Clara Murphy",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "clara.murphy@pinecresthotels.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 11,
+        "activeSeats": 6,
+        "arr": 8580,
+        "addOns": [],
+        "since": "2025-01-11"
+      }
+    ]
+  },
+  {
+    "id": "acc_015",
+    "name": "Quayside Media",
+    "domain": "quaysidemedia.example",
+    "industry": "Media",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Erik Lund",
+    "employees": 372,
+    "agents": 24,
+    "contractStart": "2024-09-12",
+    "renewalDate": "2027-09-12",
+    "contacts": [
+      {
+        "id": "acc_015_c1",
+        "name": "Freya Jansen",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "freya.jansen@quaysidemedia.example"
+      },
+      {
+        "id": "acc_015_c2",
+        "name": "Ciaran Visser",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "ciaran.visser@quaysidemedia.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 24,
+        "activeSeats": 19,
+        "arr": 16848,
+        "addOns": [],
+        "since": "2024-09-12"
+      },
+      {
+        "product": "insights",
+        "seats": 13,
+        "activeSeats": 9,
+        "arr": 3510,
+        "addOns": [],
+        "since": "2024-10-11"
+      },
+      {
+        "product": "voice",
+        "seats": 14,
+        "activeSeats": 13,
+        "arr": 6804,
+        "addOns": [],
+        "since": "2025-07-15"
+      }
+    ]
+  },
+  {
+    "id": "acc_016",
+    "name": "Lindqvist Mobility",
+    "domain": "lindqvistmobility.example",
+    "industry": "Automotive",
+    "segment": "SMB",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Marco Bassi",
+    "employees": 144,
+    "agents": 10,
+    "contractStart": "2024-01-02",
+    "renewalDate": "2027-01-02",
+    "contacts": [
+      {
+        "id": "acc_016_c1",
+        "name": "Grace Jansen",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "grace.jansen@lindqvistmobility.example"
+      },
+      {
+        "id": "acc_016_c2",
+        "name": "Yara Moreau",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "yara.moreau@lindqvistmobility.example"
+      },
+      {
+        "id": "acc_016_c3",
+        "name": "Maya Murphy",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "maya.murphy@lindqvistmobility.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 10,
+        "activeSeats": 9,
+        "arr": 7800,
+        "addOns": [],
+        "since": "2024-01-02"
+      },
+      {
+        "product": "insights",
+        "seats": 10,
+        "activeSeats": 7,
+        "arr": 3000,
+        "addOns": [],
+        "since": "2024-10-19"
+      },
+      {
+        "product": "voice",
+        "seats": 6,
+        "activeSeats": 4,
+        "arr": 3240,
+        "addOns": [],
+        "since": "2024-02-27"
+      }
+    ]
+  },
+  {
+    "id": "acc_017",
+    "name": "Arden Pharma",
+    "domain": "ardenpharma.example",
+    "industry": "Pharma",
+    "segment": "Enterprise",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Aoife Brennan",
+    "employees": 2320,
+    "agents": 103,
+    "contractStart": "2023-01-20",
+    "renewalDate": "2027-01-20",
+    "contacts": [
+      {
+        "id": "acc_017_c1",
+        "name": "Dev Hoffmann",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "dev.hoffmann@ardenpharma.example"
+      },
+      {
+        "id": "acc_017_c2",
+        "name": "Ben Garcia",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "ben.garcia@ardenpharma.example"
+      },
+      {
+        "id": "acc_017_c3",
+        "name": "Elena Walsh",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "elena.walsh@ardenpharma.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 103,
+        "activeSeats": 75,
+        "arr": 64272,
+        "addOns": [],
+        "since": "2023-01-20"
+      },
+      {
+        "product": "automate",
+        "seats": 52,
+        "activeSeats": 32,
+        "arr": 17472,
+        "addOns": [],
+        "since": "2024-01-13"
+      }
+    ]
+  },
+  {
+    "id": "acc_018",
+    "name": "Corvid Security",
+    "domain": "corvidsecurity.example",
+    "industry": "Software",
+    "segment": "Enterprise",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Lena Vogel",
+    "employees": 3377,
+    "agents": 113,
+    "contractStart": "2025-07-07",
+    "renewalDate": "2027-07-07",
+    "contacts": [
+      {
+        "id": "acc_018_c1",
+        "name": "Vera Novak",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "vera.novak@corvidsecurity.example"
+      },
+      {
+        "id": "acc_018_c2",
+        "name": "Oscar Garcia",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "oscar.garcia@corvidsecurity.example"
+      },
+      {
+        "id": "acc_018_c3",
+        "name": "Maya Nilsson",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "maya.nilsson@corvidsecurity.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 113,
+        "activeSeats": 85,
+        "arr": 70512,
+        "addOns": [],
+        "since": "2025-07-07"
+      },
+      {
+        "product": "knowledge",
+        "seats": 69,
+        "activeSeats": 48,
+        "arr": 13248,
+        "addOns": [],
+        "since": "2025-11-18"
+      },
+      {
+        "product": "insights",
+        "seats": 53,
+        "activeSeats": 44,
+        "arr": 16536,
+        "addOns": [
+          "Insights Pro"
+        ],
+        "since": "2025-11-04"
+      },
+      {
+        "product": "automate",
+        "seats": 113,
+        "activeSeats": 104,
+        "arr": 37968,
+        "addOns": [],
+        "since": "2025-10-27"
+      },
+      {
+        "product": "voice",
+        "seats": 68,
+        "activeSeats": 57,
+        "arr": 29376,
+        "addOns": [],
+        "since": "2025-09-23"
+      }
+    ]
+  },
+  {
+    "id": "acc_019",
+    "name": "Halden Property",
+    "domain": "haldenproperty.example",
+    "industry": "Real estate",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Sanne de Wit",
+    "employees": 1499,
+    "agents": 38,
+    "contractStart": "2023-07-02",
+    "renewalDate": "2027-07-02",
+    "contacts": [
+      {
+        "id": "acc_019_c1",
+        "name": "Tara Fischer",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "tara.fischer@haldenproperty.example"
+      },
+      {
+        "id": "acc_019_c2",
+        "name": "Hugo Kelly",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "hugo.kelly@haldenproperty.example"
+      },
+      {
+        "id": "acc_019_c3",
+        "name": "Nadia Jansen",
+        "title": "Content & Self-Service Lead",
+        "persona": "knowledge_lead",
+        "email": "nadia.jansen@haldenproperty.example"
+      },
+      {
+        "id": "acc_019_c4",
+        "name": "Ulrich Murphy",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "ulrich.murphy@haldenproperty.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 38,
+        "activeSeats": 30,
+        "arr": 30677,
+        "addOns": [
+          "Desk Shield"
+        ],
+        "since": "2023-07-02"
+      },
+      {
+        "product": "knowledge",
+        "seats": 38,
+        "activeSeats": 21,
+        "arr": 8208,
+        "addOns": [],
+        "since": "2024-09-14"
+      }
+    ]
+  },
+  {
+    "id": "acc_020",
+    "name": "Mistral Airways",
+    "domain": "mistralairways.example",
+    "industry": "Travel",
+    "segment": "Mid-Market",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Lucía Romero",
+    "employees": 648,
+    "agents": 29,
+    "contractStart": "2025-06-30",
+    "renewalDate": "2027-06-30",
+    "contacts": [
+      {
+        "id": "acc_020_c1",
+        "name": "Freya Walsh",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "freya.walsh@mistralairways.example"
+      },
+      {
+        "id": "acc_020_c2",
+        "name": "Chloe Walsh",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "chloe.walsh@mistralairways.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 29,
+        "activeSeats": 28,
+        "arr": 20358,
+        "addOns": [],
+        "since": "2025-06-30"
+      },
+      {
+        "product": "insights",
+        "seats": 29,
+        "activeSeats": 29,
+        "arr": 7830,
+        "addOns": [],
+        "since": "2025-10-08"
+      }
+    ]
+  },
+  {
+    "id": "acc_021",
+    "name": "Oakmere Foods",
+    "domain": "oakmerefoods.example",
+    "industry": "Food & beverage",
+    "segment": "Mid-Market",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Tom Hargreaves",
+    "employees": 953,
+    "agents": 29,
+    "contractStart": "2023-05-12",
+    "renewalDate": "2027-05-12",
+    "contacts": [
+      {
+        "id": "acc_021_c1",
+        "name": "Stefan Moreau",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "stefan.moreau@oakmerefoods.example"
+      },
+      {
+        "id": "acc_021_c2",
+        "name": "Nadia Quinn",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "nadia.quinn@oakmerefoods.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 29,
+        "activeSeats": 25,
+        "arr": 23412,
+        "addOns": [
+          "Desk Shield"
+        ],
+        "since": "2023-05-12"
+      },
+      {
+        "product": "insights",
+        "seats": 29,
+        "activeSeats": 28,
+        "arr": 7830,
+        "addOns": [],
+        "since": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "id": "acc_022",
+    "name": "Riverton Council Services",
+    "domain": "rivertoncouncilservices.example",
+    "industry": "Public sector",
+    "segment": "Mid-Market",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Markus Feld",
+    "employees": 1792,
+    "agents": 115,
+    "contractStart": "2023-06-21",
+    "renewalDate": "2027-06-21",
+    "contacts": [
+      {
+        "id": "acc_022_c1",
+        "name": "Dara Byrne",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "dara.byrne@rivertoncouncilservices.example"
+      },
+      {
+        "id": "acc_022_c2",
+        "name": "Oscar Schmidt",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "oscar.schmidt@rivertoncouncilservices.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 115,
+        "activeSeats": 82,
+        "arr": 80730,
+        "addOns": [],
+        "since": "2023-06-21"
+      },
+      {
+        "product": "knowledge",
+        "seats": 115,
+        "activeSeats": 105,
+        "arr": 24840,
+        "addOns": [],
+        "since": "2025-04-14"
+      },
+      {
+        "product": "insights",
+        "seats": 115,
+        "activeSeats": 66,
+        "arr": 31050,
+        "addOns": [],
+        "since": "2024-12-01"
+      }
+    ]
+  },
+  {
+    "id": "acc_023",
+    "name": "Silverstrand Gaming",
+    "domain": "silverstrandgaming.example",
+    "industry": "Gaming",
+    "segment": "Enterprise",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Erik Lund",
+    "employees": 5573,
+    "agents": 266,
+    "contractStart": "2023-07-16",
+    "renewalDate": "2027-07-16",
+    "contacts": [
+      {
+        "id": "acc_023_c1",
+        "name": "Ruth Fischer",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "ruth.fischer@silverstrandgaming.example"
+      },
+      {
+        "id": "acc_023_c2",
+        "name": "Dara Lindgren",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "dara.lindgren@silverstrandgaming.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 266,
+        "activeSeats": 171,
+        "arr": 165984,
+        "addOns": [],
+        "since": "2023-07-16"
+      },
+      {
+        "product": "insights",
+        "seats": 266,
+        "activeSeats": 206,
+        "arr": 63840,
+        "addOns": [],
+        "since": "2025-06-26"
+      },
+      {
+        "product": "automate",
+        "seats": 266,
+        "activeSeats": 154,
+        "arr": 89376,
+        "addOns": [],
+        "since": "2024-09-24"
+      }
+    ]
+  },
+  {
+    "id": "acc_024",
+    "name": "Talbot & Reid Legal",
+    "domain": "talbotandreidlegal.example",
+    "industry": "Professional services",
+    "segment": "Mid-Market",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Marco Bassi",
+    "employees": 583,
+    "agents": 18,
+    "contractStart": "2023-07-20",
+    "renewalDate": "2027-07-20",
+    "contacts": [
+      {
+        "id": "acc_024_c1",
+        "name": "Emil Walsh",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "emil.walsh@talbotandreidlegal.example"
+      },
+      {
+        "id": "acc_024_c2",
+        "name": "Emil Dubois",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "emil.dubois@talbotandreidlegal.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 18,
+        "activeSeats": 14,
+        "arr": 12636,
+        "addOns": [],
+        "since": "2023-07-20"
+      },
+      {
+        "product": "knowledge",
+        "seats": 18,
+        "activeSeats": 17,
+        "arr": 3888,
+        "addOns": [],
+        "since": "2024-10-09"
+      }
+    ]
+  },
+  {
+    "id": "acc_025",
+    "name": "Umber Fashion",
+    "domain": "umberfashion.example",
+    "industry": "E-commerce",
+    "segment": "SMB",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Aoife Brennan",
+    "employees": 199,
+    "agents": 13,
+    "contractStart": "2024-12-08",
+    "renewalDate": "2026-12-08",
+    "contacts": [
+      {
+        "id": "acc_025_c1",
+        "name": "Zoe Jansen",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "zoe.jansen@umberfashion.example"
+      },
+      {
+        "id": "acc_025_c2",
+        "name": "Matteo Costa",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "matteo.costa@umberfashion.example"
+      },
+      {
+        "id": "acc_025_c3",
+        "name": "Oscar Dubois",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "oscar.dubois@umberfashion.example"
+      },
+      {
+        "id": "acc_025_c4",
+        "name": "Ciaran Costa",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "ciaran.costa@umberfashion.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 13,
+        "activeSeats": 9,
+        "arr": 10140,
+        "addOns": [],
+        "since": "2024-12-08"
+      }
+    ]
+  },
+  {
+    "id": "acc_026",
+    "name": "Valemont Insurance",
+    "domain": "valemontinsurance.example",
+    "industry": "Insurance",
+    "segment": "Mid-Market",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Lena Vogel",
+    "employees": 1403,
+    "agents": 77,
+    "contractStart": "2024-12-09",
+    "renewalDate": "2026-12-09",
+    "contacts": [
+      {
+        "id": "acc_026_c1",
+        "name": "Tara Brady",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "tara.brady@valemontinsurance.example"
+      },
+      {
+        "id": "acc_026_c2",
+        "name": "Matteo Hoffmann",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "matteo.hoffmann@valemontinsurance.example"
+      },
+      {
+        "id": "acc_026_c3",
+        "name": "Zoe Walsh",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "zoe.walsh@valemontinsurance.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 77,
+        "activeSeats": 56,
+        "arr": 54054,
+        "addOns": [],
+        "since": "2024-12-09"
+      },
+      {
+        "product": "insights",
+        "seats": 56,
+        "activeSeats": 38,
+        "arr": 15120,
+        "addOns": [],
+        "since": "2025-02-12"
+      }
+    ]
+  },
+  {
+    "id": "acc_027",
+    "name": "Wexley Rail",
+    "domain": "wexleyrail.example",
+    "industry": "Transport",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Sanne de Wit",
+    "employees": 1336,
+    "agents": 56,
+    "contractStart": "2025-07-16",
+    "renewalDate": "2027-07-16",
+    "contacts": [
+      {
+        "id": "acc_027_c1",
+        "name": "Ruth Rossi",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "ruth.rossi@wexleyrail.example"
+      },
+      {
+        "id": "acc_027_c2",
+        "name": "Finn Walsh",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "finn.walsh@wexleyrail.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 56,
+        "activeSeats": 50,
+        "arr": 39312,
+        "addOns": [],
+        "since": "2025-07-16"
+      },
+      {
+        "product": "insights",
+        "seats": 56,
+        "activeSeats": 46,
+        "arr": 15120,
+        "addOns": [],
+        "since": "2025-12-12"
+      }
+    ]
+  },
+  {
+    "id": "acc_028",
+    "name": "Ashgrove Clinics",
+    "domain": "ashgroveclinics.example",
+    "industry": "Healthcare",
+    "segment": "Mid-Market",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Lucía Romero",
+    "employees": 684,
+    "agents": 45,
+    "contractStart": "2025-07-23",
+    "renewalDate": "2027-07-23",
+    "contacts": [
+      {
+        "id": "acc_028_c1",
+        "name": "Zoe Lindgren",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "zoe.lindgren@ashgroveclinics.example"
+      },
+      {
+        "id": "acc_028_c2",
+        "name": "Yara Jansen",
+        "title": "Content & Self-Service Lead",
+        "persona": "knowledge_lead",
+        "email": "yara.jansen@ashgroveclinics.example"
+      },
+      {
+        "id": "acc_028_c3",
+        "name": "Ciaran Lindgren",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "ciaran.lindgren@ashgroveclinics.example"
+      },
+      {
+        "id": "acc_028_c4",
+        "name": "Finn Ryan",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "finn.ryan@ashgroveclinics.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 45,
+        "activeSeats": 32,
+        "arr": 31590,
+        "addOns": [],
+        "since": "2025-07-23"
+      },
+      {
+        "product": "insights",
+        "seats": 45,
+        "activeSeats": 27,
+        "arr": 12150,
+        "addOns": [],
+        "since": "2025-09-22"
+      },
+      {
+        "product": "automate",
+        "seats": 45,
+        "activeSeats": 25,
+        "arr": 17010,
+        "addOns": [],
+        "since": "2025-07-27"
+      }
+    ]
+  },
+  {
+    "id": "acc_029",
+    "name": "Beacon Broadband",
+    "domain": "beaconbroadband.example",
+    "industry": "Telecom",
+    "segment": "SMB",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Tom Hargreaves",
+    "employees": 226,
+    "agents": 7,
+    "contractStart": "2024-08-13",
+    "renewalDate": "2027-08-13",
+    "contacts": [
+      {
+        "id": "acc_029_c1",
+        "name": "Nadia Weber",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "nadia.weber@beaconbroadband.example"
+      },
+      {
+        "id": "acc_029_c2",
+        "name": "Grace Ryan",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "grace.ryan@beaconbroadband.example"
+      },
+      {
+        "id": "acc_029_c3",
+        "name": "Clara Visser",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "clara.visser@beaconbroadband.example"
+      },
+      {
+        "id": "acc_029_c4",
+        "name": "Jonas Quinn",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "jonas.quinn@beaconbroadband.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 7,
+        "activeSeats": 4,
+        "arr": 6279,
+        "addOns": [
+          "Desk Shield"
+        ],
+        "since": "2024-08-13"
+      },
+      {
+        "product": "insights",
+        "seats": 7,
+        "activeSeats": 7,
+        "arr": 2100,
+        "addOns": [],
+        "since": "2024-10-29"
+      }
+    ]
+  },
+  {
+    "id": "acc_030",
+    "name": "Calder Fintech",
+    "domain": "calderfintech.example",
+    "industry": "Fintech",
+    "segment": "SMB",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Markus Feld",
+    "employees": 149,
+    "agents": 6,
+    "contractStart": "2023-04-04",
+    "renewalDate": "2027-04-04",
+    "contacts": [
+      {
+        "id": "acc_030_c1",
+        "name": "Stefan Jansen",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "stefan.jansen@calderfintech.example"
+      },
+      {
+        "id": "acc_030_c2",
+        "name": "Stefan Keller",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "stefan.keller@calderfintech.example"
+      },
+      {
+        "id": "acc_030_c3",
+        "name": "Ana Walsh",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "ana.walsh@calderfintech.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 6,
+        "activeSeats": 6,
+        "arr": 4680,
+        "addOns": [],
+        "since": "2023-04-04"
+      },
+      {
+        "product": "knowledge",
+        "seats": 6,
+        "activeSeats": 5,
+        "arr": 1440,
+        "addOns": [],
+        "since": "2024-12-08"
+      },
+      {
+        "product": "insights",
+        "seats": 6,
+        "activeSeats": 5,
+        "arr": 1800,
+        "addOns": [],
+        "since": "2024-01-25"
+      },
+      {
+        "product": "automate",
+        "seats": 6,
+        "activeSeats": 5,
+        "arr": 2520,
+        "addOns": [],
+        "since": "2025-08-19"
+      }
+    ]
+  },
+  {
+    "id": "acc_031",
+    "name": "Dunmore Distillers",
+    "domain": "dunmoredistillers.example",
+    "industry": "Food & beverage",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Erik Lund",
+    "employees": 1409,
+    "agents": 55,
+    "contractStart": "2023-06-19",
+    "renewalDate": "2027-06-19",
+    "contacts": [
+      {
+        "id": "acc_031_c1",
+        "name": "Nadia Costa",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "nadia.costa@dunmoredistillers.example"
+      },
+      {
+        "id": "acc_031_c2",
+        "name": "Theo Costa",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "theo.costa@dunmoredistillers.example"
+      },
+      {
+        "id": "acc_031_c3",
+        "name": "Priya Brady",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "priya.brady@dunmoredistillers.example"
+      },
+      {
+        "id": "acc_031_c4",
+        "name": "Hugo Byrne",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "hugo.byrne@dunmoredistillers.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 55,
+        "activeSeats": 35,
+        "arr": 38610,
+        "addOns": [],
+        "since": "2023-06-19"
+      },
+      {
+        "product": "insights",
+        "seats": 33,
+        "activeSeats": 19,
+        "arr": 8910,
+        "addOns": [],
+        "since": "2025-06-02"
+      }
+    ]
+  },
+  {
+    "id": "acc_032",
+    "name": "Elmstead Housing",
+    "domain": "elmsteadhousing.example",
+    "industry": "Public sector",
+    "segment": "SMB",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Marco Bassi",
+    "employees": 96,
+    "agents": 6,
+    "contractStart": "2024-11-28",
+    "renewalDate": "2026-11-28",
+    "contacts": [
+      {
+        "id": "acc_032_c1",
+        "name": "Zoe Larsen",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "zoe.larsen@elmsteadhousing.example"
+      },
+      {
+        "id": "acc_032_c2",
+        "name": "Vera Lindgren",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "vera.lindgren@elmsteadhousing.example"
+      },
+      {
+        "id": "acc_032_c3",
+        "name": "Oscar Kelly",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "oscar.kelly@elmsteadhousing.example"
+      },
+      {
+        "id": "acc_032_c4",
+        "name": "Ana Dubois",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "ana.dubois@elmsteadhousing.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 6,
+        "activeSeats": 5,
+        "arr": 4680,
+        "addOns": [],
+        "since": "2024-11-28"
+      },
+      {
+        "product": "insights",
+        "seats": 6,
+        "activeSeats": 5,
+        "arr": 1800,
+        "addOns": [],
+        "since": "2025-10-20"
+      },
+      {
+        "product": "voice",
+        "seats": 4,
+        "activeSeats": 2,
+        "arr": 2160,
+        "addOns": [],
+        "since": "2025-08-06"
+      }
+    ]
+  },
+  {
+    "id": "acc_033",
+    "name": "Fjordline Ferries",
+    "domain": "fjordlineferries.example",
+    "industry": "Transport",
+    "segment": "Enterprise",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Aoife Brennan",
+    "employees": 2121,
+    "agents": 61,
+    "contractStart": "2023-05-20",
+    "renewalDate": "2027-05-20",
+    "contacts": [
+      {
+        "id": "acc_033_c1",
+        "name": "Ines Byrne",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "ines.byrne@fjordlineferries.example"
+      },
+      {
+        "id": "acc_033_c2",
+        "name": "Freya Novak",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "freya.novak@fjordlineferries.example"
+      },
+      {
+        "id": "acc_033_c3",
+        "name": "Aisling Walsh",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "aisling.walsh@fjordlineferries.example"
+      },
+      {
+        "id": "acc_033_c4",
+        "name": "Chloe Ferrari",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "chloe.ferrari@fjordlineferries.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 61,
+        "activeSeats": 46,
+        "arr": 38064,
+        "addOns": [],
+        "since": "2023-05-20"
+      },
+      {
+        "product": "knowledge",
+        "seats": 45,
+        "activeSeats": 40,
+        "arr": 8640,
+        "addOns": [],
+        "since": "2023-12-31"
+      },
+      {
+        "product": "automate",
+        "seats": 61,
+        "activeSeats": 56,
+        "arr": 20496,
+        "addOns": [],
+        "since": "2025-06-15"
+      }
+    ]
+  },
+  {
+    "id": "acc_034",
+    "name": "Glenroe Outdoor",
+    "domain": "glenroeoutdoor.example",
+    "industry": "Retail",
+    "segment": "Enterprise",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Lena Vogel",
+    "employees": 6179,
+    "agents": 286,
+    "contractStart": "2023-08-11",
+    "renewalDate": "2027-08-11",
+    "contacts": [
+      {
+        "id": "acc_034_c1",
+        "name": "Stefan Garcia",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "stefan.garcia@glenroeoutdoor.example"
+      },
+      {
+        "id": "acc_034_c2",
+        "name": "Yara Murphy",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "yara.murphy@glenroeoutdoor.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 286,
+        "activeSeats": 270,
+        "arr": 178464,
+        "addOns": [],
+        "since": "2023-08-11"
+      },
+      {
+        "product": "knowledge",
+        "seats": 186,
+        "activeSeats": 155,
+        "arr": 35712,
+        "addOns": [],
+        "since": "2025-09-21"
+      },
+      {
+        "product": "automate",
+        "seats": 286,
+        "activeSeats": 174,
+        "arr": 96096,
+        "addOns": [],
+        "since": "2024-06-29"
+      },
+      {
+        "product": "voice",
+        "seats": 172,
+        "activeSeats": 161,
+        "arr": 74304,
+        "addOns": [],
+        "since": "2023-08-21"
+      }
+    ]
+  },
+  {
+    "id": "acc_035",
+    "name": "Hollis Analytics",
+    "domain": "hollisanalytics.example",
+    "industry": "Software",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Sanne de Wit",
+    "employees": 1333,
+    "agents": 71,
+    "contractStart": "2024-09-10",
+    "renewalDate": "2027-09-10",
+    "contacts": [
+      {
+        "id": "acc_035_c1",
+        "name": "Theo Lindgren",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "theo.lindgren@hollisanalytics.example"
+      },
+      {
+        "id": "acc_035_c2",
+        "name": "Hugo Jansen",
+        "title": "Content & Self-Service Lead",
+        "persona": "knowledge_lead",
+        "email": "hugo.jansen@hollisanalytics.example"
+      },
+      {
+        "id": "acc_035_c3",
+        "name": "Ben Schmidt",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "ben.schmidt@hollisanalytics.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 71,
+        "activeSeats": 46,
+        "arr": 49842,
+        "addOns": [],
+        "since": "2024-09-10"
+      }
+    ]
+  },
+  {
+    "id": "acc_036",
+    "name": "Ibex Engineering",
+    "domain": "ibexengineering.example",
+    "industry": "Manufacturing",
+    "segment": "Mid-Market",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Lucía Romero",
+    "employees": 1881,
+    "agents": 69,
+    "contractStart": "2025-04-03",
+    "renewalDate": "2027-04-03",
+    "contacts": [
+      {
+        "id": "acc_036_c1",
+        "name": "Bram Walsh",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "bram.walsh@ibexengineering.example"
+      },
+      {
+        "id": "acc_036_c2",
+        "name": "Clara Jansen",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "clara.jansen@ibexengineering.example"
+      },
+      {
+        "id": "acc_036_c3",
+        "name": "Stefan Ryan",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "stefan.ryan@ibexengineering.example"
+      },
+      {
+        "id": "acc_036_c4",
+        "name": "Ana Romano",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "ana.romano@ibexengineering.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 69,
+        "activeSeats": 67,
+        "arr": 48438,
+        "addOns": [],
+        "since": "2025-04-03"
+      },
+      {
+        "product": "automate",
+        "seats": 54,
+        "activeSeats": 37,
+        "arr": 20412,
+        "addOns": [],
+        "since": "2025-07-06"
+      },
+      {
+        "product": "voice",
+        "seats": 20,
+        "activeSeats": 15,
+        "arr": 9720,
+        "addOns": [],
+        "since": "2025-07-26"
+      }
+    ]
+  },
+  {
+    "id": "acc_037",
+    "name": "Juniper Lending",
+    "domain": "juniperlending.example",
+    "industry": "Banking",
+    "segment": "Mid-Market",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Tom Hargreaves",
+    "employees": 1783,
+    "agents": 100,
+    "contractStart": "2025-07-31",
+    "renewalDate": "2027-07-31",
+    "contacts": [
+      {
+        "id": "acc_037_c1",
+        "name": "Liam Bakker",
+        "title": "Head of Customer Support",
+        "persona": "head_of_support",
+        "email": "liam.bakker@juniperlending.example"
+      },
+      {
+        "id": "acc_037_c2",
+        "name": "Sam Hoffmann",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "sam.hoffmann@juniperlending.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 100,
+        "activeSeats": 92,
+        "arr": 70200,
+        "addOns": [],
+        "since": "2025-07-31"
+      },
+      {
+        "product": "insights",
+        "seats": 100,
+        "activeSeats": 97,
+        "arr": 27000,
+        "addOns": [],
+        "since": "2025-10-31"
+      },
+      {
+        "product": "voice",
+        "seats": 40,
+        "activeSeats": 38,
+        "arr": 19440,
+        "addOns": [],
+        "since": "2025-10-30"
+      }
+    ]
+  },
+  {
+    "id": "acc_038",
+    "name": "Kilnworth Ceramics",
+    "domain": "kilnworthceramics.example",
+    "industry": "Manufacturing",
+    "segment": "Mid-Market",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Markus Feld",
+    "employees": 537,
+    "agents": 29,
+    "contractStart": "2024-02-25",
+    "renewalDate": "2027-02-25",
+    "contacts": [
+      {
+        "id": "acc_038_c1",
+        "name": "Dara Berg",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "dara.berg@kilnworthceramics.example"
+      },
+      {
+        "id": "acc_038_c2",
+        "name": "Grace Visser",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "grace.visser@kilnworthceramics.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 29,
+        "activeSeats": 23,
+        "arr": 20358,
+        "addOns": [],
+        "since": "2024-02-25"
+      },
+      {
+        "product": "insights",
+        "seats": 20,
+        "activeSeats": 13,
+        "arr": 5400,
+        "addOns": [],
+        "since": "2025-06-16"
+      }
+    ]
+  },
+  {
+    "id": "acc_039",
+    "name": "Larchmont Learning",
+    "domain": "larchmontlearning.example",
+    "industry": "Education",
+    "segment": "Enterprise",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Erik Lund",
+    "employees": 2272,
+    "agents": 65,
+    "contractStart": "2025-02-14",
+    "renewalDate": "2027-02-14",
+    "contacts": [
+      {
+        "id": "acc_039_c1",
+        "name": "Oscar Doyle",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "oscar.doyle@larchmontlearning.example"
+      },
+      {
+        "id": "acc_039_c2",
+        "name": "Dara Quinn",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "dara.quinn@larchmontlearning.example"
+      },
+      {
+        "id": "acc_039_c3",
+        "name": "Tara Schmidt",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "tara.schmidt@larchmontlearning.example"
+      },
+      {
+        "id": "acc_039_c4",
+        "name": "Fatima Lopez",
+        "title": "Content & Self-Service Lead",
+        "persona": "knowledge_lead",
+        "email": "fatima.lopez@larchmontlearning.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 65,
+        "activeSeats": 45,
+        "arr": 46644,
+        "addOns": [
+          "Desk Shield"
+        ],
+        "since": "2025-02-14"
+      },
+      {
+        "product": "knowledge",
+        "seats": 65,
+        "activeSeats": 64,
+        "arr": 12480,
+        "addOns": [],
+        "since": "2025-04-28"
+      },
+      {
+        "product": "insights",
+        "seats": 65,
+        "activeSeats": 52,
+        "arr": 15600,
+        "addOns": [],
+        "since": "2025-03-10"
+      },
+      {
+        "product": "automate",
+        "seats": 51,
+        "activeSeats": 45,
+        "arr": 17136,
+        "addOns": [],
+        "since": "2025-04-22"
+      },
+      {
+        "product": "voice",
+        "seats": 39,
+        "activeSeats": 31,
+        "arr": 16848,
+        "addOns": [],
+        "since": "2025-04-30"
+      }
+    ]
+  },
+  {
+    "id": "acc_040",
+    "name": "Marlowe Subscriptions",
+    "domain": "marlowesubscriptions.example",
+    "industry": "E-commerce",
+    "segment": "Enterprise",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Marco Bassi",
+    "employees": 8367,
+    "agents": 216,
+    "contractStart": "2023-04-11",
+    "renewalDate": "2027-04-11",
+    "contacts": [
+      {
+        "id": "acc_040_c1",
+        "name": "Hugo Berg",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "hugo.berg@marlowesubscriptions.example"
+      },
+      {
+        "id": "acc_040_c2",
+        "name": "Dara Romano",
+        "title": "Support Enablement Lead",
+        "persona": "knowledge_lead",
+        "email": "dara.romano@marlowesubscriptions.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 216,
+        "activeSeats": 142,
+        "arr": 134784,
+        "addOns": [],
+        "since": "2023-04-11"
+      },
+      {
+        "product": "knowledge",
+        "seats": 115,
+        "activeSeats": 66,
+        "arr": 22080,
+        "addOns": [],
+        "since": "2023-04-23"
+      },
+      {
+        "product": "insights",
+        "seats": 130,
+        "activeSeats": 120,
+        "arr": 31200,
+        "addOns": [],
+        "since": "2024-06-12"
+      }
+    ]
+  },
+  {
+    "id": "acc_041",
+    "name": "Nettlebridge Water",
+    "domain": "nettlebridgewater.example",
+    "industry": "Utilities",
+    "segment": "SMB",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Aoife Brennan",
+    "employees": 234,
+    "agents": 11,
+    "contractStart": "2025-06-16",
+    "renewalDate": "2027-06-16",
+    "contacts": [
+      {
+        "id": "acc_041_c1",
+        "name": "Zoe Romano",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "zoe.romano@nettlebridgewater.example"
+      },
+      {
+        "id": "acc_041_c2",
+        "name": "Vera Byrne",
+        "title": "Content & Self-Service Lead",
+        "persona": "knowledge_lead",
+        "email": "vera.byrne@nettlebridgewater.example"
+      },
+      {
+        "id": "acc_041_c3",
+        "name": "Pieter Costa",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "pieter.costa@nettlebridgewater.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 11,
+        "activeSeats": 7,
+        "arr": 8580,
+        "addOns": [],
+        "since": "2025-06-16"
+      }
+    ]
+  },
+  {
+    "id": "acc_042",
+    "name": "Ostara Wellness",
+    "domain": "ostarawellness.example",
+    "industry": "Healthcare",
+    "segment": "SMB",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Lena Vogel",
+    "employees": 166,
+    "agents": 12,
+    "contractStart": "2023-06-11",
+    "renewalDate": "2027-06-11",
+    "contacts": [
+      {
+        "id": "acc_042_c1",
+        "name": "Aisling Novak",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "aisling.novak@ostarawellness.example"
+      },
+      {
+        "id": "acc_042_c2",
+        "name": "Liam Lopez",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "liam.lopez@ostarawellness.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 12,
+        "activeSeats": 7,
+        "arr": 9360,
+        "addOns": [],
+        "since": "2023-06-11"
+      },
+      {
+        "product": "knowledge",
+        "seats": 12,
+        "activeSeats": 10,
+        "arr": 2880,
+        "addOns": [],
+        "since": "2025-03-30"
+      },
+      {
+        "product": "insights",
+        "seats": 12,
+        "activeSeats": 8,
+        "arr": 3600,
+        "addOns": [],
+        "since": "2023-07-18"
+      }
+    ]
+  },
+  {
+    "id": "acc_043",
+    "name": "Parkhurst Motors",
+    "domain": "parkhurstmotors.example",
+    "industry": "Automotive",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Sanne de Wit",
+    "employees": 1426,
+    "agents": 61,
+    "contractStart": "2025-03-11",
+    "renewalDate": "2027-03-11",
+    "contacts": [
+      {
+        "id": "acc_043_c1",
+        "name": "Clara Walsh",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "clara.walsh@parkhurstmotors.example"
+      },
+      {
+        "id": "acc_043_c2",
+        "name": "Ana Lindgren",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "ana.lindgren@parkhurstmotors.example"
+      },
+      {
+        "id": "acc_043_c3",
+        "name": "Grace Kelly",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "grace.kelly@parkhurstmotors.example"
+      },
+      {
+        "id": "acc_043_c4",
+        "name": "Rosa Romano",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "rosa.romano@parkhurstmotors.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 61,
+        "activeSeats": 39,
+        "arr": 42822,
+        "addOns": [],
+        "since": "2025-03-11"
+      }
+    ]
+  },
+  {
+    "id": "acc_044",
+    "name": "Quillon Pay",
+    "domain": "quillonpay.example",
+    "industry": "Fintech",
+    "segment": "Mid-Market",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Lucía Romero",
+    "employees": 943,
+    "agents": 56,
+    "contractStart": "2024-02-17",
+    "renewalDate": "2027-02-17",
+    "contacts": [
+      {
+        "id": "acc_044_c1",
+        "name": "Kate Walsh",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "kate.walsh@quillonpay.example"
+      },
+      {
+        "id": "acc_044_c2",
+        "name": "Ulrich Moreau",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "ulrich.moreau@quillonpay.example"
+      },
+      {
+        "id": "acc_044_c3",
+        "name": "Ruth Nolan",
+        "title": "CX Operations Lead",
+        "persona": "support_ops",
+        "email": "ruth.nolan@quillonpay.example"
+      },
+      {
+        "id": "acc_044_c4",
+        "name": "Ciaran Weber",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "ciaran.weber@quillonpay.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 56,
+        "activeSeats": 54,
+        "arr": 45209,
+        "addOns": [
+          "Desk Shield"
+        ],
+        "since": "2024-02-17"
+      },
+      {
+        "product": "knowledge",
+        "seats": 38,
+        "activeSeats": 37,
+        "arr": 8208,
+        "addOns": [],
+        "since": "2024-08-02"
+      },
+      {
+        "product": "insights",
+        "seats": 56,
+        "activeSeats": 50,
+        "arr": 15120,
+        "addOns": [],
+        "since": "2024-03-04"
+      },
+      {
+        "product": "voice",
+        "seats": 24,
+        "activeSeats": 14,
+        "arr": 11664,
+        "addOns": [],
+        "since": "2025-12-30"
+      }
+    ]
+  },
+  {
+    "id": "acc_045",
+    "name": "Rookwood Events",
+    "domain": "rookwoodevents.example",
+    "industry": "Hospitality",
+    "segment": "Mid-Market",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Tom Hargreaves",
+    "employees": 400,
+    "agents": 24,
+    "contractStart": "2024-07-24",
+    "renewalDate": "2027-07-24",
+    "contacts": [
+      {
+        "id": "acc_045_c1",
+        "name": "Niall Berg",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "niall.berg@rookwoodevents.example"
+      },
+      {
+        "id": "acc_045_c2",
+        "name": "Fatima Larsen",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "fatima.larsen@rookwoodevents.example"
+      },
+      {
+        "id": "acc_045_c3",
+        "name": "Nadia Larsen",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "nadia.larsen@rookwoodevents.example"
+      },
+      {
+        "id": "acc_045_c4",
+        "name": "Zoe Quinn",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "zoe.quinn@rookwoodevents.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 24,
+        "activeSeats": 18,
+        "arr": 16848,
+        "addOns": [],
+        "since": "2024-07-24"
+      }
+    ]
+  },
+  {
+    "id": "acc_046",
+    "name": "Saltmarsh Shipping",
+    "domain": "saltmarshshipping.example",
+    "industry": "Logistics",
+    "segment": "SMB",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Markus Feld",
+    "employees": 108,
+    "agents": 7,
+    "contractStart": "2024-02-04",
+    "renewalDate": "2027-02-04",
+    "contacts": [
+      {
+        "id": "acc_046_c1",
+        "name": "Ruth Brady",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "ruth.brady@saltmarshshipping.example"
+      },
+      {
+        "id": "acc_046_c2",
+        "name": "Maya Walsh",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "maya.walsh@saltmarshshipping.example"
+      },
+      {
+        "id": "acc_046_c3",
+        "name": "Niall Fischer",
+        "title": "IT Systems Manager",
+        "persona": "it_admin",
+        "email": "niall.fischer@saltmarshshipping.example"
+      },
+      {
+        "id": "acc_046_c4",
+        "name": "Kate Nolan",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "kate.nolan@saltmarshshipping.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 7,
+        "activeSeats": 7,
+        "arr": 5460,
+        "addOns": [],
+        "since": "2024-02-04"
+      },
+      {
+        "product": "insights",
+        "seats": 4,
+        "activeSeats": 3,
+        "arr": 1200,
+        "addOns": [],
+        "since": "2024-08-24"
+      }
+    ]
+  },
+  {
+    "id": "acc_047",
+    "name": "Thornbury Pensions",
+    "domain": "thornburypensions.example",
+    "industry": "Insurance",
+    "segment": "Mid-Market",
+    "region": "NB",
+    "team": "Nordics & Benelux",
+    "owner": "Erik Lund",
+    "employees": 1500,
+    "agents": 60,
+    "contractStart": "2024-09-02",
+    "renewalDate": "2027-09-02",
+    "contacts": [
+      {
+        "id": "acc_047_c1",
+        "name": "Hugo Walsh",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "hugo.walsh@thornburypensions.example"
+      },
+      {
+        "id": "acc_047_c2",
+        "name": "Ana Brady",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "ana.brady@thornburypensions.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 60,
+        "activeSeats": 50,
+        "arr": 42120,
+        "addOns": [],
+        "since": "2024-09-02"
+      },
+      {
+        "product": "knowledge",
+        "seats": 47,
+        "activeSeats": 32,
+        "arr": 10152,
+        "addOns": [],
+        "since": "2025-01-02"
+      },
+      {
+        "product": "automate",
+        "seats": 31,
+        "activeSeats": 27,
+        "arr": 11718,
+        "addOns": [],
+        "since": "2024-12-23"
+      }
+    ]
+  },
+  {
+    "id": "acc_048",
+    "name": "Upland Grocers",
+    "domain": "uplandgrocers.example",
+    "industry": "Retail",
+    "segment": "Mid-Market",
+    "region": "SEU",
+    "team": "Southern Europe",
+    "owner": "Marco Bassi",
+    "employees": 996,
+    "agents": 29,
+    "contractStart": "2024-11-30",
+    "renewalDate": "2026-11-30",
+    "contacts": [
+      {
+        "id": "acc_048_c1",
+        "name": "Chloe Visser",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "chloe.visser@uplandgrocers.example"
+      },
+      {
+        "id": "acc_048_c2",
+        "name": "Ciaran Murphy",
+        "title": "Head of IT",
+        "persona": "it_admin",
+        "email": "ciaran.murphy@uplandgrocers.example"
+      },
+      {
+        "id": "acc_048_c3",
+        "name": "Niall Novak",
+        "title": "Support Operations Manager",
+        "persona": "support_ops",
+        "email": "niall.novak@uplandgrocers.example"
+      },
+      {
+        "id": "acc_048_c4",
+        "name": "Rosa Rossi",
+        "title": "Content & Self-Service Lead",
+        "persona": "knowledge_lead",
+        "email": "rosa.rossi@uplandgrocers.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 29,
+        "activeSeats": 23,
+        "arr": 20358,
+        "addOns": [],
+        "since": "2024-11-30"
+      },
+      {
+        "product": "knowledge",
+        "seats": 29,
+        "activeSeats": 22,
+        "arr": 6264,
+        "addOns": [],
+        "since": "2025-03-20"
+      }
+    ]
+  },
+  {
+    "id": "acc_049",
+    "name": "Verity Cloud",
+    "domain": "veritycloud.example",
+    "industry": "Software",
+    "segment": "Mid-Market",
+    "region": "UKI",
+    "team": "UK & Ireland",
+    "owner": "Aoife Brennan",
+    "employees": 1759,
+    "agents": 85,
+    "contractStart": "2024-02-12",
+    "renewalDate": "2027-02-12",
+    "contacts": [
+      {
+        "id": "acc_049_c1",
+        "name": "Yara Bakker",
+        "title": "Director of Support",
+        "persona": "head_of_support",
+        "email": "yara.bakker@veritycloud.example"
+      },
+      {
+        "id": "acc_049_c2",
+        "name": "Kate Jansen",
+        "title": "Security & Compliance Lead",
+        "persona": "it_admin",
+        "email": "kate.jansen@veritycloud.example"
+      },
+      {
+        "id": "acc_049_c3",
+        "name": "Ana Costa",
+        "title": "Support Team Lead",
+        "persona": "support_ops",
+        "email": "ana.costa@veritycloud.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 85,
+        "activeSeats": 60,
+        "arr": 59670,
+        "addOns": [],
+        "since": "2024-02-12"
+      },
+      {
+        "product": "automate",
+        "seats": 85,
+        "activeSeats": 79,
+        "arr": 32130,
+        "addOns": [],
+        "since": "2024-12-20"
+      }
+    ]
+  },
+  {
+    "id": "acc_050",
+    "name": "Wrenfield Charities",
+    "domain": "wrenfieldcharities.example",
+    "industry": "Non-profit",
+    "segment": "Mid-Market",
+    "region": "DACH",
+    "team": "DACH",
+    "owner": "Lena Vogel",
+    "employees": 1727,
+    "agents": 90,
+    "contractStart": "2023-11-08",
+    "renewalDate": "2027-11-08",
+    "contacts": [
+      {
+        "id": "acc_050_c1",
+        "name": "Vera Weber",
+        "title": "VP Customer Experience",
+        "persona": "head_of_support",
+        "email": "vera.weber@wrenfieldcharities.example"
+      },
+      {
+        "id": "acc_050_c2",
+        "name": "Emil Weber",
+        "title": "Knowledge Manager",
+        "persona": "knowledge_lead",
+        "email": "emil.weber@wrenfieldcharities.example"
+      }
+    ],
+    "ownership": [
+      {
+        "product": "desk",
+        "seats": 90,
+        "activeSeats": 78,
+        "arr": 63180,
+        "addOns": [],
+        "since": "2023-11-08"
+      },
+      {
+        "product": "insights",
+        "seats": 90,
+        "activeSeats": 52,
+        "arr": 24300,
+        "addOns": [],
+        "since": "2024-12-03"
+      },
+      {
+        "product": "automate",
+        "seats": 55,
+        "activeSeats": 46,
+        "arr": 20790,
+        "addOns": [],
+        "since": "2024-07-31"
+      }
+    ]
+  }
+]

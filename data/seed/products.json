@@ -1,0 +1,63 @@
+[
+  {
+    "id": "desk",
+    "name": "Lumio Desk",
+    "sku": "LUM-DESK",
+    "tagline": "Shared inbox and ticketing for every channel.",
+    "pricePerSeat": 780,
+    "seatRatio": 1,
+    "personas": [
+      "support_ops",
+      "head_of_support",
+      "it_admin"
+    ]
+  },
+  {
+    "id": "knowledge",
+    "name": "Lumio Knowledge",
+    "sku": "LUM-KNOW",
+    "tagline": "Help centre, self-service and internal knowledge.",
+    "pricePerSeat": 240,
+    "seatRatio": 1,
+    "personas": [
+      "knowledge_lead",
+      "head_of_support"
+    ]
+  },
+  {
+    "id": "insights",
+    "name": "Lumio Insights",
+    "sku": "LUM-INSI",
+    "tagline": "Analytics, SLA and workforce intelligence.",
+    "pricePerSeat": 300,
+    "seatRatio": 1,
+    "personas": [
+      "head_of_support",
+      "support_ops"
+    ]
+  },
+  {
+    "id": "automate",
+    "name": "Lumio Automate",
+    "sku": "LUM-AUTO",
+    "tagline": "Routing, workflows and AI assistance.",
+    "pricePerSeat": 420,
+    "seatRatio": 1,
+    "personas": [
+      "support_ops"
+    ]
+  },
+  {
+    "id": "voice",
+    "name": "Lumio Voice",
+    "sku": "LUM-VOIC",
+    "tagline": "Cloud telephony built into Desk.",
+    "pricePerSeat": 540,
+    "seatRatio": 0.6,
+    "personas": [
+      "head_of_support",
+      "support_ops",
+      "it_admin"
+    ]
+  }
+]

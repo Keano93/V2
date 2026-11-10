@@ -1,0 +1,1370 @@
+[
+  {
+    "noteId": "note_001",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_001_c1"
+      },
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_001_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_002",
+    "needs": [
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_001_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_003",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_001_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_004",
+    "needs": [
+      {
+        "theme": "voice_transcription",
+        "contactId": "acc_002_c1"
+      },
+      {
+        "theme": "manual_routing",
+        "contactId": "acc_002_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_005",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_002_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_006",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_002_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_007",
+    "needs": [
+      {
+        "theme": "voice_transcription",
+        "contactId": "acc_003_c4"
+      }
+    ]
+  },
+  {
+    "noteId": "note_008",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_003_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_009",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_003_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_010",
+    "needs": [
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_004_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_011",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_004_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_012",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_004_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_013",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_005_c1"
+      },
+      {
+        "theme": "voice_transcription",
+        "contactId": "acc_005_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_014",
+    "needs": [
+      {
+        "theme": "approval_workflows",
+        "contactId": "acc_005_c2"
+      },
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_005_c4"
+      }
+    ]
+  },
+  {
+    "noteId": "note_015",
+    "needs": []
+  },
+  {
+    "noteId": "note_016",
+    "needs": [
+      {
+        "theme": "data_residency",
+        "contactId": "acc_006_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_017",
+    "needs": [
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_006_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_018",
+    "needs": [
+      {
+        "theme": "data_residency",
+        "contactId": "acc_006_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_019",
+    "needs": [
+      {
+        "theme": "manual_routing",
+        "contactId": "acc_007_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_020",
+    "needs": [
+      {
+        "theme": "voice_transcription",
+        "contactId": "acc_007_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_021",
+    "needs": [
+      {
+        "theme": "manual_routing",
+        "contactId": "acc_007_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_022",
+    "needs": [
+      {
+        "theme": "data_residency",
+        "contactId": "acc_008_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_023",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_008_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_024",
+    "needs": []
+  },
+  {
+    "noteId": "note_025",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_009_c3"
+      },
+      {
+        "theme": "voice_transcription",
+        "contactId": "acc_009_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_026",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_009_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_027",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_009_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_028",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_010_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_029",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_010_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_030",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_010_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_031",
+    "needs": [
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_011_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_032",
+    "needs": []
+  },
+  {
+    "noteId": "note_033",
+    "needs": [
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_011_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_034",
+    "needs": [
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_012_c1"
+      },
+      {
+        "theme": "manual_routing",
+        "contactId": "acc_012_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_035",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_012_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_036",
+    "needs": [
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_012_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_037",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_013_c1"
+      },
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_013_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_038",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_013_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_039",
+    "needs": []
+  },
+  {
+    "noteId": "note_040",
+    "needs": [
+      {
+        "theme": "csat_insight",
+        "contactId": "acc_014_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_041",
+    "needs": [
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_014_c1"
+      },
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_014_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_042",
+    "needs": []
+  },
+  {
+    "noteId": "note_043",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_015_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_044",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_015_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_045",
+    "needs": []
+  },
+  {
+    "noteId": "note_046",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_016_c1"
+      },
+      {
+        "theme": "manual_routing",
+        "contactId": "acc_016_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_047",
+    "needs": [
+      {
+        "theme": "data_residency",
+        "contactId": "acc_016_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_048",
+    "needs": []
+  },
+  {
+    "noteId": "note_049",
+    "needs": [
+      {
+        "theme": "csat_insight",
+        "contactId": "acc_017_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_050",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_017_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_051",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_017_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_052",
+    "needs": [
+      {
+        "theme": "voice_transcription",
+        "contactId": "acc_018_c3"
+      },
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_018_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_053",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_018_c1"
+      },
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_018_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_054",
+    "needs": []
+  },
+  {
+    "noteId": "note_055",
+    "needs": [
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_019_c4"
+      },
+      {
+        "theme": "manual_routing",
+        "contactId": "acc_019_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_056",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_019_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_057",
+    "needs": []
+  },
+  {
+    "noteId": "note_058",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_020_c2"
+      },
+      {
+        "theme": "multilingual",
+        "contactId": "acc_020_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_059",
+    "needs": [
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_020_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_060",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_020_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_061",
+    "needs": [
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_021_c1"
+      },
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_021_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_062",
+    "needs": [
+      {
+        "theme": "approval_workflows",
+        "contactId": "acc_021_c2"
+      },
+      {
+        "theme": "csat_insight",
+        "contactId": "acc_021_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_063",
+    "needs": []
+  },
+  {
+    "noteId": "note_064",
+    "needs": [
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_022_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_065",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_022_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_066",
+    "needs": []
+  },
+  {
+    "noteId": "note_067",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_023_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_068",
+    "needs": [
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_023_c1"
+      },
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_023_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_069",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_023_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_070",
+    "needs": [
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_024_c1"
+      },
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_024_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_071",
+    "needs": [
+      {
+        "theme": "approval_workflows",
+        "contactId": "acc_024_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_072",
+    "needs": []
+  },
+  {
+    "noteId": "note_073",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_025_c1"
+      },
+      {
+        "theme": "data_residency",
+        "contactId": "acc_025_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_074",
+    "needs": [
+      {
+        "theme": "csat_insight",
+        "contactId": "acc_025_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_075",
+    "needs": [
+      {
+        "theme": "csat_insight",
+        "contactId": "acc_025_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_076",
+    "needs": [
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_026_c1"
+      },
+      {
+        "theme": "approval_workflows",
+        "contactId": "acc_026_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_077",
+    "needs": [
+      {
+        "theme": "sla_visibility",
+        "contactId": "acc_026_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_078",
+    "needs": []
+  },
+  {
+    "noteId": "note_079",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_027_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_080",
+    "needs": [
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_027_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_081",
+    "needs": [
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_027_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_082",
+    "needs": [
+      {
+        "theme": "sla_visibility",
+        "contactId": "acc_028_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_083",
+    "needs": [
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_028_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_084",
+    "needs": [
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_028_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_085",
+    "needs": [
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_029_c4"
+      },
+      {
+        "theme": "crm_sync",
+        "contactId": "acc_029_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_086",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_029_c1"
+      },
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_029_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_087",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_029_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_088",
+    "needs": [
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_030_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_089",
+    "needs": [
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_030_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_090",
+    "needs": []
+  },
+  {
+    "noteId": "note_091",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_031_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_092",
+    "needs": [
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_031_c4"
+      }
+    ]
+  },
+  {
+    "noteId": "note_093",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_031_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_094",
+    "needs": [
+      {
+        "theme": "crm_sync",
+        "contactId": "acc_032_c3"
+      },
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_032_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_095",
+    "needs": [
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_032_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_096",
+    "needs": []
+  },
+  {
+    "noteId": "note_097",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_033_c1"
+      },
+      {
+        "theme": "sso_provisioning",
+        "contactId": "acc_033_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_098",
+    "needs": [
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_033_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_099",
+    "needs": [
+      {
+        "theme": "sla_visibility",
+        "contactId": "acc_033_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_100",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_034_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_101",
+    "needs": [
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_034_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_102",
+    "needs": []
+  },
+  {
+    "noteId": "note_103",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_035_c1"
+      },
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_035_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_104",
+    "needs": [
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_035_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_105",
+    "needs": [
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_035_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_106",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_036_c1"
+      },
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_036_c4"
+      }
+    ]
+  },
+  {
+    "noteId": "note_107",
+    "needs": [
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_036_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_108",
+    "needs": []
+  },
+  {
+    "noteId": "note_109",
+    "needs": [
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_037_c2"
+      },
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_037_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_110",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_037_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_111",
+    "needs": [
+      {
+        "theme": "knowledge_gaps",
+        "contactId": "acc_037_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_112",
+    "needs": [
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_038_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_113",
+    "needs": []
+  },
+  {
+    "noteId": "note_114",
+    "needs": [
+      {
+        "theme": "stale_knowledge",
+        "contactId": "acc_038_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_115",
+    "needs": [
+      {
+        "theme": "manual_routing",
+        "contactId": "acc_039_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_116",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_039_c1"
+      },
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_039_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_117",
+    "needs": []
+  },
+  {
+    "noteId": "note_118",
+    "needs": [
+      {
+        "theme": "data_residency",
+        "contactId": "acc_040_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_119",
+    "needs": [
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_040_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_120",
+    "needs": []
+  },
+  {
+    "noteId": "note_121",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_041_c1"
+      },
+      {
+        "theme": "voice_transcription",
+        "contactId": "acc_041_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_122",
+    "needs": [
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_041_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_123",
+    "needs": [
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_041_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_124",
+    "needs": [
+      {
+        "theme": "data_residency",
+        "contactId": "acc_042_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_125",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_042_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_126",
+    "needs": []
+  },
+  {
+    "noteId": "note_127",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_043_c4"
+      },
+      {
+        "theme": "phone_channel",
+        "contactId": "acc_043_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_128",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_043_c2"
+      },
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_043_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_129",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_043_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_130",
+    "needs": [
+      {
+        "theme": "approval_workflows",
+        "contactId": "acc_044_c3"
+      },
+      {
+        "theme": "multilingual",
+        "contactId": "acc_044_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_131",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_044_c1"
+      },
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_044_c3"
+      }
+    ]
+  },
+  {
+    "noteId": "note_132",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_044_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_133",
+    "needs": [
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_045_c2"
+      },
+      {
+        "theme": "csat_insight",
+        "contactId": "acc_045_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_134",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_045_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_135",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_045_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_136",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_046_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_137",
+    "needs": [
+      {
+        "theme": "reply_drafting",
+        "contactId": "acc_046_c4"
+      }
+    ]
+  },
+  {
+    "noteId": "note_138",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_046_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_139",
+    "needs": [
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_047_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_140",
+    "needs": [
+      {
+        "theme": "audit_trail",
+        "contactId": "acc_047_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_141",
+    "needs": []
+  },
+  {
+    "noteId": "note_142",
+    "needs": [
+      {
+        "theme": "after_hours",
+        "contactId": "acc_048_c1"
+      },
+      {
+        "theme": "call_compliance",
+        "contactId": "acc_048_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_143",
+    "needs": [
+      {
+        "theme": "exec_reporting",
+        "contactId": "acc_048_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_144",
+    "needs": []
+  },
+  {
+    "noteId": "note_145",
+    "needs": [
+      {
+        "theme": "workforce_planning",
+        "contactId": "acc_049_c3"
+      },
+      {
+        "theme": "ticket_deflection",
+        "contactId": "acc_049_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_146",
+    "needs": []
+  },
+  {
+    "noteId": "note_147",
+    "needs": []
+  },
+  {
+    "noteId": "note_148",
+    "needs": [
+      {
+        "theme": "multilingual",
+        "contactId": "acc_050_c1"
+      },
+      {
+        "theme": "after_hours",
+        "contactId": "acc_050_c1"
+      }
+    ]
+  },
+  {
+    "noteId": "note_149",
+    "needs": [
+      {
+        "theme": "sla_visibility",
+        "contactId": "acc_050_c1"
+      },
+      {
+        "theme": "agent_onboarding",
+        "contactId": "acc_050_c2"
+      }
+    ]
+  },
+  {
+    "noteId": "note_150",
+    "needs": []
+  }
+]
