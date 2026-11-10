@@ -31,6 +31,10 @@ Headstart is the expansion engine for B2B SaaS. It builds a live map of what eac
 
 More screenshots are in `docs/screenshots/`.
 
+### Click-through demo
+
+`docs/demo/headstart-demo.html` is a single self-contained page (no server, no install). It holds a snapshot of the seeded map: the CRO overview with working filters and account panels, plus a **Ranked plays** preview of the Phase 3 rep cards with expandable evidence. Open it in a browser to click through. `scripts/export-demo-data.ts` exports the JSON it embeds.
+
 ---
 
 ## Quick start
