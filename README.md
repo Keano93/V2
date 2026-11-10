@@ -21,21 +21,25 @@ npm run dev
 database, applies migrations and loads the two seed projects (only if the database is empty).
 Then open http://localhost:3000.
 
-To enable AI detection (from slice 2), put your key in `.env`:
+To enable AI detection, put your key in `.env` and restart:
 
 ```
 ANTHROPIC_API_KEY="sk-ant-..."
-ANTHROPIC_MODEL="claude-sonnet-5-5"
+ANTHROPIC_MODEL="claude-opus-5-5"   # any Claude model id
+ANTHROPIC_EFFORT="medium"           # low | medium | high
 ```
 
-`.env` is git-ignored. Never commit a real key.
+`.env` is git-ignored. Never commit a real key. The key is only read by the Anthropic SDK and is never logged.
 
 ## Useful commands
 
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Set up (if needed) and start the app |
-| `npm test` | Unit tests (parsers, seed data integrity) |
+| `npm test` | Unit tests |
+| `npm run eval` | Measure AI detection precision/recall against the seed answer key |
+| `npm run eval -- --detector baseline` | Same, using the keyword baseline (no API key needed) |
+| `npm run detect` | Run AI detection on all projects and fill the review queue (`--detector baseline`, `--project <ref>`) |
 | `npm run seed` | Reload the two seed projects (keeps edited contract rules) |
 | `npm run db:reset` | Wipe the database and re-seed from scratch |
 | `npx tsx scripts/dump-messages.ts [kind]` | Print parsed messages (debugging) |
@@ -53,6 +57,29 @@ ANTHROPIC_MODEL="claude-sonnet-5-5"
 - All times are treated as Irish local time (Europe/Dublin), including the clock change.
 - Re-importing the same content is skipped (duplicates are detected per project).
 - Every message links to a page showing it in context in its original source.
+
+**Slice 2: detection and eval**
+
+- **AI detection** (`src/lib/detection/`). Each project's messages, from every source, are put in time order
+  and sent to Claude in batches (up to 150 messages per request). The model returns structured JSON:
+  event type, title, summary, why it's notifiable, awareness date, supporting message ids, an exact quote
+  and a confidence score. One event mentioned across WhatsApp, email and the diary comes back as one event.
+  Events found in earlier batches are passed to later ones so they can be extended rather than duplicated.
+- **Quote check.** Every quote is checked against the original message text. If it can't be found, the
+  event shows "quote not found in source".
+- **Caching.** Each response is stored in the `DetectionCache` table, keyed by a hash of the model, effort,
+  prompt version and exact prompt text. Re-running on unchanged messages costs nothing. Adding new messages
+  re-runs only the batch they land in and the batches after it.
+- **Keyword baseline** (`--detector baseline`, or the button in the app). A simple rules-based detector,
+  clearly labelled as not AI, so the pipeline works without a key and the AI has something to beat.
+- **Re-running** replaces unreviewed events. Events a person has confirmed or dismissed are kept.
+- **Eval** (`npm run eval`). Runs detection in memory (the review queue is untouched) and scores it against
+  `data/seed/answer-key.json`. A detection matches a known event when their evidence messages overlap. Reports
+  precision, recall, F1, duplicates, false positives (and which traps were hit), event-type accuracy and
+  awareness-date accuracy. Writes the full result to `eval-results/latest-<detector>.json`.
+
+Baseline result on the seed data: precision 26%, recall 100% (57 flags for 15 events: 35 duplicates and
+7 false positives, including 4 of the 14 traps). The AI eval needs an API key to run.
 
 ## Seed data
 

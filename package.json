@@ -11,9 +11,12 @@
     "lint": "eslint",
     "test": "vitest run",
     "seed": "tsx prisma/seed.ts",
-    "db:reset": "prisma migrate reset --force --skip-seed && tsx prisma/seed.ts"
+    "db:reset": "prisma migrate reset --force --skip-seed && tsx prisma/seed.ts",
+    "eval": "tsx scripts/eval.ts",
+    "detect": "tsx scripts/detect.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
     "@prisma/client": "^6.19.3",
     "luxon": "^3.7.2",
     "mailparser": "^3.14.3",

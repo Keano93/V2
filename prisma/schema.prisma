@@ -49,6 +49,8 @@ model Project {
   shutdownEnd       String?
   sources           Source[]
   messages          Message[]
+  events            Event[]
+  detectionRuns     DetectionRun[]
   createdAt         DateTime     @default(now())
 }
 
@@ -78,7 +80,72 @@ model Message {
   subject       String?
   body          String
   contentHash   String // sha256 of sender|sentAt|body, used for dedupe and AI caching
+  events        EventMessage[]
 
   @@unique([sourceId, ordinal])
   @@index([projectId, sentAt])
+}
+
+/// Raw model responses keyed by a hash of (model, prompt version, batch content),
+/// so re-running detection on unchanged messages never re-bills.
+model DetectionCache {
+  key           String   @id
+  model         String
+  promptVersion String
+  response      String // JSON
+  inputTokens   Int      @default(0)
+  outputTokens  Int      @default(0)
+  createdAt     DateTime @default(now())
+}
+
+model DetectionRun {
+  id            String    @id @default(cuid())
+  projectId     String
+  project       Project   @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  detector      String // ai | baseline
+  model         String?
+  promptVersion String?
+  status        String // running | completed | failed
+  error         String?
+  batches       Int       @default(0)
+  cacheHits     Int       @default(0)
+  inputTokens   Int       @default(0)
+  outputTokens  Int       @default(0)
+  eventsFound   Int       @default(0)
+  startedAt     DateTime  @default(now())
+  finishedAt    DateTime?
+  events        Event[]
+}
+
+model Event {
+  id              String         @id @default(cuid())
+  projectId       String
+  project         Project        @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  runId           String?
+  run             DetectionRun?  @relation(fields: [runId], references: [id], onDelete: SetNull)
+  origin          String // ai | baseline | manual
+  status          String         @default("pending_review") // pending_review | confirmed | dismissed
+  eventType       String // change | delay | instruction | access | late_information
+  title           String
+  summary         String
+  reasoning       String?
+  awarenessDate   DateTime // Irish calendar date, stored at 12:00 local
+  quote           String
+  quoteMessageId  String?
+  quoteVerified   Boolean        @default(false)
+  confidence      Float
+  messages        EventMessage[]
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@index([projectId, status])
+}
+
+model EventMessage {
+  eventId   String
+  event     Event   @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  messageId String
+  message   Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  @@id([eventId, messageId])
 }

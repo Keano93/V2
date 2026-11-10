@@ -2,185 +2,601 @@
   "_readme": "Known events in the synthetic seed data, used by the eval script. Each event lists evidence: a seed file plus a text snippet that identifies the message(s). A detected event matches a known event if its supporting messages overlap the evidence messages. Traps are messages that look relevant but are NOT notifiable; flagging one is a false positive. awarenessDate is the earliest date the contractor arguably became aware (Irish local date).",
   "events": [
     {
-      "id": "KIL-01", "project": "kilbrack", "type": "late_information", "acceptTypes": ["delay"],
+      "id": "KIL-01",
+      "project": "kilbrack",
+      "type": "late_information",
+      "acceptTypes": [
+        "delay"
+      ],
       "awarenessDate": "2026-09-30",
       "summary": "RFI-014 roof steel connection details not answered by 29/09; steel erectors stood down 05/10.",
       "evidence": [
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "RFI 14 still not back" },
-        { "file": "kilbrack/site-diary.txt", "contains": "RFI-014 (roof steel connection details) response due" },
-        { "file": "kilbrack/site-diary.txt", "contains": "Steel erection crew (4 men + crane)" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "Steel erectors here, no connection details" },
-        { "file": "kilbrack/emails-rfi-014-thread.txt", "contains": "had to be stood down at lunchtime" },
-        { "file": "kilbrack/emails-rfi-014-thread.txt", "contains": "Conor is still reviewing the connection design" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "Still nothing on RFI 14" }
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "RFI 14 still not back"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "RFI-014 (roof steel connection details) response due"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "Steel erection crew (4 men + crane)"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Steel erectors here, no connection details"
+        },
+        {
+          "file": "kilbrack/emails-rfi-014-thread.txt",
+          "contains": "had to be stood down at lunchtime"
+        },
+        {
+          "file": "kilbrack/emails-rfi-014-thread.txt",
+          "contains": "Conor is still reviewing the connection design"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Still nothing on RFI 14"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Aoife says engineer is"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "RFI 14 answered finally"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "RFI-014 response received"
+        },
+        {
+          "file": "kilbrack/progress-meeting-07-minutes.txt",
+          "contains": "roof steel is now behind programme pending RFI-014"
+        }
       ]
     },
     {
-      "id": "KIL-02", "project": "kilbrack", "type": "delay", "acceptTypes": ["change", "instruction"],
+      "id": "KIL-02",
+      "project": "kilbrack",
+      "type": "delay",
+      "acceptTypes": [
+        "change",
+        "instruction"
+      ],
       "awarenessDate": "2026-10-05",
       "summary": "Unforeseen old foundations and soft ground in SEN room excavation; engineer instructs hold pending redesign.",
       "evidence": [
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "Lads hit old walls in the SEN base dig" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "hold on the SEN base until he redesigns" },
-        { "file": "kilbrack/site-diary.txt", "contains": "uncovered old masonry foundations" },
-        { "file": "kilbrack/conor-daly-ground-conditions.eml", "contains": "were not picked up in the site investigation" }
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Lads hit old walls in the SEN base dig"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "hold on the SEN base until he redesigns"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "uncovered old masonry foundations"
+        },
+        {
+          "file": "kilbrack/conor-daly-ground-conditions.eml",
+          "contains": "were not picked up in the site investigation"
+        },
+        {
+          "file": "kilbrack/progress-meeting-07-minutes.txt",
+          "contains": "SEN room foundations: Engineer to issue revised"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Stop there. I'll get Conor Daly out"
+        }
       ]
     },
     {
-      "id": "KIL-03", "project": "kilbrack", "type": "instruction", "acceptTypes": ["change"],
+      "id": "KIL-03",
+      "project": "kilbrack",
+      "type": "instruction",
+      "acceptTypes": [
+        "change"
+      ],
       "awarenessDate": "2026-10-08",
       "summary": "ER verbal instruction on site walk: extra rooflight over classroom 4 and upgraded fire rated doors D07–D12.",
       "evidence": [
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "put an extra rooflight over classroom 4" },
-        { "file": "kilbrack/site-diary.txt", "contains": "Verbal instruction to Tomás Byrne" },
-        { "file": "kilbrack/emails-misc.txt", "contains": "please proceed with the additional rooflight" }
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "put an extra rooflight over classroom 4"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "Verbal instruction to Tomás Byrne"
+        },
+        {
+          "file": "kilbrack/emails-misc.txt",
+          "contains": "please proceed with the additional rooflight"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Don't order anything till we have it in writing"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Principal and Rachel from Moran Lyons were there"
+        }
       ]
     },
     {
-      "id": "KIL-04", "project": "kilbrack", "type": "access", "acceptTypes": ["delay"],
+      "id": "KIL-04",
+      "project": "kilbrack",
+      "type": "access",
+      "acceptTypes": [
+        "delay"
+      ],
       "awarenessDate": "2026-10-12",
       "summary": "School refuses access to compound zone B (staff car park) due from 12/10 until 02/11; north scaffold blocked.",
       "evidence": [
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "Principal won't let us into the staff car park" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "where do the scaffold deliveries go" },
-        { "file": "kilbrack/site-diary.txt", "contains": "School principal refused access to staff car park" },
-        { "file": "kilbrack/emails-misc.txt", "contains": "has refused us access to the staff car park" }
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Principal won't let us into the staff car park"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "where do the scaffold deliveries go"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "School principal refused access to staff car park"
+        },
+        {
+          "file": "kilbrack/emails-misc.txt",
+          "contains": "has refused us access to the staff car park"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Get it in the diary with times"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Got the scaffold truck in off the road"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "Zone B handed over"
+        }
       ]
     },
     {
-      "id": "KIL-05", "project": "kilbrack", "type": "change", "acceptTypes": ["instruction"],
+      "id": "KIL-05",
+      "project": "kilbrack",
+      "type": "change",
+      "acceptTypes": [
+        "instruction"
+      ],
       "awarenessDate": "2026-10-14",
       "summary": "Revised layout KNS-ML-A-105 rev F adds SEN sensory room partitions and two extra doors.",
       "evidence": [
-        { "file": "kilbrack/rachel-moran-rev-f.eml", "contains": "adds sensory room partitions" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "Rachel sent revised layout rev F" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "That's a change, we need to price it" }
+        {
+          "file": "kilbrack/rachel-moran-rev-f.eml",
+          "contains": "adds sensory room partitions"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Rachel sent revised layout rev F"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "That's a change, we need to price it"
+        }
       ]
     },
     {
-      "id": "KIL-06", "project": "kilbrack", "type": "late_information", "acceptTypes": ["delay"],
+      "id": "KIL-06",
+      "project": "kilbrack",
+      "type": "late_information",
+      "acceptTypes": [
+        "delay"
+      ],
       "awarenessDate": "2026-10-15",
       "summary": "Door schedule and ironmongery specification outstanding from the architect; door order deadline 23/10.",
       "evidence": [
-        { "file": "kilbrack/progress-meeting-07-minutes.txt", "contains": "Door schedule and ironmongery specification outstanding" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "Still no door schedule from the architect" },
-        { "file": "kilbrack/rachel-moran-door-schedule.eml", "contains": "door schedule and ironmongery spec are with the fire consultant" }
+        {
+          "file": "kilbrack/progress-meeting-07-minutes.txt",
+          "contains": "Door schedule and ironmongery specification outstanding"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Still no door schedule from the architect"
+        },
+        {
+          "file": "kilbrack/rachel-moran-door-schedule.eml",
+          "contains": "door schedule and ironmongery spec are with the fire consultant"
+        }
       ]
     },
     {
-      "id": "KIL-07", "project": "kilbrack", "type": "instruction", "acceptTypes": ["change"],
+      "id": "KIL-07",
+      "project": "kilbrack",
+      "type": "instruction",
+      "acceptTypes": [
+        "change"
+      ],
       "awarenessDate": "2026-10-15",
       "summary": "ER instructs omission of the entrance canopy and relocation of the bike shelter (minutes of PM7).",
       "evidence": [
-        { "file": "kilbrack/progress-meeting-07-minutes.txt", "contains": "main entrance canopy is to be omitted" }
+        {
+          "file": "kilbrack/progress-meeting-07-minutes.txt",
+          "contains": "main entrance canopy is to be omitted"
+        }
       ]
     },
     {
-      "id": "KIL-08", "project": "kilbrack", "type": "delay", "acceptTypes": ["access"],
+      "id": "KIL-08",
+      "project": "kilbrack",
+      "type": "delay",
+      "acceptTypes": [
+        "access"
+      ],
       "awarenessDate": "2026-10-21",
       "summary": "Watermain diversion by the council (employer's arrangement) not done by 16/10; storm drainage S1–S4 blocked.",
       "evidence": [
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "Council crew still haven't diverted the watermain" },
-        { "file": "kilbrack/site-team-whatsapp.txt", "contains": "That's the council's job" },
-        { "file": "kilbrack/site-diary.txt", "contains": "Watermain diversion at front entrance" }
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Council crew still haven't diverted the watermain"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "That's the council's job"
+        },
+        {
+          "file": "kilbrack/site-diary.txt",
+          "contains": "Watermain diversion at front entrance"
+        },
+        {
+          "file": "kilbrack/site-team-whatsapp.txt",
+          "contains": "Yes, it's by others"
+        }
       ]
     },
     {
-      "id": "HAL-01", "project": "halcyon", "type": "late_information", "acceptTypes": ["delay"],
+      "id": "HAL-01",
+      "project": "halcyon",
+      "type": "late_information",
+      "acceptTypes": [
+        "delay"
+      ],
       "awarenessDate": "2026-10-05",
       "summary": "Coordinated DH2 containment / ceiling void drawings due 02/10 not issued; gang of 8 idle.",
       "evidence": [
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Still no coordinated DH2 containment" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "BIM team still clashing it" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "we're losing a gang a day" },
-        { "file": "halcyon/site-diary.txt", "contains": "DH2: gang of 8 idle" },
-        { "file": "halcyon/emails-dh2-drawings-thread.txt", "contains": "were due to us on Friday 2 October" },
-        { "file": "halcyon/emails-dh2-drawings-thread.txt", "contains": "Expect P3 Thursday" }
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Still no coordinated DH2 containment"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "BIM team still clashing it"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "we're losing a gang a day"
+        },
+        {
+          "file": "halcyon/site-diary.txt",
+          "contains": "DH2: gang of 8 idle"
+        },
+        {
+          "file": "halcyon/emails-dh2-drawings-thread.txt",
+          "contains": "were due to us on Friday 2 October"
+        },
+        {
+          "file": "halcyon/emails-dh2-drawings-thread.txt",
+          "contains": "Expect P3 Thursday"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Moved the 8 lads to DH3"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "DH2 coordinated drawings rev P3 now on portal"
+        }
       ]
     },
     {
-      "id": "HAL-02", "project": "halcyon", "type": "access", "acceptTypes": ["delay"],
+      "id": "HAL-02",
+      "project": "halcyon",
+      "type": "access",
+      "acceptTypes": [
+        "delay"
+      ],
       "awarenessDate": "2026-10-12",
       "summary": "Data Hall 1 not released on 12/10 per programme rev 5; drylining incomplete, earliest 26/10.",
       "evidence": [
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "DH1 not released to us this morning" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "the drylining sub is behind" },
-        { "file": "halcyon/site-diary.txt", "contains": "DH1 not released to Lumen" },
-        { "file": "halcyon/emails-misc.txt", "contains": "Data Hall 1 was to be released to Lumen today" }
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "DH1 not released to us this morning"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "the drylining sub is behind"
+        },
+        {
+          "file": "halcyon/site-diary.txt",
+          "contains": "DH1 not released to Lumen"
+        },
+        {
+          "file": "halcyon/emails-misc.txt",
+          "contains": "Data Hall 1 was to be released to Lumen today"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "DH1 finally released"
+        },
+        {
+          "file": "halcyon/site-diary.txt",
+          "contains": "DH1 released to Lumen 08:00"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Mark, flag for the notice log"
+        }
       ]
     },
     {
-      "id": "HAL-03", "project": "halcyon", "type": "instruction", "acceptTypes": ["change"],
+      "id": "HAL-03",
+      "project": "halcyon",
+      "type": "instruction",
+      "acceptTypes": [
+        "change"
+      ],
       "awarenessDate": "2026-10-14",
       "summary": "MC PM verbally instructs generator yard cable route moved to north side of access road (~140m extra ducting).",
       "evidence": [
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "client wants the generator yard cable route moved" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "extra 140m of ducting" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "just get going on it" },
-        { "file": "halcyon/site-diary.txt", "contains": "as verbally instructed by R. Hennessy" },
-        { "file": "halcyon/rob-hennessy-generator-route.eml", "contains": "client wants the generator cable route on the north side" },
-        { "file": "halcyon/rob-hennessy-generator-route.eml", "contains": "please confirm in writing the change to the generator yard cable route" }
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "client wants the generator yard cable route moved"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "extra 140m of ducting"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "just get going on it"
+        },
+        {
+          "file": "halcyon/site-diary.txt",
+          "contains": "as verbally instructed by R. Hennessy"
+        },
+        {
+          "file": "halcyon/rob-hennessy-generator-route.eml",
+          "contains": "client wants the generator cable route on the north side"
+        },
+        {
+          "file": "halcyon/rob-hennessy-generator-route.eml",
+          "contains": "please confirm in writing the change to the generator yard cable route"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Started setting out the north route"
+        }
       ]
     },
     {
-      "id": "HAL-04", "project": "halcyon", "type": "change", "acceptTypes": ["instruction"],
+      "id": "HAL-04",
+      "project": "halcyon",
+      "type": "change",
+      "acceptTypes": [
+        "instruction"
+      ],
       "awarenessDate": "2026-10-19",
       "summary": "Electrical spec rev 04: UPS changed to 2 x 800kVA and additional busbar tap-offs.",
       "evidence": [
-        { "file": "halcyon/niamh-clarke-spec-rev04.eml", "contains": "UPS changed from 500kVA modular" },
-        { "file": "halcyon/coordination-meeting-minutes.txt", "contains": "Electrical specification rev 04 issued" }
+        {
+          "file": "halcyon/niamh-clarke-spec-rev04.eml",
+          "contains": "UPS changed from 500kVA modular"
+        },
+        {
+          "file": "halcyon/coordination-meeting-minutes.txt",
+          "contains": "Electrical specification rev 04 issued"
+        }
       ]
     },
     {
-      "id": "HAL-05", "project": "halcyon", "type": "change", "acceptTypes": ["instruction"],
+      "id": "HAL-05",
+      "project": "halcyon",
+      "type": "change",
+      "acceptTypes": [
+        "instruction"
+      ],
       "awarenessDate": "2026-10-20",
       "summary": "Client requires two additional CRAH units in DH2 (N+2 redundancy).",
       "evidence": [
-        { "file": "halcyon/coordination-meeting-minutes.txt", "contains": "two additional CRAH units" }
+        {
+          "file": "halcyon/coordination-meeting-minutes.txt",
+          "contains": "two additional CRAH units"
+        }
       ]
     },
     {
-      "id": "HAL-06", "project": "halcyon", "type": "delay", "acceptTypes": ["access"],
+      "id": "HAL-06",
+      "project": "halcyon",
+      "type": "delay",
+      "acceptTypes": [
+        "access"
+      ],
       "awarenessDate": "2026-10-21",
       "summary": "Roof chiller platform steel (by MC's steel sub) late; chiller pipework blocked and crane cancelled.",
       "evidence": [
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Roof chiller platform steel still not finished" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Steel guys say next Wednesday" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "cancel the crane" },
-        { "file": "halcyon/site-diary.txt", "contains": "Roof chiller platform steel" },
-        { "file": "halcyon/darren-lynch-crane.eml", "contains": "crane for the chiller lift on Friday is cancelled" },
-        { "file": "halcyon/coordination-meeting-minutes.txt", "contains": "Roof chiller platform: Corrib to confirm" }
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Roof chiller platform steel still not finished"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Steel guys say next Wednesday"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "cancel the crane"
+        },
+        {
+          "file": "halcyon/site-diary.txt",
+          "contains": "Roof chiller platform steel"
+        },
+        {
+          "file": "halcyon/darren-lynch-crane.eml",
+          "contains": "crane for the chiller lift on Friday is cancelled"
+        },
+        {
+          "file": "halcyon/coordination-meeting-minutes.txt",
+          "contains": "Roof chiller platform: Corrib to confirm"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Chiller platform signed off"
+        }
       ]
     },
     {
-      "id": "HAL-07", "project": "halcyon", "type": "access", "acceptTypes": ["delay"],
+      "id": "HAL-07",
+      "project": "halcyon",
+      "type": "access",
+      "acceptTypes": [
+        "delay"
+      ],
       "awarenessDate": "2026-10-27",
       "summary": "Site closed to subcontractors 28–29/10 for client security audit; 14 operatives turned away.",
       "evidence": [
-        { "file": "halcyon/emails-misc.txt", "contains": "closed to all subcontractor personnel" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "site closed to all subcontractors tomorrow" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "I have 14 lads booked in tomorrow" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "send them in anyway" },
-        { "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Turned away at the gate" },
-        { "file": "halcyon/site-diary.txt", "contains": "Site closed to subcontractors by Corrib" },
-        { "file": "halcyon/site-diary.txt", "contains": "Site closed (security audit)" }
+        {
+          "file": "halcyon/emails-misc.txt",
+          "contains": "closed to all subcontractor personnel"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "site closed to all subcontractors tomorrow"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "I have 14 lads booked in tomorrow"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "send them in anyway"
+        },
+        {
+          "file": "halcyon/mande-coordination-whatsapp.txt",
+          "contains": "Turned away at the gate"
+        },
+        {
+          "file": "halcyon/site-diary.txt",
+          "contains": "Site closed to subcontractors by Corrib"
+        },
+        {
+          "file": "halcyon/site-diary.txt",
+          "contains": "Site closed (security audit)"
+        }
       ]
     }
   ],
   "traps": [
-    { "id": "KIL-T1", "project": "kilbrack", "why": "Contractor's own late order (own risk).", "file": "kilbrack/site-team-whatsapp.txt", "contains": "Plasterboard from the merchants is a week late" },
-    { "id": "KIL-T2", "project": "kilbrack", "why": "Personal lateness, not a project event.", "file": "kilbrack/site-team-whatsapp.txt", "contains": "Running late, stuck behind a tractor" },
-    { "id": "KIL-T3", "project": "kilbrack", "why": "RFI answered promptly; no delay.", "file": "kilbrack/site-team-whatsapp.txt", "contains": "Conor came back on RFI 16 already" },
-    { "id": "KIL-T4", "project": "kilbrack", "why": "Contractor's own resequencing.", "file": "kilbrack/site-team-whatsapp.txt", "contains": "Changing the order this week" },
-    { "id": "KIL-T5", "project": "kilbrack", "why": "Social chatter using the word 'change'.", "file": "kilbrack/site-team-whatsapp.txt", "contains": "Christmas party change of plan" },
-    { "id": "KIL-T6", "project": "kilbrack", "why": "Drawings issued on time, no scope change.", "file": "kilbrack/emails-misc.txt", "contains": "Elevations rev D issued today as programmed" },
-    { "id": "KIL-T7", "project": "kilbrack", "why": "Contractor's own programme action.", "file": "kilbrack/progress-meeting-07-minutes.txt", "contains": "Contractor to issue programme rev 3" },
-    { "id": "HAL-T1", "project": "halcyon", "why": "Subcontractor's own supplier delay (own risk).", "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Our cable delivery from the wholesaler" },
-    { "id": "HAL-T2", "project": "halcyon", "why": "Drawings issued on schedule.", "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Drawings for DH3 lighting issued today as per schedule" },
-    { "id": "HAL-T3", "project": "halcyon", "why": "Routine H&S procedure change.", "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "New hot works permit process" },
-    { "id": "HAL-T4", "project": "halcyon", "why": "Subcontractor's own working hours change.", "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Changing the lads' start time" },
-    { "id": "HAL-T5", "project": "halcyon", "why": "Subcontractor's own defective work (own cost).", "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "rip out the tray in corridor 2" },
-    { "id": "HAL-T6", "project": "halcyon", "why": "Trivial site admin.", "file": "halcyon/mande-coordination-whatsapp.txt", "contains": "Who changed the code on the container lock" },
-    { "id": "HAL-T7", "project": "halcyon", "why": "Routine admin request from the MC QS.", "file": "halcyon/coordination-meeting-minutes.txt", "contains": "revised labour histogram" }
+    {
+      "id": "KIL-T1",
+      "project": "kilbrack",
+      "why": "Contractor's own late order (own risk).",
+      "file": "kilbrack/site-team-whatsapp.txt",
+      "contains": "Plasterboard from the merchants is a week late"
+    },
+    {
+      "id": "KIL-T2",
+      "project": "kilbrack",
+      "why": "Personal lateness, not a project event.",
+      "file": "kilbrack/site-team-whatsapp.txt",
+      "contains": "Running late, stuck behind a tractor"
+    },
+    {
+      "id": "KIL-T3",
+      "project": "kilbrack",
+      "why": "RFI answered promptly; no delay.",
+      "file": "kilbrack/site-team-whatsapp.txt",
+      "contains": "Conor came back on RFI 16 already"
+    },
+    {
+      "id": "KIL-T4",
+      "project": "kilbrack",
+      "why": "Contractor's own resequencing.",
+      "file": "kilbrack/site-team-whatsapp.txt",
+      "contains": "Changing the order this week"
+    },
+    {
+      "id": "KIL-T5",
+      "project": "kilbrack",
+      "why": "Social chatter using the word 'change'.",
+      "file": "kilbrack/site-team-whatsapp.txt",
+      "contains": "Christmas party change of plan"
+    },
+    {
+      "id": "KIL-T6",
+      "project": "kilbrack",
+      "why": "Drawings issued on time, no scope change.",
+      "file": "kilbrack/emails-misc.txt",
+      "contains": "Elevations rev D issued today as programmed"
+    },
+    {
+      "id": "KIL-T7",
+      "project": "kilbrack",
+      "why": "Contractor's own programme action.",
+      "file": "kilbrack/progress-meeting-07-minutes.txt",
+      "contains": "Contractor to issue programme rev 3"
+    },
+    {
+      "id": "HAL-T1",
+      "project": "halcyon",
+      "why": "Subcontractor's own supplier delay (own risk).",
+      "file": "halcyon/mande-coordination-whatsapp.txt",
+      "contains": "Our cable delivery from the wholesaler"
+    },
+    {
+      "id": "HAL-T2",
+      "project": "halcyon",
+      "why": "Drawings issued on schedule.",
+      "file": "halcyon/mande-coordination-whatsapp.txt",
+      "contains": "Drawings for DH3 lighting issued today as per schedule"
+    },
+    {
+      "id": "HAL-T3",
+      "project": "halcyon",
+      "why": "Routine H&S procedure change.",
+      "file": "halcyon/mande-coordination-whatsapp.txt",
+      "contains": "New hot works permit process"
+    },
+    {
+      "id": "HAL-T4",
+      "project": "halcyon",
+      "why": "Subcontractor's own working hours change.",
+      "file": "halcyon/mande-coordination-whatsapp.txt",
+      "contains": "Changing the lads' start time"
+    },
+    {
+      "id": "HAL-T5",
+      "project": "halcyon",
+      "why": "Subcontractor's own defective work (own cost).",
+      "file": "halcyon/mande-coordination-whatsapp.txt",
+      "contains": "rip out the tray in corridor 2"
+    },
+    {
+      "id": "HAL-T6",
+      "project": "halcyon",
+      "why": "Trivial site admin.",
+      "file": "halcyon/mande-coordination-whatsapp.txt",
+      "contains": "Who changed the code on the container lock"
+    },
+    {
+      "id": "HAL-T7",
+      "project": "halcyon",
+      "why": "Routine admin request from the MC QS.",
+      "file": "halcyon/coordination-meeting-minutes.txt",
+      "contains": "revised labour histogram"
+    }
   ]
 }

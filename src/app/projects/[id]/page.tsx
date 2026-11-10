@@ -3,7 +3,10 @@ import { notFound } from "next/navigation";
 import { deleteSource } from "@/app/actions";
 import { Card, KindBadge, inputClass } from "@/components/ui";
 import { prisma } from "@/lib/db";
+import { Confidence, TypeBadge } from "@/components/event-bits";
+import { hasApiKey } from "@/lib/detection/ai";
 import { formatIrish } from "@/lib/time";
+import { DetectForm } from "./detect-form";
 import { IngestForm } from "./ingest-form";
 
 export const dynamic = "force-dynamic";
@@ -37,6 +40,19 @@ export default async function ProjectPage({
     include: { source: { select: { filename: true } } },
   });
   const total = await prisma.message.count({ where: { projectId: id } });
+  const [lastRun, events] = await Promise.all([
+    prisma.detectionRun.findFirst({ where: { projectId: id }, orderBy: { startedAt: "desc" } }),
+    prisma.event.findMany({
+      where: { projectId: id },
+      orderBy: [{ awarenessDate: "asc" }],
+      include: {
+        messages: {
+          include: { message: { select: { id: true, sender: true, sentAt: true, sourceKind: true, timePrecision: true } } },
+        },
+      },
+    }),
+  ]);
+  const flagged = new Set(events.flatMap((e) => e.messages.map((m) => m.messageId)));
 
   return (
     <div className="space-y-6">
@@ -53,6 +69,54 @@ export default async function ProjectPage({
 
       <Card title="Import communications">
         <IngestForm projectId={project.id} />
+      </Card>
+
+      <Card title="Detect notifiable events">
+        <DetectForm projectId={project.id} aiAvailable={hasApiKey()} />
+        {lastRun && (
+          <p className="mt-3 text-xs text-slate-500">
+            Last run {formatIrish(lastRun.startedAt)}: {lastRun.detector === "ai" ? `AI (${lastRun.model})` : "keyword baseline"},{" "}
+            {lastRun.status}
+            {lastRun.status === "completed" && `, ${lastRun.eventsFound} events`}
+            {lastRun.detector === "ai" &&
+              lastRun.status === "completed" &&
+              `, ${lastRun.batches} batch(es), ${lastRun.cacheHits} cached, ${lastRun.inputTokens + lastRun.outputTokens} tokens billed`}
+            {lastRun.error && <span className="text-red-700"> ({lastRun.error})</span>}
+          </p>
+        )}
+        {events.length > 0 && (
+          <ul className="mt-4 space-y-3">
+            {events.map((e) => (
+              <li key={e.id} className="rounded-md border border-slate-200 p-3">
+                <div className="flex flex-wrap items-center gap-2">
+                  <TypeBadge type={e.eventType} />
+                  <span className="font-medium">{e.title}</span>
+                  <span className="ml-auto text-xs text-slate-500">
+                    Aware {formatIrish(e.awarenessDate, "date")} · <Confidence value={e.confidence} /> ·{" "}
+                    {e.status.replace("_", " ")}
+                  </span>
+                </div>
+                <p className="mt-1 text-sm text-slate-700">{e.summary}</p>
+                {e.reasoning && <p className="mt-1 text-xs text-slate-500">{e.reasoning}</p>}
+                <blockquote className="mt-2 border-l-2 border-slate-300 pl-2 text-sm italic text-slate-700">
+                  “{e.quote}”
+                  {!e.quoteVerified && (
+                    <span className="ml-2 not-italic text-xs font-medium text-red-700">quote not found in source</span>
+                  )}
+                </blockquote>
+                <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-xs">
+                  {e.messages
+                    .sort((a, b) => a.message.sentAt.getTime() - b.message.sentAt.getTime())
+                    .map(({ message: m }) => (
+                      <a key={m.id} href={`/messages/${m.id}`} className="text-slate-500 hover:text-slate-900 hover:underline">
+                        {m.sender.split(" (")[0]}, {formatIrish(m.sentAt, "date")} ↗
+                      </a>
+                    ))}
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
       </Card>
 
       <Card title={`Sources (${project.sources.length})`}>
@@ -120,6 +184,9 @@ export default async function ProjectPage({
             <li key={m.id} id={`m-${m.id}`} className="py-2.5">
               <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500">
                 <KindBadge kind={m.sourceKind} />
+                {flagged.has(m.id) && (
+                  <span className="rounded bg-red-100 px-1.5 py-0.5 text-xs font-medium text-red-800">flagged</span>
+                )}
                 <span className="font-medium text-slate-800">{m.sender}</span>
                 <span>{formatIrish(m.sentAt, m.timePrecision as "date" | "datetime")}</span>
                 <Link href={`/messages/${m.id}`} className="ml-auto hover:text-slate-800">

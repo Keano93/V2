@@ -84,3 +84,28 @@ export async function deleteSource(formData: FormData) {
   const source = await prisma.source.delete({ where: { id } });
   revalidatePath(`/projects/${source.projectId}`);
 }
+
+export interface DetectState {
+  message?: string;
+  error?: string;
+}
+
+export async function runDetectionAction(_prev: DetectState, formData: FormData): Promise<DetectState> {
+  const projectId = String(formData.get("projectId"));
+  const detector = formData.get("detector") === "baseline" ? "baseline" : "ai";
+  try {
+    const { runDetection } = await import("@/lib/detection/run");
+    const r = await runDetection(projectId, detector);
+    revalidatePath(`/projects/${projectId}`);
+    const cost =
+      detector === "ai"
+        ? ` ${r.stats.batches} batch(es), ${r.stats.cacheHits} from cache, ${r.stats.inputTokens + r.stats.outputTokens} tokens billed.`
+        : "";
+    return {
+      message: `${r.events} potential event(s) flagged for review.${r.skipped ? ` ${r.skipped} skipped (already reviewed).` : ""}${cost}`,
+    };
+  } catch (e) {
+    revalidatePath(`/projects/${projectId}`);
+    return { error: e instanceof Error ? e.message : String(e) };
+  }
+}
