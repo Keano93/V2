@@ -248,6 +248,7 @@ export function computeWhitespace(input: WhitespaceInput): WhitespaceResult {
           priority: r0(type === "adoption" ? arrProtected * ADOPTION_RETENTION_WEIGHT * score : weightedValue),
           rank: 0,
           whyNow,
+          releaseDriven: Boolean(timing.release),
           capabilityIds: [...new Set(subset.map((h) => h.cap.id))],
           needIds: [...new Set(subset.map((h) => h.need.id))],
           evidence: evidenceFor(account, subset, footprint, whyNow),

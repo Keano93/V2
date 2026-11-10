@@ -28,6 +28,7 @@ model Product {
   tagline      String
   pricePerSeat Float // annual list price per agent seat, EUR
   seatRatio    Float        @default(1) // share of an account's agents that would need a seat
+  position     Int          @default(0) // display order (core product first)
   personas     Json // persona ids this product is built for
   ownerships   Ownership[]
   capabilities Capability[]
@@ -185,6 +186,7 @@ model Opportunity {
   weightedValue Float // value * score; ranking key
   rank          Int
   whyNow        String
+  releaseDriven Boolean    @default(false) // a release shipped after the need was raised
   headline      String // one-line need -> capability summary
   capabilityIds Json
   status        String     @default("open") // open | in_progress | won | lost | dismissed

@@ -66,7 +66,7 @@ export async function runEngine(db: PrismaClient, today = getToday()): Promise<E
         data: {
           id: o.id, accountId: o.accountId, productId: o.productId, type: o.type, title: o.title, value: o.value,
           arrProtected: o.arrProtected, fitScore: o.fitScore, personaScore: o.personaScore, timingScore: o.timingScore,
-          score: o.score, weightedValue: o.weightedValue, rank: o.rank, whyNow: o.whyNow, headline: o.headline,
+          score: o.score, weightedValue: o.weightedValue, rank: o.rank, whyNow: o.whyNow, releaseDriven: o.releaseDriven, headline: o.headline,
           capabilityIds: o.capabilityIds, status: previous.get(o.id) ?? "open", computedAt,
           evidence: { create: o.evidence.map((e) => ({ ...e })) },
         },

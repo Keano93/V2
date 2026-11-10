@@ -43,9 +43,9 @@ export async function loadSeed(db: PrismaClient, log: (m: string) => void = cons
   for (const p of json("personas.json")) {
     await db.persona.create({ data: { id: p.id, name: p.name, description: p.description } });
   }
-  for (const p of json("products.json")) {
+  for (const [position, p] of json("products.json").entries()) {
     await db.product.create({
-      data: { id: p.id, name: p.name, sku: p.sku, tagline: p.tagline, pricePerSeat: p.pricePerSeat, seatRatio: p.seatRatio, personas: p.personas },
+      data: { id: p.id, name: p.name, sku: p.sku, tagline: p.tagline, pricePerSeat: p.pricePerSeat, seatRatio: p.seatRatio, personas: p.personas, position },
     });
   }
   const accounts = json("accounts.json");

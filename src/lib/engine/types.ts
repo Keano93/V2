@@ -107,6 +107,8 @@ export interface OpportunityOut {
   priority: number;
   rank: number;
   whyNow: string;
+  /** True when a capability shipped after the customer raised the need it solves. */
+  releaseDriven: boolean;
   capabilityIds: string[];
   needIds: string[];
   evidence: EvidenceOut[];

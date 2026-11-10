@@ -4,7 +4,32 @@
 
 Headstart is the expansion engine for B2B SaaS. It builds a live map of what each customer **needs** and what the product **can do**, then surfaces white-space opportunities, each with a € value, a "why now" and the evidence behind it. Built for the CRO; the metric is net revenue retention.
 
-> **Status: Phase 1 of 6.** This covers the data model, seed data, extraction, the matching and white-space engines, and the headless API with a CLI. The UI is a placeholder page. The CRO view, rep cards, Mimir, the product view and Slack push come in later phases (see [Roadmap](#roadmap)).
+> **Status: Phase 2 of 6.** Phase 1 delivered the data model, seed data, extraction, the matching and white-space engines, and the headless API with a CLI. Phase 2 adds the CRO view. Rep cards, Mimir, the product view and Slack push come in later phases (see [Roadmap](#roadmap)).
+
+![CRO view](docs/screenshots/01-cro-overview.png)
+
+## CRO view (Phase 2)
+
+`http://localhost:3000/` is the hero screen:
+
+* **€ unclaimed in your base**: the open cross-sell, add-on and seat-expansion value in scope, with four supporting stats:
+  * uplift as a % of current ARR
+  * the score-weighted pipeline
+  * € unlocked by releases that solved needs raised earlier
+  * ARR to protect through adoption plays
+* **Filters** for segment, team and product. They live in the URL, so a filtered view can be shared and uses the same query as `GET /api/whitespace`.
+* **By product / By play**: single-hue bar breakdowns.
+* **White-space map**: accounts × products, sorted by € unclaimed.
+  * Grey ✓ = owned.
+  * Grey with a blue edge and a "+€" value = owned, with an add-on or seat play on top.
+  * Blue = opportunity, darker for more € (4 steps: under €10k, €10–25k, €25–50k, €50k+).
+  * Empty = not relevant.
+
+  Hovering a cell shows its play. Clicking an account opens a side panel with its plays and the why-now for each.
+* Light and dark mode. On phones the map scrolls sideways inside its card.
+* **Colours** are placeholder tokens at the top of `src/app/globals.css` (`--brand`, `--brand-accent`, `--seq-*`). Swap in the pitch-deck palette there. The heatmap ramp was checked with a palette validator (monotone lightness, visible steps, contrast with the surface in both modes); re-check it after swapping.
+
+More screenshots are in `docs/screenshots/`.
 
 ---
 
@@ -234,13 +259,15 @@ src/lib/engine/               matching, white-space, persistence runner (pure en
 src/lib/ingest.ts             upserts, CSV parsing, pending-extraction loop
 src/lib/queries.ts            read model used by API, CLI, UI
 src/app/api/                  headless API routes
+src/app/page.tsx              CRO view (server component)
+src/components/               heatmap + filters (client components)
 tests/                        vitest unit tests
 ```
 
 ## Roadmap
 
 1. ✅ Data model, seed data, matching and white-space engines, ranked-opportunity script and API
-2. CRO view: "€X unclaimed in your base" plus an accounts × products heatmap, filterable by segment, product and team
+2. ✅ CRO view: "€X unclaimed in your base" plus an accounts × products heatmap, filterable by segment, product and team
 3. Rep view: collapsed opportunity cards per account (need, capability, why now, evidence), which expand for detail
 4. Mimir actions: draft outreach, account brief, enablement foundation pack with a quiz (adjustable pass mark, default 80%)
 5. Product view: unmet needs ranked by revenue at stake

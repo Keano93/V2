@@ -73,6 +73,7 @@ export async function listOpportunities(db: PrismaClient, f: OpportunityFilters 
     title: o.title,
     headline: o.headline,
     whyNow: o.whyNow,
+    releaseDriven: o.releaseDriven,
     value: o.value,
     weightedValue: o.weightedValue,
     arrProtected: o.arrProtected,
@@ -97,10 +98,14 @@ export async function whitespaceMap(db: PrismaClient, f: OpportunityFilters = {}
       include: { ownerships: { select: { productId: true, arr: true } } },
       orderBy: { name: "asc" },
     }),
-    db.product.findMany({ where: f.product ? { id: f.product } : {}, orderBy: { id: "asc" } }),
+    db.product.findMany({ where: f.product ? { id: f.product } : {}, orderBy: [{ position: "asc" }, { id: "asc" }] }),
     db.opportunity.findMany({
       where: opportunityWhere({ ...f, type: undefined, includeAdoption: true, limit: undefined }),
-      select: { id: true, accountId: true, productId: true, type: true, value: true, weightedValue: true, arrProtected: true },
+      select: {
+        id: true, accountId: true, productId: true, type: true, title: true, headline: true, whyNow: true, rank: true, releaseDriven: true,
+        value: true, weightedValue: true, arrProtected: true, score: true,
+      },
+      orderBy: { rank: "asc" },
     }),
   ]);
   const revenue = opps.filter((o) => o.type !== "adoption");
@@ -117,6 +122,10 @@ export async function whitespaceMap(db: PrismaClient, f: OpportunityFilters = {}
         adoption: here.some((o) => o.type === "adoption"),
         value: rev.reduce((s, o) => s + o.value, 0),
         opportunityIds: here.map((o) => o.id),
+        opportunities: here.map((o) => ({
+          id: o.id, type: o.type, title: o.title, headline: o.headline, whyNow: o.whyNow, rank: o.rank,
+          value: o.value, arrProtected: o.arrProtected, score: o.score,
+        })),
       };
     });
     return {
@@ -126,11 +135,17 @@ export async function whitespaceMap(db: PrismaClient, f: OpportunityFilters = {}
     };
   });
   return {
-    summary: summarise(revenue),
+    summary: { ...summarise(revenue), baseArr: rows.reduce((s, r) => s + r.account.arr, 0), adoptionArrProtected: opps.reduce((s, o) => s + o.arrProtected, 0), adoptionCount: opps.length - revenue.length },
+    releaseDriven: {
+      count: revenue.filter((o) => o.releaseDriven).length,
+      value: revenue.filter((o) => o.releaseDriven).reduce((s, o) => s + o.value, 0),
+    },
     products: products.map((p) => ({ id: p.id, name: p.name })),
     rows: rows.sort((a, b) => b.unclaimed - a.unclaimed || a.account.name.localeCompare(b.account.name)),
   };
 }
+
+export type WhitespaceMapDTO = Awaited<ReturnType<typeof whitespaceMap>>;
 
 export async function accountDetail(db: PrismaClient, id: string) {
   const a = await db.account.findUnique({
