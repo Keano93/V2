@@ -1,0 +1,310 @@
+{
+  "_note": "HYPOTHETICAL sample foundation content for the fictional company Lumio. Replace with the customer's approved enablement. Headstart does not author foundation content; it adds rep and account context on top.",
+  "defaultPassMark": 80,
+  "modules": [
+    {
+      "id": "fnd_desk",
+      "productId": "desk",
+      "title": "Lumio Desk foundations",
+      "version": "9.4",
+      "updatedAt": "2026-10-20",
+      "minutes": 12,
+      "sections": [
+        {
+          "heading": "What Desk is",
+          "points": [
+            "Desk is the core ticketing product. Every Lumio customer runs on it, so Desk conversations are about expanding and protecting the platform, not landing it.",
+            "Email, chat and web forms become tickets in one shared inbox with roles and permissions for agents, leads and admins."
+          ]
+        },
+        {
+          "heading": "What's new",
+          "points": [
+            "9.2: SCIM provisioning and SSO enforcement (Okta, Azure AD), included in every plan. Leavers lose access automatically.",
+            "9.2: Audit log for SOC 2 and ISO 27001 evidence, in the Desk Shield add-on (+15% of the Desk subscription).",
+            "9.3: EU data residency in the Frankfurt region, in the EU Data Residency add-on (+20%).",
+            "9.4: Salesforce 360 sync, a two-way sync between tickets and Salesforce accounts, included in every plan."
+          ]
+        },
+        {
+          "heading": "Who cares",
+          "points": [
+            "IT & Security Admin: SSO, provisioning, audit, residency. They can block a renewal, so bring them in early.",
+            "Support Operations Manager: Salesforce sync removes copy and paste between tools.",
+            "Head of Support: owns the budget for add-ons."
+          ]
+        },
+        {
+          "heading": "Discovery questions",
+          "points": [
+            "How do you remove a leaver's access to the helpdesk today, and how long does it take?",
+            "When auditors ask who changed a ticket or a setting, what do you show them?",
+            "Do any of your customer contracts require data to stay in the EU?",
+            "How do account managers find out about open support issues before a call?"
+          ]
+        },
+        {
+          "heading": "Handling objections",
+          "points": [
+            "\"SSO should be free.\" It is: SCIM and SSO enforcement are included in every Desk plan since 9.2. Only the audit log is in Desk Shield.",
+            "\"We'll just export logs ourselves.\" Desk Shield's audit log is tamper-proof and covers admin and ticket changes, which is what SOC 2 assessors ask for."
+          ]
+        }
+      ],
+      "questions": [
+        { "id": "d1", "themes": ["sso_provisioning"], "prompt": "A customer's IT lead wants leavers removed from the helpdesk automatically. What do they need?", "options": ["Nothing extra: SCIM provisioning is included in every Desk plan", "The Desk Shield add-on", "The EU Data Residency add-on", "A custom integration from services"], "answer": 0, "explain": "SCIM provisioning and SSO enforcement shipped in Desk 9.2 and are included in every plan." },
+        { "id": "d2", "themes": ["audit_trail"], "prompt": "Which add-on includes the audit log for SOC 2 and ISO 27001?", "options": ["Insights Pro", "Desk Shield", "Automate Copilot", "EU Data Residency"], "answer": 1, "explain": "The audit log is in Desk Shield, priced at +15% of the Desk subscription." },
+        { "id": "d3", "themes": ["data_residency"], "prompt": "Where is ticket data hosted with the EU Data Residency add-on?", "options": ["Dublin", "Amsterdam", "Frankfurt", "Stockholm"], "answer": 2, "explain": "Desk 9.3 hosts all ticket data in the Frankfurt region." },
+        { "id": "d4", "themes": ["crm_sync"], "prompt": "What does Salesforce 360 sync (Desk 9.4) add?", "options": ["A one-way export of tickets to Salesforce", "Two-way sync between tickets and Salesforce accounts", "A Salesforce-hosted helpdesk", "Salesforce reports inside Insights"], "answer": 1, "explain": "It is a two-way sync, so account managers see open tickets in the CRM and agents stop copying data." },
+        { "id": "d5", "themes": ["data_residency", "audit_trail"], "prompt": "What is the EU Data Residency add-on priced at?", "options": ["+10% of the Desk subscription", "+15% of the Desk subscription", "+20% of the Desk subscription", "Free on Enterprise"], "answer": 2, "explain": "EU Data Residency is +20% of the Desk subscription." },
+        { "id": "d6", "themes": [], "prompt": "Which persona is most likely to block a Desk renewal over compliance?", "options": ["Knowledge & Enablement Lead", "Support Operations Manager", "IT & Security Admin", "Head of Customer Support"], "answer": 2, "explain": "IT & Security Admins own access, compliance and data protection." }
+      ]
+    },
+    {
+      "id": "fnd_knowledge",
+      "productId": "knowledge",
+      "title": "Lumio Knowledge foundations",
+      "version": "2.6",
+      "updatedAt": "2026-09-29",
+      "minutes": 10,
+      "sections": [
+        {
+          "heading": "What Knowledge is",
+          "points": [
+            "A branded help centre and self-service portal that deflects repetitive how-to tickets, plus a private agent knowledge base with guided onboarding paths.",
+            "Priced per agent seat. It pays back fastest where a large share of tickets are simple, repeated questions."
+          ]
+        },
+        {
+          "heading": "What's new",
+          "points": [
+            "2.4: Auto-translate publishes every article in 32 languages, with human review for key pages. Included.",
+            "2.6: Content freshness alerts flag stale and outdated articles. Included.",
+            "2.6: Gap finder clusters tickets that have no article and tells the team what to write next. Included."
+          ]
+        },
+        {
+          "heading": "Who cares",
+          "points": [
+            "Knowledge & Enablement Lead: owns the help centre and agent onboarding; feels stale content and gaps first.",
+            "Head of Support: cares about deflection and the cost of new markets."
+          ]
+        },
+        {
+          "heading": "Discovery questions",
+          "points": [
+            "What share of your tickets could a customer answer themselves with the right article?",
+            "How long does it take a new agent to work without help?",
+            "How do you know an article is out of date?",
+            "Which languages do your customers ask for help in?"
+          ]
+        },
+        {
+          "heading": "Handling objections",
+          "points": [
+            "\"We tried a help centre and nobody used it.\" Gap finder and freshness alerts tackle the usual cause: missing or stale content.",
+            "\"Translation is too expensive.\" Auto-translate is included in every Knowledge plan."
+          ]
+        }
+      ],
+      "questions": [
+        { "id": "k1", "themes": ["multilingual"], "prompt": "How many languages does Auto-translate (Knowledge 2.4) publish articles in?", "options": ["8", "16", "32", "64"], "answer": 2, "explain": "Auto-translate publishes every article in 32 languages, with human review for key pages." },
+        { "id": "k2", "themes": ["multilingual", "stale_knowledge", "knowledge_gaps"], "prompt": "How are Auto-translate, freshness alerts and Gap finder packaged?", "options": ["All three are included in every Knowledge plan", "All three need the Knowledge Pro add-on", "Only Auto-translate is included", "They are sold through services"], "answer": 0, "explain": "All three are included, which makes them strong adoption and cross-sell openers." },
+        { "id": "k3", "themes": ["knowledge_gaps"], "prompt": "A Knowledge Manager says they write content on gut feel. Which capability answers that?", "options": ["Content freshness alerts", "Gap finder", "Auto-translate", "Internal agent knowledge base"], "answer": 1, "explain": "Gap finder clusters tickets with no article and suggests what to write next." },
+        { "id": "k4", "themes": ["stale_knowledge"], "prompt": "What do content freshness alerts do?", "options": ["Translate old articles", "Delete articles nobody reads", "Flag stale and outdated articles when the product or answers change", "Send articles to customers by email"], "answer": 2, "explain": "They flag stale and outdated articles so the team fixes them before customers see them." },
+        { "id": "k5", "themes": ["agent_onboarding"], "prompt": "Which part of Knowledge helps new agents ramp faster?", "options": ["The public help centre", "The internal agent knowledge base with guided onboarding paths", "Gap finder", "Smart Routing"], "answer": 1, "explain": "The private agent knowledge base includes guided onboarding paths." },
+        { "id": "k6", "themes": ["ticket_deflection"], "prompt": "Which account is the strongest fit for the self-service portal?", "options": ["One where most tickets are complex escalations", "One where a large share of tickets are repeated how-to questions", "One with no help centre budget", "One that only supports by phone"], "answer": 1, "explain": "Deflection pays back fastest where many tickets are simple, repeated questions." }
+      ]
+    },
+    {
+      "id": "fnd_insights",
+      "productId": "insights",
+      "title": "Lumio Insights foundations",
+      "version": "5.2",
+      "updatedAt": "2026-09-15",
+      "minutes": 11,
+      "sections": [
+        {
+          "heading": "What Insights is",
+          "points": [
+            "Analytics for support teams: volume and backlog reports, CSAT surveys and sentiment tagging, out of the box.",
+            "Insights Pro (+30% of the Insights subscription) adds prediction and planning."
+          ]
+        },
+        {
+          "heading": "What's new",
+          "points": [
+            "5.0: SLA Breach Predictor warns team leads up to four hours before a breach. Insights Pro.",
+            "5.0: Executive dashboards, scheduled board-ready packs that replace the monthly spreadsheet. Insights Pro.",
+            "5.2: Workforce forecasting predicts volume by hour and channel and builds staffing rosters. Insights Pro."
+          ]
+        },
+        {
+          "heading": "Who cares",
+          "points": [
+            "Head of Support: CSAT, executive reporting, headcount cases to finance.",
+            "Support Operations Manager: SLAs, rosters, peaks."
+          ]
+        },
+        {
+          "heading": "Discovery questions",
+          "points": [
+            "When did you last breach an SLA, and when did you find out?",
+            "How long does the monthly leadership report take to build?",
+            "How do you decide how many agents to roster for a peak?",
+            "When CSAT drops, how do you find out why?"
+          ]
+        },
+        {
+          "heading": "Handling objections",
+          "points": [
+            "\"We already have BI.\" Insights works on live ticket data with support-specific models (SLA risk, volume forecasts) that a BI team would have to build and maintain.",
+            "\"Pro is expensive.\" One avoided SLA penalty or one right-sized peak roster usually covers the 30% uplift."
+          ]
+        }
+      ],
+      "questions": [
+        { "id": "i1", "themes": ["sla_visibility"], "prompt": "How far ahead does the SLA Breach Predictor warn team leads?", "options": ["15 minutes", "Up to four hours", "One day", "One week"], "answer": 1, "explain": "It warns up to four hours before a breach." },
+        { "id": "i2", "themes": ["sla_visibility", "exec_reporting", "workforce_planning"], "prompt": "Which add-on includes the SLA Breach Predictor, Executive dashboards and Workforce forecasting?", "options": ["Desk Shield", "Automate Copilot", "Insights Pro", "They are included in Insights"], "answer": 2, "explain": "All three are in Insights Pro, priced at +30% of the Insights subscription." },
+        { "id": "i3", "themes": ["workforce_planning"], "prompt": "A Support Ops Manager was understaffed in January and overstaffed in August. What do you lead with?", "options": ["Workforce forecasting", "Executive dashboards", "Standard reports", "Smart Routing"], "answer": 0, "explain": "Workforce forecasting predicts volume by hour and channel and builds rosters for every peak." },
+        { "id": "i4", "themes": ["exec_reporting"], "prompt": "What replaces the monthly leadership spreadsheet?", "options": ["CSAT surveys", "Scheduled, board-ready Executive dashboards", "Salesforce 360 sync", "Gap finder"], "answer": 1, "explain": "Executive dashboards are scheduled, board-ready packs (Insights Pro)." },
+        { "id": "i5", "themes": ["csat_insight"], "prompt": "Which Insights capability is included without Pro?", "options": ["SLA Breach Predictor", "Workforce forecasting", "CSAT surveys with sentiment tagging", "Executive dashboards"], "answer": 2, "explain": "Standard reports, CSAT surveys and sentiment tagging are core Insights." },
+        { "id": "i6", "themes": [], "prompt": "What is the Insights Pro uplift?", "options": ["+15%", "+20%", "+30%", "+35%"], "answer": 2, "explain": "Insights Pro is +30% of the Insights subscription." }
+      ]
+    },
+    {
+      "id": "fnd_automate",
+      "productId": "automate",
+      "title": "Lumio Automate foundations",
+      "version": "3.2",
+      "updatedAt": "2026-08-25",
+      "minutes": 12,
+      "sections": [
+        {
+          "heading": "What Automate is",
+          "points": [
+            "Routing, workflows and AI assistance on top of Desk. The no-code workflow builder handles approvals, refunds and escalations.",
+            "Automate Copilot (+35% of the Automate subscription) adds the generative AI features."
+          ]
+        },
+        {
+          "heading": "What's new",
+          "points": [
+            "3.0: Smart Routing reads every new ticket, detects intent, language and urgency, and routes it to the right queue and agent. Included.",
+            "3.0: Approval chains, multi-step approvals for refunds and credits, approved from Slack. Included.",
+            "3.2: AI Reply Drafts writes an on-brand reply from the knowledge base, cutting handle time. Automate Copilot.",
+            "3.2: Virtual Agent 24/7 answers in chat and email overnight and at weekends, handing over to a human when needed. Automate Copilot."
+          ]
+        },
+        {
+          "heading": "Who cares",
+          "points": [
+            "Support Operations Manager: triage, handle time, approvals. The day-to-day champion.",
+            "Head of Support: after-hours coverage and hiring plans. The budget holder for Copilot."
+          ]
+        },
+        {
+          "heading": "Discovery questions",
+          "points": [
+            "Who decides which team a new ticket goes to, and how long does that take?",
+            "What happens to a ticket that arrives at 7pm on a Friday?",
+            "How long do agents spend writing a reply versus solving the problem?",
+            "How does an agent get a refund approved today?"
+          ]
+        },
+        {
+          "heading": "Handling objections",
+          "points": [
+            "\"AI will say the wrong thing.\" Reply Drafts are drafts: the agent reviews and sends. Virtual Agent hands over to a human when it isn't confident.",
+            "\"We can't justify Copilot.\" Start from the hiring plan: if Reply Drafts saves a quarter of handle time, compare that to the next hire."
+          ]
+        }
+      ],
+      "questions": [
+        { "id": "a1", "themes": ["manual_routing"], "prompt": "What does Smart Routing (Automate 3.0) use to route a ticket?", "options": ["The customer's contract value only", "Intent, language and urgency", "A round-robin rota", "The ticket's subject line keywords"], "answer": 1, "explain": "Smart Routing detects intent, language and urgency and routes to the right queue and agent." },
+        { "id": "a2", "themes": ["reply_drafting", "after_hours"], "prompt": "Which features need the Automate Copilot add-on?", "options": ["Smart Routing and Approval chains", "AI Reply Drafts and Virtual Agent 24/7", "Workflow builder", "All Automate features"], "answer": 1, "explain": "AI Reply Drafts and Virtual Agent 24/7 shipped in 3.2 as part of Automate Copilot (+35%)." },
+        { "id": "a3", "themes": ["after_hours"], "prompt": "A customer's weekend tickets wait until Monday. What do you lead with?", "options": ["Approval chains", "Virtual Agent 24/7", "Workforce forecasting", "Smart Routing"], "answer": 1, "explain": "Virtual Agent 24/7 answers overnight and at weekends and hands over to a human when needed." },
+        { "id": "a4", "themes": ["approval_workflows"], "prompt": "Where can managers approve refunds with Approval chains?", "options": ["Only in the Lumio admin console", "By email reply", "Straight from Slack", "In Salesforce"], "answer": 2, "explain": "Approval chains let managers approve refunds and credits straight from Slack." },
+        { "id": "a5", "themes": ["reply_drafting"], "prompt": "What is the best answer to \"AI will say the wrong thing\" about Reply Drafts?", "options": ["It is never wrong", "Agents review and send every draft", "Turn it off for complex tickets", "Legal approved it"], "answer": 1, "explain": "Reply Drafts are drafts: the agent stays in control." },
+        { "id": "a6", "themes": [], "prompt": "What is the Automate Copilot uplift?", "options": ["+15%", "+20%", "+30%", "+35%"], "answer": 3, "explain": "Automate Copilot is +35% of the Automate subscription." }
+      ]
+    },
+    {
+      "id": "fnd_voice",
+      "productId": "voice",
+      "title": "Lumio Voice foundations",
+      "version": "2.0",
+      "updatedAt": "2026-07-07",
+      "minutes": 9,
+      "sections": [
+        {
+          "heading": "What Voice is",
+          "points": [
+            "Cloud telephony built into Desk. Every call is logged against the ticket, so agents stop switching between a separate phone system and the helpdesk.",
+            "Priced per phone agent (about 60% of a typical support team)."
+          ]
+        },
+        {
+          "heading": "What's new",
+          "points": [
+            "2.0: Call recording with PCI redaction records calls and removes card numbers from recordings. Included.",
+            "2.0: Call summaries turn every call into a transcript and AI-written call notes on the ticket. Included."
+          ]
+        },
+        {
+          "heading": "Who cares",
+          "points": [
+            "Head of Support: one view of every channel; phone capacity.",
+            "Support Operations Manager: wrap-up time.",
+            "IT & Security Admin: call recording retention and PCI."
+          ]
+        },
+        {
+          "heading": "Discovery questions",
+          "points": [
+            "Where are phone calls logged today, and can an agent see the last call on a ticket?",
+            "How long do agents spend writing notes after a call?",
+            "Do customers ever read card numbers out over the phone?"
+          ]
+        },
+        {
+          "heading": "Handling objections",
+          "points": [
+            "\"We just renewed our phone system.\" Start with the team where wrap-up time hurts most and plan the rest for the phone system's renewal date.",
+            "\"Compliance won't allow recordings.\" PCI redaction removes card numbers from recordings automatically."
+          ]
+        }
+      ],
+      "questions": [
+        { "id": "v1", "themes": ["call_compliance"], "prompt": "What does PCI redaction in Voice 2.0 remove from recordings?", "options": ["Customer names", "Card numbers", "Agent names", "Background noise"], "answer": 1, "explain": "It removes card numbers from recordings." },
+        { "id": "v2", "themes": ["voice_transcription"], "prompt": "What do Call summaries add to the ticket?", "options": ["A star rating", "A transcript and AI-written call notes", "A Salesforce task", "The call recording only"], "answer": 1, "explain": "Every call becomes a transcript and AI-written call notes, so wrap-up time drops to seconds." },
+        { "id": "v3", "themes": ["call_compliance", "voice_transcription"], "prompt": "How are Call recording and Call summaries packaged?", "options": ["Both included in every Voice plan", "Both in a Voice Pro add-on", "Recording included, summaries in Automate Copilot", "Sold through partners"], "answer": 0, "explain": "Both shipped in Voice 2.0 and are included." },
+        { "id": "v4", "themes": ["phone_channel"], "prompt": "A Head of Support says calls aren't logged against tickets. What is the core Voice message?", "options": ["Voice replaces the separate phone system and logs every call on the ticket", "Voice adds a chatbot", "Voice exports call logs to Excel", "Voice routes emails by intent"], "answer": 0, "explain": "Cloud telephony inside Desk logs every call against the ticket." },
+        { "id": "v5", "themes": [], "prompt": "Roughly what share of a support team is Voice priced for?", "options": ["All agents", "About 60% (the phone agents)", "Team leads only", "A flat fee"], "answer": 1, "explain": "Voice is priced per phone agent, about 60% of a typical team." }
+      ]
+    }
+  ],
+  "progress": [
+    { "rep": "Aoife Brennan", "moduleId": "fnd_desk", "status": "passed", "score": 100, "date": "2026-01-12" },
+    { "rep": "Aoife Brennan", "moduleId": "fnd_knowledge", "status": "passed", "score": 80, "date": "2026-10-02" },
+    { "rep": "Aoife Brennan", "moduleId": "fnd_insights", "status": "passed", "score": 100, "date": "2025-11-20" },
+    { "rep": "Tom Hargreaves", "moduleId": "fnd_desk", "status": "passed", "score": 100, "date": "2026-10-25" },
+    { "rep": "Tom Hargreaves", "moduleId": "fnd_automate", "status": "passed", "score": 80, "date": "2026-02-02" },
+    { "rep": "Lena Vogel", "moduleId": "fnd_desk", "status": "passed", "score": 100, "date": "2026-03-04" },
+    { "rep": "Lena Vogel", "moduleId": "fnd_voice", "status": "passed", "score": 80, "date": "2026-07-20" },
+    { "rep": "Lena Vogel", "moduleId": "fnd_insights", "status": "passed", "score": 100, "date": "2026-09-20" },
+    { "rep": "Markus Feld", "moduleId": "fnd_desk", "status": "passed", "score": 80, "date": "2025-12-01" },
+    { "rep": "Markus Feld", "moduleId": "fnd_knowledge", "status": "passed", "score": 100, "date": "2026-05-11" },
+    { "rep": "Markus Feld", "moduleId": "fnd_automate", "status": "passed", "score": 100, "date": "2026-09-02" },
+    { "rep": "Sanne de Wit", "moduleId": "fnd_desk", "status": "passed", "score": 100, "date": "2026-10-28" },
+    { "rep": "Sanne de Wit", "moduleId": "fnd_insights", "status": "passed", "score": 80, "date": "2026-06-03" },
+    { "rep": "Sanne de Wit", "moduleId": "fnd_voice", "status": "passed", "score": 100, "date": "2026-02-15" },
+    { "rep": "Erik Lund", "moduleId": "fnd_desk", "status": "passed", "score": 80, "date": "2026-02-20" },
+    { "rep": "Erik Lund", "moduleId": "fnd_automate", "status": "failed", "score": 60, "date": "2026-10-15" },
+    { "rep": "Lucía Romero", "moduleId": "fnd_desk", "status": "passed", "score": 100, "date": "2026-10-22" },
+    { "rep": "Lucía Romero", "moduleId": "fnd_automate", "status": "passed", "score": 80, "date": "2026-09-10" },
+    { "rep": "Lucía Romero", "moduleId": "fnd_knowledge", "status": "passed", "score": 100, "date": "2026-10-05" },
+    { "rep": "Marco Bassi", "moduleId": "fnd_desk", "status": "passed", "score": 100, "date": "2026-01-30" },
+    { "rep": "Marco Bassi", "moduleId": "fnd_voice", "status": "passed", "score": 100, "date": "2026-08-01" }
+  ]
+}

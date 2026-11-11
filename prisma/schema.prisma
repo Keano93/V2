@@ -217,3 +217,42 @@ model ExtractionCache {
   output    Json
   createdAt DateTime @default(now())
 }
+
+// ---------- Enablement ----------
+// Foundation content is the customer's own (here: hypothetical sample content). Headstart adds account
+// and rep context on top and runs the quiz; it never authors the foundation itself.
+
+model FoundationModule {
+  id        String   @id // e.g. "fnd_automate"
+  productId String
+  title     String
+  version   String // product version the content covers, e.g. "3.2"
+  updatedAt DateTime // last content update; a rep who passed before this may need a refresher
+  minutes   Int
+  sections  Json // [{ heading, points: string[] }]
+  questions Json // [{ id, themes[], prompt, options[], answer, explain }]
+  passMark  Int? // overrides the global pass mark when set
+  isSample  Boolean  @default(true)
+  attempts  RepEnablement[]
+}
+
+// One row per quiz attempt (and seeded historical completions).
+model RepEnablement {
+  id            String           @id @default(cuid())
+  rep           String // account owner name, e.g. "Lena Vogel"
+  moduleId      String
+  module        FoundationModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  opportunityId String?
+  score         Int // percent
+  passMark      Int // the pass mark in force at the time
+  passed        Boolean
+  answers       Json?
+  attemptedAt   DateTime
+
+  @@index([rep, moduleId])
+}
+
+model Setting {
+  key   String @id // e.g. "enablement.passMark"
+  value String
+}

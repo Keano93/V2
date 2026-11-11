@@ -28,6 +28,8 @@ function parseMarkdownDoc(file: string, kind: "release_note" | "product_doc") {
 export async function loadSeed(db: PrismaClient, log: (m: string) => void = console.log) {
   log("Resetting database…");
   // Order matters for FKs.
+  await db.repEnablement.deleteMany();
+  await db.foundationModule.deleteMany();
   await db.evidence.deleteMany();
   await db.opportunity.deleteMany();
   await db.match.deleteMany();
@@ -58,6 +60,26 @@ export async function loadSeed(db: PrismaClient, log: (m: string) => void = cons
   ];
   await upsertReleases(db, docs);
   log(`Loaded ${accounts.length} accounts, ${notes.length} notes, ${docs.length} release notes / product docs.`);
+
+  // Enablement: hypothetical foundation content + historical rep completions.
+  const en = json("enablement.json");
+  for (const m of en.modules) {
+    await db.foundationModule.create({
+      data: {
+        id: m.id, productId: m.productId, title: m.title, version: m.version, updatedAt: new Date(m.updatedAt),
+        minutes: m.minutes, sections: m.sections, questions: m.questions, isSample: true,
+      },
+    });
+  }
+  for (const p of en.progress) {
+    await db.repEnablement.create({
+      data: {
+        rep: p.rep, moduleId: p.moduleId, score: p.score, passMark: en.defaultPassMark,
+        passed: p.status === "passed", attemptedAt: new Date(p.date),
+      },
+    });
+  }
+  log(`Loaded ${en.modules.length} foundation modules (sample content) and ${en.progress.length} rep completions.`);
 
   log("Extracting needs and capabilities…");
   const ex = await extractPending(db, { log });

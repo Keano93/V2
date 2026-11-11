@@ -4,7 +4,7 @@
 
 Headstart is the expansion engine for B2B SaaS. It builds a live map of what each customer **needs** and what the product **can do**, then surfaces white-space opportunities, each with a € value, a "why now" and the evidence behind it. Built for the CRO; the metric is net revenue retention.
 
-> **Status: Phase 2 of 6.** Phase 1 delivered the data model, seed data, extraction, the matching and white-space engines, and the headless API with a CLI. Phase 2 adds the CRO view. Rep cards, Mimir, the product view and Slack push come in later phases (see [Roadmap](#roadmap)).
+> **Status: Phase 2 of 6, plus enablement pulled forward from Phase 4.** Phase 1 delivered the data model, seed data, extraction, the matching and white-space engines, and the headless API with a CLI. Phase 2 adds the CRO view. Enablement (foundation pack, account context and quiz) is built ahead of the rest of Phase 4. Rep cards, the other Mimir actions, the product view and Slack push come later (see [Roadmap](#roadmap)).
 
 ![CRO view](docs/screenshots/01-cro-overview.png)
 
@@ -31,9 +31,43 @@ Headstart is the expansion engine for B2B SaaS. It builds a live map of what eac
 
 More screenshots are in `docs/screenshots/`.
 
+## Enablement (pulled forward from Phase 4)
+
+Every opportunity has an enablement pack, at `/opportunities/<id>` (reached from "Open play and enablement" in an account's side panel) and through `GET /api/opportunities/<id>/enablement`.
+
+![Enablement pack](docs/screenshots/08-enablement-pack.png)
+
+* **Suggested only when relevant.** Mimir marks a pack as suggested only when the rep (the account owner, or `?rep=`) needs it:
+  * **Foundation:** they've never passed that product's foundation.
+  * **Retake:** their last attempt was below the pass mark.
+  * **Refresher:** a capability in this play shipped *after* they passed.
+
+  Otherwise the pack is still there, marked "up to date". On the seed, 76 of 102 plays get a suggestion.
+* **Foundation content is the customer's, not ours.** `data/seed/enablement.json` holds **hypothetical sample content** for the five Lumio products (what it is, what's new, who cares, discovery questions, objections, a question bank). It is marked as sample in the UI. Replace it with the customer's approved enablement.
+* **What Headstart adds on top (the account layer):**
+  * a suggested opener that quotes the customer;
+  * why now;
+  * what they told us, with sources;
+  * what to show them, with packaging;
+  * who to talk to, including missing personas ("No Support Ops contact on file. Ask Kate for an introduction.");
+  * the account's footprint.
+* **Quiz:** 5 questions, regenerated identically every time for a given play.
+  * 3 from the foundation bank, chosen for relevance to this play's needs.
+  * 2 about this account ("What problem did Kate Costa raise?", "Which capability do you lead with?").
+  * Answers never reach the browser: the server grades `POST /api/opportunities/<id>/enablement/attempts` and records the attempt.
+  * The pass mark defaults to **80%** and is adjustable globally (`PUT /api/settings`, or the field under the quiz), or per module (`FoundationModule.passMark`).
+* **Progress for managers:** `GET /api/enablement?rep=` lists each rep's status per course (`current`, `refresher_due`, `failed`, `not_started`).
+
+For now the account layer is assembled from the map without calling Claude. When the rest of Phase 4 lands, Mimir will write it with Claude, using the same inputs.
+
 ### Click-through demo
 
-`docs/demo/headstart-demo.html` is a single self-contained page (no server, no install). It holds a snapshot of the seeded map: the CRO overview with working filters and account panels, plus a **Ranked plays** preview of the Phase 3 rep cards with expandable evidence. Open it in a browser to click through. `scripts/export-demo-data.ts` exports the JSON it embeds.
+`docs/demo/headstart-demo.html` is a single self-contained page (no server, no install). It holds a snapshot of the seeded map:
+* **Overview:** the CRO view, with working filters and account panels.
+* **Ranked plays:** a preview of the Phase 3 rep cards, with expandable evidence.
+* **Enablement:** the courses each rep should take, grouped by rep, and the € of plays each course unlocks. Every pack opens with the account layer, the sample foundation and a working quiz. In the demo the quiz is graded in the browser and the pass mark isn't saved.
+
+Open it in a browser to click through. To rebuild it, run `npx tsx scripts/export-demo-data.ts data.json`, then substitute that JSON for `__DATA__` in `docs/demo/template.html`.
 
 ---
 
@@ -113,6 +147,9 @@ account footprint          ─►  Account · Contact · Ownership ────�
 | **Opportunity** | Ranked, valued play for an account × product: type, €, scores, why now, status |
 | **Evidence** | The quotes, release lines, footprint and timing behind an opportunity |
 | ExtractionCache | Cached Claude outputs keyed by content hash |
+| FoundationModule | A product's foundation enablement content and quiz bank (sample content in the seed) |
+| RepEnablement | Each quiz attempt or completion per rep and course |
+| Setting | Workspace settings, e.g. the quiz pass mark |
 
 Needs and capabilities share one controlled vocabulary, the **needs taxonomy** (`src/lib/taxonomy.ts`, 20 themes such as `manual_routing`, `sla_visibility` and `data_residency`). That shared vocabulary is what makes matching explainable.
 
@@ -225,6 +262,10 @@ All responses are JSON. Filters combine freely.
 | `GET /api/needs?account=&theme=&status=` | Needs and the capabilities they matched |
 | `GET /api/capabilities?product=&new=true` | Capabilities and how many needs each one matched |
 | `GET /api/taxonomy` | The needs taxonomy |
+| `GET /api/opportunities/:id/enablement?rep=` | Enablement pack: recommendation, account layer, foundation content and quiz (no answers) |
+| `POST /api/opportunities/:id/enablement/attempts` `{"rep":"…","answers":{"f_a1":2}}` | Grade and record a quiz attempt |
+| `GET /api/enablement?rep=` | Rep × course status |
+| `GET` / `PUT /api/settings` `{"enablement":{"passMark":80}}` | Global quiz pass mark |
 | `POST /api/import?type=…&run=true` | Upload CSV (`text/csv`) or JSON rows. `type` is `accounts`, `contacts`, `ownership`, `notes` or `releases`. By default, new documents are extracted and opportunities recomputed |
 | `POST /api/engine/run` `{"reExtract":false}` | Extract pending documents and recompute |
 
@@ -262,6 +303,10 @@ src/lib/extract/              Claude + rule extractors, cache
 src/lib/engine/               matching, white-space, persistence runner (pure engines + run.ts)
 src/lib/ingest.ts             upserts, CSV parsing, pending-extraction loop
 src/lib/queries.ts            read model used by API, CLI, UI
+src/lib/enablement.ts         when to suggest a pack, the account layer, quiz build + grading (pure)
+src/lib/enablement-db.ts      loads packs, records attempts, pass-mark setting, rep progress
+src/app/opportunities/[id]/   opportunity page with the enablement panel
+docs/demo/                    self-contained click-through demo + its template
 src/app/api/                  headless API routes
 src/app/page.tsx              CRO view (server component)
 src/components/               heatmap + filters (client components)
@@ -273,7 +318,7 @@ tests/                        vitest unit tests
 1. ✅ Data model, seed data, matching and white-space engines, ranked-opportunity script and API
 2. ✅ CRO view: "€X unclaimed in your base" plus an accounts × products heatmap, filterable by segment, product and team
 3. Rep view: collapsed opportunity cards per account (need, capability, why now, evidence), which expand for detail
-4. Mimir actions: draft outreach, account brief, enablement foundation pack with a quiz (adjustable pass mark, default 80%)
+4. Mimir actions: draft outreach, account brief, and enablement. ✅ Enablement (foundation pack + account layer + quiz with an adjustable 80% pass mark) is built early; Claude-written context arrives with the other Mimir actions
 5. Product view: unmet needs ranked by revenue at stake
 6. Slack push of new opportunities
 

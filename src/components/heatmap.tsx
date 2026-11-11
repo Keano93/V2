@@ -129,10 +129,11 @@ export function Heatmap({ data }: { data: WhitespaceMapDTO }) {
                   <span className="opp-tag">{TYPE_LABEL[o.type] ?? o.type} · score {o.score.toFixed(2)}</span>
                   <div className="opp-headline">{o.headline}</div>
                   <div className="opp-why">{o.whyNow}</div>
+                  <a className="drawer-link" href={`/opportunities/${o.id}`}>Open play and enablement →</a>
                 </div>
               ))}
             </div>
-            <div className="drawer-foot">Full opportunity cards with evidence arrive in the Rep view (Phase 3).</div>
+            <div className="drawer-foot">Open a play for its evidence and enablement pack.</div>
           </aside>
         </>
       )}
